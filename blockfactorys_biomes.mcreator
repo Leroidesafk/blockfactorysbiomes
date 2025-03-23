@@ -646,6 +646,10 @@
     "ITEMS:minecraft:wooden_slabs": [
       "CUSTOM:CoconutSlab"
     ],
+    "BLOCKS:minecraft:logs": [
+      "CUSTOM:CoconutWood",
+      "CUSTOM:CoconutLog"
+    ],
     "ITEMS:minecraft:planks": [
       "CUSTOM:CoconutPlanks"
     ],
