@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "blockfactorys_biomes:block/coconut_pressure_plate"
+    },
+    "powered=true": {
+      "model": "blockfactorys_biomes:block/coconut_pressure_plate_down"
+    }
+  }
+}

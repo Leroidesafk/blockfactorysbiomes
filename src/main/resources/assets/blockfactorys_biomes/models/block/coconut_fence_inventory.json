@@ -1,0 +1,8 @@
+{
+  "parent": "block/fence_inventory",
+  "textures": {
+    "texture": "blockfactorys_biomes:block/coconut_planks",
+    "particle": "blockfactorys_biomes:block/coconut_planks"
+  },
+  "render_type": "solid"
+}

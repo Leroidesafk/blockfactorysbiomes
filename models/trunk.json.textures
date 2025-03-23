@@ -1,0 +1,16 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "coconut_trunk"
+      },
+      "name": "default"
+    },
+    "mossy_coconut_trunk": {
+      "map": {
+        "0": "mossy_coconut_trunk"
+      },
+      "name": "mossy_coconut_trunk"
+    }
+  }
+}

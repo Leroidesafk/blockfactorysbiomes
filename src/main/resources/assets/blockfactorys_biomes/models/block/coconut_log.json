@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "blockfactorys_biomes:block/coconut_log_top",
+    "up": "blockfactorys_biomes:block/coconut_log_top",
+    "north": "blockfactorys_biomes:block/coconut_log",
+    "east": "blockfactorys_biomes:block/coconut_log",
+    "south": "blockfactorys_biomes:block/coconut_log",
+    "west": "blockfactorys_biomes:block/coconut_log",
+    "particle": "blockfactorys_biomes:block/coconut_log_top"
+  },
+  "render_type": "solid"
+}

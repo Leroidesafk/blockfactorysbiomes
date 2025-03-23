@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "planks",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "blockfactorys_biomes:coconut_wood"
+    }
+  ],
+  "result": {
+    "item": "blockfactorys_biomes:coconut_planks",
+    "count": 4
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "_fv": 60,
+  "_type": "tab",
+  "definition": {
+    "name": "Block Factory's Biomes",
+    "icon": {
+      "value": "CUSTOM:CoconutTrunk"
+    },
+    "showSearch": false
+  }
+}

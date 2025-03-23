@@ -1,0 +1,9 @@
+{
+  "required": true,
+  "package": "net.unusual.blockfactorysbiome.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "mixins.blockfactorys_biome.refmap.json",
+  "mixins": [],
+  "client": [],
+  "minVersion": "0.8"
+}

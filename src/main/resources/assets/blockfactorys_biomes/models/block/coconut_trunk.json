@@ -1,0 +1,9 @@
+{
+  "parent": "blockfactorys_biomes:custom/trunk",
+  "textures": {
+    "all": "blockfactorys_biomes:block/coconut_log_top",
+    "particle": "blockfactorys_biomes:block/coconut_log_top",
+    "0": "blockfactorys_biomes:block/coconut_trunk"
+  },
+  "render_type": "cutout_mipped"
+}
