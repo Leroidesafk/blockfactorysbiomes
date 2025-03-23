@@ -40,6 +40,7 @@ public class BlockfactorysBiomesModBlocks {
 	public static final RegistryObject<Block> COCONUT_BUTTON = REGISTRY.register("coconut_button", () -> new CoconutButtonBlock());
 	public static final RegistryObject<Block> COCONUT_DOOR = REGISTRY.register("coconut_door", () -> new CoconutDoorBlock());
 	public static final RegistryObject<Block> COCONUT = REGISTRY.register("coconut", () -> new CoconutBlock());
+	public static final RegistryObject<Block> BUSHY_COCONUT_LEAVES = REGISTRY.register("bushy_coconut_leaves", () -> new BushyCoconutLeavesBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

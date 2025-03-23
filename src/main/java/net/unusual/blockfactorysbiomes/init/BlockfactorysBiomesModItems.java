@@ -36,6 +36,7 @@ public class BlockfactorysBiomesModItems {
 	public static final RegistryObject<Item> COCONUT = block(BlockfactorysBiomesModBlocks.COCONUT);
 	public static final RegistryObject<Item> OPENED_COCONUT = REGISTRY.register("opened_coconut", () -> new OpenedCoconutItem());
 	public static final RegistryObject<Item> COCONUT_ITEM = REGISTRY.register("coconut_item", () -> new CoconutItemItem());
+	public static final RegistryObject<Item> BUSHY_COCONUT_LEAVES = block(BlockfactorysBiomesModBlocks.BUSHY_COCONUT_LEAVES);
 
 	// Start of user code block custom items
 	// End of user code block custom items
