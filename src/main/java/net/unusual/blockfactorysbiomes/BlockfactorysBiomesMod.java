@@ -8,7 +8,6 @@ import net.unusual.blockfactorysbiomes.init.BlockfactorysBiomesModSounds;
 import net.unusual.blockfactorysbiomes.init.BlockfactorysBiomesModItems;
 import net.unusual.blockfactorysbiomes.init.BlockfactorysBiomesModEntities;
 import net.unusual.blockfactorysbiomes.init.BlockfactorysBiomesModBlocks;
-import net.unusual.blockfactorysbiomes.init.BlockfactorysBiomesModBlockEntities;
 
 import net.minecraftforge.network.simple.SimpleChannel;
 import net.minecraftforge.network.NetworkRegistry;
@@ -45,7 +44,7 @@ public class BlockfactorysBiomesMod {
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 		BlockfactorysBiomesModSounds.REGISTRY.register(bus);
 		BlockfactorysBiomesModBlocks.REGISTRY.register(bus);
-		BlockfactorysBiomesModBlockEntities.REGISTRY.register(bus);
+
 		BlockfactorysBiomesModItems.REGISTRY.register(bus);
 		BlockfactorysBiomesModEntities.REGISTRY.register(bus);
 

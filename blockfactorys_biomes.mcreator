@@ -73,15 +73,15 @@
       "type": "block",
       "sortid": 5,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "coconut_leaves",
       "metadata": {
         "files": [
-          "src/main/resources/data/blockfactorys_biomes/loot_tables/blocks/coconut_leaves.json",
           "src/main/resources/assets/blockfactorys_biomes/models/item/coconut_leaves.json",
-          "src/main/resources/assets/blockfactorys_biomes/models/block/coconut_leaves.json",
+          "src/main/resources/data/blockfactorys_biomes/loot_tables/blocks/coconut_leaves.json",
           "src/main/java/net/unusual/blockfactorysbiomes/block/CoconutLeavesBlock.java",
-          "src/main/resources/assets/blockfactorys_biomes/blockstates/coconut_leaves.json"
+          "src/main/resources/assets/blockfactorys_biomes/blockstates/coconut_leaves.json",
+          "src/main/resources/assets/blockfactorys_biomes/models/block/coconut_leaves.json"
         ]
       }
     },
@@ -549,48 +549,28 @@
       "type": "block",
       "sortid": 34,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "bushy_coconut_leaves",
       "metadata": {
         "files": [
           "src/main/resources/assets/blockfactorys_biomes/blockstates/bushy_coconut_leaves.json",
-          "src/main/resources/data/blockfactorys_biomes/loot_tables/blocks/bushy_coconut_leaves.json",
-          "src/main/resources/assets/blockfactorys_biomes/models/item/bushy_coconut_leaves.json",
+          "src/main/resources/assets/blockfactorys_biomes/models/block/bushy_coconut_leaves.json",
           "src/main/java/net/unusual/blockfactorysbiomes/block/BushyCoconutLeavesBlock.java",
-          "src/main/java/net/unusual/blockfactorysbiomes/block/entity/BushyCoconutLeavesBlockEntity.java",
-          "src/main/resources/assets/blockfactorys_biomes/models/block/bushy_coconut_leaves.json"
+          "src/main/resources/data/blockfactorys_biomes/loot_tables/blocks/bushy_coconut_leaves.json",
+          "src/main/resources/assets/blockfactorys_biomes/models/item/bushy_coconut_leaves.json"
         ]
       }
     },
     {
-      "name": "BushyCoconutLeavesBS",
-      "type": "blockstates",
+      "name": "OpenedCoconutRecipe",
+      "type": "recipe",
       "sortid": 35,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "bushy_coconut_leaves_bs",
+      "registry_name": "opened_coconut_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/blockfactorys_biomes/models/block/bushy_coconut_leaves_bs_blockstate_0.json"
-        ]
-      }
-    },
-    {
-      "name": "BushyCoconutLeavesPR",
-      "type": "procedure",
-      "sortid": 36,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "bushy_coconut_leaves_pr",
-      "metadata": {
-        "files": [
-          "src/main/java/net/unusual/blockfactorysbiomes/procedures/BushyCoconutLeavesPRProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "world",
-            "type": "world"
-          }
+          "src/main/resources/data/blockfactorys_biomes/recipes/opened_coconut_recipe.json"
         ]
       }
     }
@@ -627,8 +607,8 @@
   ],
   "tag_elements": {
     "BLOCKS:minecraft:leaves": [
-      "~CUSTOM:BushyCoconutLeaves",
-      "~CUSTOM:CoconutLeaves"
+      "~CUSTOM:CoconutLeaves",
+      "CUSTOM:BushyCoconutLeaves"
     ],
     "BLOCKS:minecraft:mineable/axe": [
       "~CUSTOM:CoconutDoor",
@@ -640,6 +620,7 @@
     "BLOCKS:minecraft:slabs": [
       "~CUSTOM:CoconutSlab"
     ],
+    "BLOCKS:minecraft:mineable/pickaxe": [],
     "BLOCKS:minecraft:fences": [
       "~CUSTOM:CoconutFence"
     ],

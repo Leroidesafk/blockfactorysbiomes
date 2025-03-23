@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "blockfactorys_biomes:coconut_item"
+    }
+  },
+  "result": {
+    "item": "blockfactorys_biomes:opened_coconut",
+    "count": 2
+  }
+}
