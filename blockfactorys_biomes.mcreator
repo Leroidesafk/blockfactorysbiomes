@@ -573,6 +573,19 @@
           "src/main/resources/data/blockfactorys_biomes/recipes/opened_coconut_recipe.json"
         ]
       }
+    },
+    {
+      "name": "CoconutLoot",
+      "type": "loottable",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coconut_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/blockfactorys_biomes/loot_tables/blocks/coconut.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
