@@ -561,6 +561,19 @@
           "src/main/resources/assets/blockfactorys_biomes/models/block/bushy_coconut_leaves.json"
         ]
       }
+    },
+    {
+      "name": "OpenedCoconutRecipe",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "opened_coconut_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/blockfactorys_biomes/recipes/opened_coconut_recipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],

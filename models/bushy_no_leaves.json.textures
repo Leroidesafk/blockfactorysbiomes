@@ -1,0 +1,22 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "coconut_bush"
+      },
+      "name": "default"
+    },
+    "baobab": {
+      "map": {
+        "1": "baobab_bush"
+      },
+      "name": "baobab"
+    },
+    "maple": {
+      "map": {
+        "1": "maple_bush"
+      },
+      "name": "maple"
+    }
+  }
+}
