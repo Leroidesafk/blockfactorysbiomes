@@ -6,6 +6,7 @@ package net.unusual.blockfactorysbiomes.init;
 
 import net.unusual.blockfactorysbiomes.entity.NullPrEntity;
 import net.unusual.blockfactorysbiomes.entity.CrabEntity;
+import net.unusual.blockfactorysbiomes.entity.CoconutProjectileEntity;
 import net.unusual.blockfactorysbiomes.BlockfactorysBiomesMod;
 
 import net.minecraftforge.registries.RegistryObject;
@@ -29,6 +30,8 @@ public class BlockfactorysBiomesModEntities {
 			EntityType.Builder.<CrabEntity>of(CrabEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CrabEntity::new)
 
 					.sized(0.7f, 0.4f));
+	public static final RegistryObject<EntityType<CoconutProjectileEntity>> COCONUT_PROJECTILE = register("coconut_projectile", EntityType.Builder.<CoconutProjectileEntity>of(CoconutProjectileEntity::new, MobCategory.MISC)
+			.setCustomClientFactory(CoconutProjectileEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));

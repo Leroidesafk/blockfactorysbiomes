@@ -19,5 +19,6 @@ public class BlockfactorysBiomesModEntityRenderers {
 	public static void registerEntityRenderers(EntityRenderersEvent.RegisterRenderers event) {
 		event.registerEntityRenderer(BlockfactorysBiomesModEntities.NULL_PR.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(BlockfactorysBiomesModEntities.CRAB.get(), CrabRenderer::new);
+		event.registerEntityRenderer(BlockfactorysBiomesModEntities.COCONUT_PROJECTILE.get(), ThrownItemRenderer::new);
 	}
 }

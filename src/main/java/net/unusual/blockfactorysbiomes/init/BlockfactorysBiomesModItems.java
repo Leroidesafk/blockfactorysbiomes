@@ -4,6 +4,8 @@
  */
 package net.unusual.blockfactorysbiomes.init;
 
+import net.unusual.blockfactorysbiomes.item.OpenedCoconutItem;
+import net.unusual.blockfactorysbiomes.item.CoconutItemItem;
 import net.unusual.blockfactorysbiomes.BlockfactorysBiomesMod;
 
 import net.minecraftforge.registries.RegistryObject;
@@ -31,6 +33,10 @@ public class BlockfactorysBiomesModItems {
 	public static final RegistryObject<Item> COCONUT_BUTTON = block(BlockfactorysBiomesModBlocks.COCONUT_BUTTON);
 	public static final RegistryObject<Item> COCONUT_DOOR = doubleBlock(BlockfactorysBiomesModBlocks.COCONUT_DOOR);
 	public static final RegistryObject<Item> CRAB_SPAWN_EGG = REGISTRY.register("crab_spawn_egg", () -> new ForgeSpawnEggItem(BlockfactorysBiomesModEntities.CRAB, -3725038, -4226725, new Item.Properties()));
+	public static final RegistryObject<Item> COCONUT = block(BlockfactorysBiomesModBlocks.COCONUT);
+	public static final RegistryObject<Item> OPENED_COCONUT = REGISTRY.register("opened_coconut", () -> new OpenedCoconutItem());
+	public static final RegistryObject<Item> COCONUT_ITEM = REGISTRY.register("coconut_item", () -> new CoconutItemItem());
+	public static final RegistryObject<Item> BUSHY_COCONUT_LEAVES = block(BlockfactorysBiomesModBlocks.BUSHY_COCONUT_LEAVES);
 
 	// Start of user code block custom items
 	// End of user code block custom items

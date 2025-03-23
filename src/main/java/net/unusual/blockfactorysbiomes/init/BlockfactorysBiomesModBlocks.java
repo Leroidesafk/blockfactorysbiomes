@@ -16,6 +16,8 @@ import net.unusual.blockfactorysbiomes.block.CoconutFenceGateBlock;
 import net.unusual.blockfactorysbiomes.block.CoconutFenceBlock;
 import net.unusual.blockfactorysbiomes.block.CoconutDoorBlock;
 import net.unusual.blockfactorysbiomes.block.CoconutButtonBlock;
+import net.unusual.blockfactorysbiomes.block.CoconutBlock;
+import net.unusual.blockfactorysbiomes.block.BushyCoconutLeavesBlock;
 import net.unusual.blockfactorysbiomes.BlockfactorysBiomesMod;
 
 import net.minecraftforge.registries.RegistryObject;
@@ -38,6 +40,8 @@ public class BlockfactorysBiomesModBlocks {
 	public static final RegistryObject<Block> COCONUT_PRESSURE_PLATE = REGISTRY.register("coconut_pressure_plate", () -> new CoconutPressurePlateBlock());
 	public static final RegistryObject<Block> COCONUT_BUTTON = REGISTRY.register("coconut_button", () -> new CoconutButtonBlock());
 	public static final RegistryObject<Block> COCONUT_DOOR = REGISTRY.register("coconut_door", () -> new CoconutDoorBlock());
+	public static final RegistryObject<Block> COCONUT = REGISTRY.register("coconut", () -> new CoconutBlock());
+	public static final RegistryObject<Block> BUSHY_COCONUT_LEAVES = REGISTRY.register("bushy_coconut_leaves", () -> new BushyCoconutLeavesBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

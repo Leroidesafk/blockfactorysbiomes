@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "blockfactorys_biomes:bushy_coconut_leaves",
     "blockfactorys_biomes:coconut_leaves"
   ]
 }

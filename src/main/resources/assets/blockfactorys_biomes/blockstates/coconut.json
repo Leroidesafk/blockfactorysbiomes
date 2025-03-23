@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "blockfactorys_biomes:block/coconut"
+    },
+    "facing=east": {
+      "model": "blockfactorys_biomes:block/coconut",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "blockfactorys_biomes:block/coconut",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "blockfactorys_biomes:block/coconut",
+      "y": 270
+    }
+  }
+}

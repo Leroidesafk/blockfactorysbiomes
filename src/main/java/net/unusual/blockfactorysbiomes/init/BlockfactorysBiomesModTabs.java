@@ -31,6 +31,10 @@ public class BlockfactorysBiomesModTabs {
 				tabData.accept(BlockfactorysBiomesModBlocks.COCONUT_BUTTON.get().asItem());
 				tabData.accept(BlockfactorysBiomesModBlocks.COCONUT_DOOR.get().asItem());
 				tabData.accept(BlockfactorysBiomesModItems.CRAB_SPAWN_EGG.get());
+				tabData.accept(BlockfactorysBiomesModBlocks.COCONUT.get().asItem());
+				tabData.accept(BlockfactorysBiomesModItems.OPENED_COCONUT.get());
+				tabData.accept(BlockfactorysBiomesModItems.COCONUT_ITEM.get());
+				tabData.accept(BlockfactorysBiomesModBlocks.BUSHY_COCONUT_LEAVES.get().asItem());
 			})
 
 					.build());
