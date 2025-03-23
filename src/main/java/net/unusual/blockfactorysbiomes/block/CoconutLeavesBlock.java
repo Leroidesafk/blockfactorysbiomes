@@ -11,7 +11,7 @@ import net.minecraft.core.BlockPos;
 
 public class CoconutLeavesBlock extends LeavesBlock {
 	public CoconutLeavesBlock() {
-		super(BlockBehaviour.Properties.of().ignitedByLava().sound(SoundType.GRASS).strength(0.2f).noOcclusion());
+		super(BlockBehaviour.Properties.of().ignitedByLava().sound(SoundType.GRASS).strength(0.2f).noOcclusion().randomTicks());
 	}
 
 	@Override

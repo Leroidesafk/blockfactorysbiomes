@@ -1,9 +1,0 @@
-{
-  "parent": "blockfactorys_biomes:custom/bushy_coconut_leaves",
-  "textures": {
-    "all": "blockfactorys_biomes:block/coconut_bush",
-    "particle": "blockfactorys_biomes:block/coconut_leaves",
-    "0": "blockfactorys_biomes:block/coconut_bush"
-  },
-  "render_type": "solid"
-}

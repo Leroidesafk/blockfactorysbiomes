@@ -1,7 +1,9 @@
 {
-  "parent": "block/cube_all",
+  "parent": "blockfactorys_biomes:custom/bushy_leaves",
   "textures": {
     "all": "blockfactorys_biomes:block/coconut_leaves",
-    "particle": "blockfactorys_biomes:block/coconut_leaves"
-  }
+    "particle": "blockfactorys_biomes:block/coconut_leaves",
+    "0": "blockfactorys_biomes:block/coconut_bush"
+  },
+  "render_type": "cutout_mipped"
 }
