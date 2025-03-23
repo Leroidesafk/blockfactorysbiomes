@@ -464,11 +464,11 @@
       "registry_name": "coconut",
       "metadata": {
         "files": [
-          "src/main/resources/assets/blockfactorys_biomes/blockstates/coconut.json",
           "src/main/resources/data/blockfactorys_biomes/loot_tables/blocks/coconut.json",
-          "src/main/resources/assets/blockfactorys_biomes/models/block/coconut.json",
           "src/main/java/net/unusual/blockfactorysbiomes/block/CoconutBlock.java",
-          "src/main/resources/assets/blockfactorys_biomes/models/item/coconut.json"
+          "src/main/resources/assets/blockfactorys_biomes/models/block/coconut.json",
+          "src/main/resources/assets/blockfactorys_biomes/models/item/coconut.json",
+          "src/main/resources/assets/blockfactorys_biomes/blockstates/coconut.json"
         ]
       }
     },
@@ -481,8 +481,8 @@
       "registry_name": "opened_coconut",
       "metadata": {
         "files": [
-          "src/main/resources/assets/blockfactorys_biomes/models/item/opened_coconut.json",
-          "src/main/java/net/unusual/blockfactorysbiomes/item/OpenedCoconutItem.java"
+          "src/main/java/net/unusual/blockfactorysbiomes/item/OpenedCoconutItem.java",
+          "src/main/resources/assets/blockfactorys_biomes/models/item/opened_coconut.json"
         ]
       }
     },
@@ -571,6 +571,19 @@
       "metadata": {
         "files": [
           "src/main/resources/data/blockfactorys_biomes/recipes/opened_coconut_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CoconutLoot",
+      "type": "loottable",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coconut_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/blockfactorys_biomes/loot_tables/blocks/coconut.json"
         ]
       }
     }
