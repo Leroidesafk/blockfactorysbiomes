@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "blockstate=0": {
+      "model": "blockfactorys_biomes:block/bushy_coconut_leaves"
+    },
+    "blockstate=1": {
+      "model": "blockfactorys_biomes:block/bushy_coconut_leaves_bs_blockstate_0"
+    }
+  }
+}
