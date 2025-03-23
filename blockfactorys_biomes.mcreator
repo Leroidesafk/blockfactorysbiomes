@@ -561,38 +561,6 @@
           "src/main/resources/assets/blockfactorys_biomes/models/block/bushy_coconut_leaves.json"
         ]
       }
-    },
-    {
-      "name": "BushyCoconutLeavesBS",
-      "type": "blockstates",
-      "sortid": 35,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "bushy_coconut_leaves_bs",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/blockfactorys_biomes/models/block/bushy_coconut_leaves_bs_blockstate_0.json"
-        ]
-      }
-    },
-    {
-      "name": "BushyCoconutLeavesPR",
-      "type": "procedure",
-      "sortid": 36,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "bushy_coconut_leaves_pr",
-      "metadata": {
-        "files": [
-          "src/main/java/net/unusual/blockfactorysbiomes/procedures/BushyCoconutLeavesPRProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
     }
   ],
   "variable_elements": [],
@@ -627,7 +595,6 @@
   ],
   "tag_elements": {
     "BLOCKS:minecraft:leaves": [
-      "~CUSTOM:BushyCoconutLeaves",
       "~CUSTOM:CoconutLeaves"
     ],
     "BLOCKS:minecraft:mineable/axe": [

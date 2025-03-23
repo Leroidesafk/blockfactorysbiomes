@@ -3,5 +3,6 @@
   "textures": {
     "all": "blockfactorys_biomes:block/coconut_leaves",
     "particle": "blockfactorys_biomes:block/coconut_leaves"
-  }
+  },
+  "render_type": "solid"
 }
