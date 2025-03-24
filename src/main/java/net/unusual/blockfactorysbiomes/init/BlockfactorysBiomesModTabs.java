@@ -35,6 +35,7 @@ public class BlockfactorysBiomesModTabs {
 				tabData.accept(BlockfactorysBiomesModItems.OPENED_COCONUT.get());
 				tabData.accept(BlockfactorysBiomesModItems.COCONUT_ITEM.get());
 				tabData.accept(BlockfactorysBiomesModBlocks.BUSHY_COCONUT_LEAVES.get().asItem());
+				tabData.accept(BlockfactorysBiomesModBlocks.HANGING_COCONUT_LEAVES.get().asItem());
 			})
 
 					.build());

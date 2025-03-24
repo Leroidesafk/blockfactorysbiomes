@@ -2,15 +2,15 @@
   "_fv": 60,
   "_type": "block",
   "definition": {
-    "texture": "coconut",
+    "texture": "hanging_coconut_leaves",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
     "textureRight": "",
     "textureBack": "",
     "renderType": 2,
-    "customModelName": "coconut:default",
-    "rotationMode": 1,
+    "customModelName": "hanging_coconut_leaves:default",
+    "rotationMode": 0,
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
@@ -24,30 +24,21 @@
     "disableOffset": false,
     "boundingBoxes": [
       {
-        "mx": 3.0,
-        "my": 1.0,
-        "mz": 5.0,
-        "Mx": 13.0,
-        "My": 11.0,
-        "Mz": 15.0,
-        "subtract": false
-      },
-      {
-        "mx": 8.0,
-        "my": 7.0,
-        "mz": 6.0,
-        "Mx": 8.0,
+        "mx": 0.0,
+        "my": 0.0,
+        "mz": 0.0,
+        "Mx": 16.0,
         "My": 16.0,
         "Mz": 16.0,
         "subtract": false
       }
     ],
-    "name": "Coconut",
+    "name": "Hanging Coconut Leaves",
     "specialInformation": {
       "fixedValue": []
     },
-    "hardness": 1.0,
-    "resistance": 10.0,
+    "hardness": 0.0,
+    "resistance": 0.0,
     "hasGravity": false,
     "isWaterloggable": true,
     "creativeTab": {
@@ -55,17 +46,17 @@
     },
     "destroyTool": "Not specified",
     "customDrop": {
-      "value": "CUSTOM:CoconutItem"
+      "value": "Blocks.AIR"
     },
-    "dropAmount": 1,
-    "useLootTableForDrops": true,
+    "dropAmount": 0,
+    "useLootTableForDrops": false,
     "requiresCorrectTool": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canRedstoneConnect": false,
     "lightOpacity": 0,
     "material": {
-      "value": "WOOD"
+      "value": "LEAVES"
     },
     "tickRate": 0,
     "tickRandomly": false,
@@ -90,7 +81,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "WOOD"
+      "value": "PLANT"
     },
     "breakSound": {
       "value": ""
@@ -110,6 +101,9 @@
     "luminance": 0,
     "unbreakable": false,
     "breakHarvestLevel": 1,
+    "placingCondition": {
+      "name": "HangingCoconutLeavesBlockValidPlacementCondition"
+    },
     "isBonemealable": false,
     "hasInventory": false,
     "guiBoundTo": "<NONE>",

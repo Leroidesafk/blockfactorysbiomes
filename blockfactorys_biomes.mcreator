@@ -465,7 +465,6 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/blockfactorys_biomes/blockstates/coconut.json",
-          "src/main/resources/data/blockfactorys_biomes/loot_tables/blocks/coconut.json",
           "src/main/resources/assets/blockfactorys_biomes/models/block/coconut.json",
           "src/main/java/net/unusual/blockfactorysbiomes/block/CoconutBlock.java",
           "src/main/resources/assets/blockfactorys_biomes/models/item/coconut.json"
@@ -586,6 +585,55 @@
           "src/main/resources/data/blockfactorys_biomes/loot_tables/blocks/coconut.json"
         ]
       }
+    },
+    {
+      "name": "HangingCoconutLeavesBlockValidPlacementCondition",
+      "type": "procedure",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hanging_coconut_leaves_block_valid_placement_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/unusual/blockfactorysbiomes/procedures/HangingCoconutLeavesBlockValidPlacementConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HangingCoconutLeaves",
+      "type": "block",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hanging_coconut_leaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/blockfactorys_biomes/blockstates/hanging_coconut_leaves.json",
+          "src/main/resources/assets/blockfactorys_biomes/models/block/hanging_coconut_leaves.json",
+          "src/main/resources/assets/blockfactorys_biomes/models/item/hanging_coconut_leaves.json",
+          "src/main/java/net/unusual/blockfactorysbiomes/block/HangingCoconutLeavesBlock.java",
+          "src/main/resources/data/blockfactorys_biomes/loot_tables/blocks/hanging_coconut_leaves.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -667,6 +715,7 @@
       "block.blockfactorys_biomes.coconut_trunk": "Coconut Trunk",
       "block.blockfactorys_biomes.coconut_fence": "Coconut Fence",
       "item.blockfactorys_biomes.crab_spawn_egg": "Crab Spawn Egg",
+      "block.blockfactorys_biomes.hanging_coconut_leaves": "Hanging Coconut Leaves",
       "block.blockfactorys_biomes.coconut_pressure_plate": "Coconut Pressure Plate",
       "block.blockfactorys_biomes.coconut_leaves": "Coconut Leaves",
       "block.blockfactorys_biome.coconut_fence": "Coconut Fence",

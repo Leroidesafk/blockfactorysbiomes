@@ -1,0 +1,9 @@
+{
+  "parent": "blockfactorys_biomes:custom/hanging_coconut_leaves",
+  "textures": {
+    "all": "blockfactorys_biomes:block/hanging_coconut_leaves",
+    "particle": "blockfactorys_biomes:block/hanging_coconut_leaves",
+    "0": "blockfactorys_biomes:block/hanging_coconut_leaves"
+  },
+  "render_type": "cutout_mipped"
+}

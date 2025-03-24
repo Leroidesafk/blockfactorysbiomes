@@ -4,6 +4,7 @@
  */
 package net.unusual.blockfactorysbiomes.init;
 
+import net.unusual.blockfactorysbiomes.block.HangingCoconutLeavesBlock;
 import net.unusual.blockfactorysbiomes.block.CoconutWoodBlock;
 import net.unusual.blockfactorysbiomes.block.CoconutTrunkBlock;
 import net.unusual.blockfactorysbiomes.block.CoconutStairsBlock;
@@ -42,6 +43,7 @@ public class BlockfactorysBiomesModBlocks {
 	public static final RegistryObject<Block> COCONUT_DOOR = REGISTRY.register("coconut_door", () -> new CoconutDoorBlock());
 	public static final RegistryObject<Block> COCONUT = REGISTRY.register("coconut", () -> new CoconutBlock());
 	public static final RegistryObject<Block> BUSHY_COCONUT_LEAVES = REGISTRY.register("bushy_coconut_leaves", () -> new BushyCoconutLeavesBlock());
+	public static final RegistryObject<Block> HANGING_COCONUT_LEAVES = REGISTRY.register("hanging_coconut_leaves", () -> new HangingCoconutLeavesBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }
