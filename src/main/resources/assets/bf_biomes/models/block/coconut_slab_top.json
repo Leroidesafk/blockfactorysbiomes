@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab_top",
+  "textures": {
+    "bottom": "bf_biomes:block/coconut_planks",
+    "top": "bf_biomes:block/coconut_planks",
+    "side": "bf_biomes:block/coconut_planks"
+  },
+  "render_type": "solid"
+}

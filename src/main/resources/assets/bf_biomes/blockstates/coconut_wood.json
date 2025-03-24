@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "bf_biomes:block/coconut_wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "bf_biomes:block/coconut_wood"
+    },
+    "axis=z": {
+      "model": "bf_biomes:block/coconut_wood",
+      "x": 90
+    }
+  }
+}

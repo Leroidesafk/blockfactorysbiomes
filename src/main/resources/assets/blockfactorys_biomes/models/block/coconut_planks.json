@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "blockfactorys_biomes:block/coconut_planks",
-    "particle": "blockfactorys_biomes:block/coconut_planks"
-  },
-  "render_type": "solid"
-}

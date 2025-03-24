@@ -23,7 +23,7 @@ import com.mojang.blaze3d.vertex.PoseStack;
 public class Modelcrab<T extends CrabEntity> extends HierarchicalModel<T> {
 	// This layer location should be baked with EntityRendererProvider.Context in
 	// the entity renderer and passed into this model's constructor
-	public static final ModelLayerLocation LAYER_LOCATION = new ModelLayerLocation(new ResourceLocation("blockfactorys_biomes", "modelcrab"), "main");
+	public static final ModelLayerLocation LAYER_LOCATION = new ModelLayerLocation(new ResourceLocation("bf_biomes", "modelcrab"), "main");
 	public final ModelPart all;
 	public final ModelPart root;
 	public final ModelPart right_front_leg;

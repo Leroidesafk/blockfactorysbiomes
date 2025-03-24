@@ -1,8 +1,0 @@
-{
-  "parent": "block/door_top_right",
-  "textures": {
-    "bottom": "blockfactorys_biomes:block/coconut_door_bottom",
-    "top": "blockfactorys_biomes:block/coconut_door_top"
-  },
-  "render_type": "cutout_mipped"
-}

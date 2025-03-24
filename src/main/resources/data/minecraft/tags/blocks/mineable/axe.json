@@ -1,10 +1,10 @@
 {
   "replace": false,
   "values": [
-    "blockfactorys_biomes:coconut_door",
-    "blockfactorys_biomes:coconut_planks",
-    "blockfactorys_biomes:coconut_log",
-    "blockfactorys_biomes:coconut_wood",
-    "blockfactorys_biomes:coconut_trunk"
+    "bf_biomes:coconut_door",
+    "bf_biomes:coconut_planks",
+    "bf_biomes:coconut_log",
+    "bf_biomes:coconut_wood",
+    "bf_biomes:coconut_trunk"
   ]
 }

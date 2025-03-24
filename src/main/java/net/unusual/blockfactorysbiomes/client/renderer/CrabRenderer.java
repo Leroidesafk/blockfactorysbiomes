@@ -29,6 +29,6 @@ public class CrabRenderer extends MobRenderer<CrabEntity, Modelcrab<CrabEntity>>
 
 	@Override
 	public ResourceLocation getTextureLocation(CrabEntity entity) {
-		return new ResourceLocation("blockfactorys_biomes:textures/entities/crab.png");
+		return new ResourceLocation("bf_biomes:textures/entities/crab.png");
 	}
 }

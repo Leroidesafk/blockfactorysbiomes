@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "bf_biomes:block/coconut_log_top",
+    "up": "bf_biomes:block/coconut_log_top",
+    "north": "bf_biomes:block/coconut_log",
+    "east": "bf_biomes:block/coconut_log",
+    "south": "bf_biomes:block/coconut_log",
+    "west": "bf_biomes:block/coconut_log",
+    "particle": "bf_biomes:block/coconut_log_top"
+  },
+  "render_type": "solid"
+}

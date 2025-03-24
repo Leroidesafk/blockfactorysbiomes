@@ -1,6 +1,6 @@
 package net.unusual.blockfactorysbiomes.procedures;
 
-import net.unusual.blockfactorysbiomes.init.BlockfactorysBiomesModItems;
+import net.unusual.blockfactorysbiomes.init.BfBiomesModItems;
 
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.item.ItemStack;
@@ -10,12 +10,12 @@ import net.minecraft.server.level.ServerLevel;
 public class CoconutItemProjectileHitProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
 		if (world instanceof ServerLevel _level) {
-			ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(BlockfactorysBiomesModItems.OPENED_COCONUT.get()));
+			ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(BfBiomesModItems.OPENED_COCONUT.get()));
 			entityToSpawn.setPickUpDelay(10);
 			_level.addFreshEntity(entityToSpawn);
 		}
 		if (world instanceof ServerLevel _level) {
-			ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(BlockfactorysBiomesModItems.OPENED_COCONUT.get()));
+			ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(BfBiomesModItems.OPENED_COCONUT.get()));
 			entityToSpawn.setPickUpDelay(10);
 			_level.addFreshEntity(entityToSpawn);
 		}

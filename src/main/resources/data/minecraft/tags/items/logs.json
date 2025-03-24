@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "blockfactorys_biomes:coconut_wood",
-    "blockfactorys_biomes:coconut_log"
+    "bf_biomes:coconut_wood",
+    "bf_biomes:coconut_log"
   ]
 }

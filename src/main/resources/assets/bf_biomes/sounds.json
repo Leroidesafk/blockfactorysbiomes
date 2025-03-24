@@ -1,0 +1,64 @@
+{
+  "crab_attack": {
+    "subtitle": "subtitles.crab_attack",
+    "sounds": [
+      {
+        "name": "bf_biomes:crab_attack_1",
+        "stream": false
+      },
+      {
+        "name": "bf_biomes:crab_attack_2",
+        "stream": false
+      },
+      {
+        "name": "bf_biomes:crab_attack_3",
+        "stream": false
+      },
+      {
+        "name": "bf_biomes:crab_attack_4",
+        "stream": false
+      },
+      {
+        "name": "bf_biomes:crab_attack_5",
+        "stream": false
+      }
+    ]
+  },
+  "crab_walking": {
+    "subtitle": "subtitles.crab_walking",
+    "sounds": [
+      {
+        "name": "bf_biomes:crab_walking_1",
+        "stream": false
+      },
+      {
+        "name": "bf_biomes:crab_walking_2",
+        "stream": false
+      },
+      {
+        "name": "bf_biomes:crab_walking_3",
+        "stream": false
+      },
+      {
+        "name": "bf_biomes:crab_walking_4",
+        "stream": false
+      },
+      {
+        "name": "bf_biomes:crab_walking_5",
+        "stream": false
+      },
+      {
+        "name": "bf_biomes:crab_walking_6",
+        "stream": false
+      },
+      {
+        "name": "bf_biomes:crab_walking_7",
+        "stream": false
+      },
+      {
+        "name": "bf_biomes:crab_walking_8",
+        "stream": false
+      }
+    ]
+  }
+}

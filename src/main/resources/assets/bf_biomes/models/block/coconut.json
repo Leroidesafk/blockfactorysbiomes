@@ -1,0 +1,9 @@
+{
+  "parent": "bf_biomes:custom/coconut",
+  "textures": {
+    "all": "bf_biomes:block/coconut",
+    "particle": "bf_biomes:block/coconut",
+    "0": "bf_biomes:block/coconut"
+  },
+  "render_type": "cutout_mipped"
+}

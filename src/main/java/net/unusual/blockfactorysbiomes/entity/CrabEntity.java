@@ -3,7 +3,7 @@ package net.unusual.blockfactorysbiomes.entity;
 
 import net.unusual.blockfactorysbiomes.procedures.CrabOnEntityTickUpdateProcedure;
 import net.unusual.blockfactorysbiomes.procedures.CrabModelVisualScaleProcedure;
-import net.unusual.blockfactorysbiomes.init.BlockfactorysBiomesModEntities;
+import net.unusual.blockfactorysbiomes.init.BfBiomesModEntities;
 
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.network.PlayMessages;
@@ -62,7 +62,7 @@ public class CrabEntity extends Animal implements RangedAttackMob {
 	public static final EntityDataAccessor<Boolean> DATA_attack_side = SynchedEntityData.defineId(CrabEntity.class, EntityDataSerializers.BOOLEAN);
 
 	public CrabEntity(PlayMessages.SpawnEntity packet, Level world) {
-		this(BlockfactorysBiomesModEntities.CRAB.get(), world);
+		this(BfBiomesModEntities.CRAB.get(), world);
 	}
 
 	public CrabEntity(EntityType<CrabEntity> type, Level world) {
@@ -123,17 +123,17 @@ public class CrabEntity extends Animal implements RangedAttackMob {
 
 	@Override
 	public void playStepSound(BlockPos pos, BlockState blockIn) {
-		this.playSound(ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("blockfactorys_biomes:crab_walking")), 0.15f, 1);
+		this.playSound(ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("bf_biomes:crab_walking")), 0.15f, 1);
 	}
 
 	@Override
 	public SoundEvent getHurtSound(DamageSource ds) {
-		return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("blockfactorys_biomes:crab_walking"));
+		return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("bf_biomes:crab_walking"));
 	}
 
 	@Override
 	public SoundEvent getDeathSound() {
-		return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("blockfactorys_biomes:crab_walking"));
+		return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("bf_biomes:crab_walking"));
 	}
 
 	@Override
@@ -176,7 +176,7 @@ public class CrabEntity extends Animal implements RangedAttackMob {
 
 	@Override
 	public AgeableMob getBreedOffspring(ServerLevel serverWorld, AgeableMob ageable) {
-		CrabEntity retval = BlockfactorysBiomesModEntities.CRAB.get().create(serverWorld);
+		CrabEntity retval = BfBiomesModEntities.CRAB.get().create(serverWorld);
 		retval.finalizeSpawn(serverWorld, serverWorld.getCurrentDifficultyAt(retval.blockPosition()), MobSpawnType.BREEDING, null, null);
 		return retval;
 	}
@@ -217,7 +217,7 @@ public class CrabEntity extends Animal implements RangedAttackMob {
 	}
 
 	public static void init() {
-		SpawnPlacements.register(BlockfactorysBiomesModEntities.CRAB.get(), SpawnPlacements.Type.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES,
+		SpawnPlacements.register(BfBiomesModEntities.CRAB.get(), SpawnPlacements.Type.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES,
 				(entityType, world, reason, pos, random) -> (world.getBlockState(pos.below()).is(BlockTags.ANIMALS_SPAWNABLE_ON) && world.getRawBrightness(pos, 0) > 8));
 	}
 

@@ -2,7 +2,7 @@
 package net.unusual.blockfactorysbiomes.entity;
 
 import net.unusual.blockfactorysbiomes.procedures.NullPrWhileProjectileFlyingTickProcedure;
-import net.unusual.blockfactorysbiomes.init.BlockfactorysBiomesModEntities;
+import net.unusual.blockfactorysbiomes.init.BfBiomesModEntities;
 
 import net.minecraftforge.network.PlayMessages;
 import net.minecraftforge.network.NetworkHooks;
@@ -28,7 +28,7 @@ public class NullPrEntity extends AbstractArrow implements ItemSupplier {
 	public static final ItemStack PROJECTILE_ITEM = new ItemStack(Blocks.AIR);
 
 	public NullPrEntity(PlayMessages.SpawnEntity packet, Level world) {
-		super(BlockfactorysBiomesModEntities.NULL_PR.get(), world);
+		super(BfBiomesModEntities.NULL_PR.get(), world);
 	}
 
 	public NullPrEntity(EntityType<? extends NullPrEntity> type, Level world) {
@@ -96,7 +96,7 @@ public class NullPrEntity extends AbstractArrow implements ItemSupplier {
 	}
 
 	public static NullPrEntity shoot(Level world, LivingEntity entity, RandomSource random, float power, double damage, int knockback) {
-		NullPrEntity entityarrow = new NullPrEntity(BlockfactorysBiomesModEntities.NULL_PR.get(), entity, world);
+		NullPrEntity entityarrow = new NullPrEntity(BfBiomesModEntities.NULL_PR.get(), entity, world);
 		entityarrow.shoot(entity.getViewVector(1).x, entity.getViewVector(1).y, entity.getViewVector(1).z, power * 2, 0);
 		entityarrow.setSilent(true);
 		entityarrow.setCritArrow(false);
@@ -107,7 +107,7 @@ public class NullPrEntity extends AbstractArrow implements ItemSupplier {
 	}
 
 	public static NullPrEntity shoot(LivingEntity entity, LivingEntity target) {
-		NullPrEntity entityarrow = new NullPrEntity(BlockfactorysBiomesModEntities.NULL_PR.get(), entity, entity.level());
+		NullPrEntity entityarrow = new NullPrEntity(BfBiomesModEntities.NULL_PR.get(), entity, entity.level());
 		double dx = target.getX() - entity.getX();
 		double dy = target.getY() + target.getEyeHeight() - 1.1;
 		double dz = target.getZ() - entity.getZ();

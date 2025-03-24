@@ -1,9 +1,0 @@
-{
-  "parent": "block/inner_stairs",
-  "textures": {
-    "bottom": "blockfactorys_biomes:block/coconut_planks",
-    "top": "blockfactorys_biomes:block/coconut_planks",
-    "side": "blockfactorys_biomes:block/coconut_planks"
-  },
-  "render_type": "solid"
-}

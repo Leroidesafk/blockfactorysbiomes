@@ -30,9 +30,9 @@ public class CrabOnEntityTickUpdateProcedure {
 				if (!(world.isClientSide())) {
 					if (world instanceof Level _level) {
 						if (!_level.isClientSide()) {
-							_level.playSound(null, BlockPos.containing(entity.getX(), entity.getY(), entity.getZ()), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("blockfactorys_biomes:crab_attack")), SoundSource.HOSTILE, 1, 3);
+							_level.playSound(null, BlockPos.containing(entity.getX(), entity.getY(), entity.getZ()), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("bf_biomes:crab_attack")), SoundSource.HOSTILE, 1, 3);
 						} else {
-							_level.playLocalSound((entity.getX()), (entity.getY()), (entity.getZ()), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("blockfactorys_biomes:crab_attack")), SoundSource.HOSTILE, 1, 3, false);
+							_level.playLocalSound((entity.getX()), (entity.getY()), (entity.getZ()), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("bf_biomes:crab_attack")), SoundSource.HOSTILE, 1, 3, false);
 						}
 					}
 				}

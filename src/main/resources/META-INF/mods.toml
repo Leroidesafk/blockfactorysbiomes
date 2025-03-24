@@ -3,7 +3,7 @@ loaderVersion="[47,)"
 license="Not specified"
 
 [[mods]]
-modId="blockfactorys_biomes"
+modId="bf_biomes"
 version="1.0.0"
 displayName="BlockFactory's Biomes"
 displayURL="https://mcreator.net"
@@ -13,7 +13,7 @@ authors="furti, MCreator"
 # Start of user code block mod configuration
 # End of user code block mod configuration
 
-[[dependencies.blockfactorys_biomes]]
+[[dependencies.bf_biomes]]
     modId="minecraft"
     mandatory=true
     versionRange="[1.20.1]"
@@ -21,7 +21,7 @@ authors="furti, MCreator"
     side="BOTH"
 
 
-[[dependencies.blockfactorys_biomes]]
+[[dependencies.bf_biomes]]
     modId="jei"
     mandatory=false
     versionRange="[0,)"

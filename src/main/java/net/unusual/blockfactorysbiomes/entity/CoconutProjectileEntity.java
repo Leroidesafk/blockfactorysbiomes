@@ -2,8 +2,8 @@
 package net.unusual.blockfactorysbiomes.entity;
 
 import net.unusual.blockfactorysbiomes.procedures.CoconutItemProjectileHitProcedure;
-import net.unusual.blockfactorysbiomes.init.BlockfactorysBiomesModItems;
-import net.unusual.blockfactorysbiomes.init.BlockfactorysBiomesModEntities;
+import net.unusual.blockfactorysbiomes.init.BfBiomesModItems;
+import net.unusual.blockfactorysbiomes.init.BfBiomesModEntities;
 
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.network.PlayMessages;
@@ -27,10 +27,10 @@ import net.minecraft.network.protocol.Packet;
 
 @OnlyIn(value = Dist.CLIENT, _interface = ItemSupplier.class)
 public class CoconutProjectileEntity extends AbstractArrow implements ItemSupplier {
-	public static final ItemStack PROJECTILE_ITEM = new ItemStack(BlockfactorysBiomesModItems.COCONUT_ITEM.get());
+	public static final ItemStack PROJECTILE_ITEM = new ItemStack(BfBiomesModItems.COCONUT_ITEM.get());
 
 	public CoconutProjectileEntity(PlayMessages.SpawnEntity packet, Level world) {
-		super(BlockfactorysBiomesModEntities.COCONUT_PROJECTILE.get(), world);
+		super(BfBiomesModEntities.COCONUT_PROJECTILE.get(), world);
 	}
 
 	public CoconutProjectileEntity(EntityType<? extends CoconutProjectileEntity> type, Level world) {
@@ -91,7 +91,7 @@ public class CoconutProjectileEntity extends AbstractArrow implements ItemSuppli
 	}
 
 	public static CoconutProjectileEntity shoot(Level world, LivingEntity entity, RandomSource random, float power, double damage, int knockback) {
-		CoconutProjectileEntity entityarrow = new CoconutProjectileEntity(BlockfactorysBiomesModEntities.COCONUT_PROJECTILE.get(), entity, world);
+		CoconutProjectileEntity entityarrow = new CoconutProjectileEntity(BfBiomesModEntities.COCONUT_PROJECTILE.get(), entity, world);
 		entityarrow.shoot(entity.getViewVector(1).x, entity.getViewVector(1).y, entity.getViewVector(1).z, power * 2, 0);
 		entityarrow.setSilent(true);
 		entityarrow.setCritArrow(false);
@@ -103,7 +103,7 @@ public class CoconutProjectileEntity extends AbstractArrow implements ItemSuppli
 	}
 
 	public static CoconutProjectileEntity shoot(LivingEntity entity, LivingEntity target) {
-		CoconutProjectileEntity entityarrow = new CoconutProjectileEntity(BlockfactorysBiomesModEntities.COCONUT_PROJECTILE.get(), entity, entity.level());
+		CoconutProjectileEntity entityarrow = new CoconutProjectileEntity(BfBiomesModEntities.COCONUT_PROJECTILE.get(), entity, entity.level());
 		double dx = target.getX() - entity.getX();
 		double dy = target.getY() + target.getEyeHeight() - 1.1;
 		double dz = target.getZ() - entity.getZ();
