@@ -77,6 +77,7 @@ public class Modelcrab<T extends CrabEntity> extends HierarchicalModel<T> {
 	public void setupAnim(T entity, float limbSwing, float limbSwingAmount, float ageInTicks, float netHeadYaw, float headPitch) {
 		root().getAllParts().forEach(ModelPart::resetPose);
 		this.animate(entity.idleAnimationState, crabAnimation.IDLE, ageInTicks);
+		this.animate(entity.danceAnimationState, crabAnimation.DANCE, ageInTicks);
 		if (!entity.getEntityData().get(CrabEntity.DATA_attack_side)) {
 			this.animate(entity.attackAnimationState, crabAnimation.ATTACK_2, ageInTicks);
 		} else {
