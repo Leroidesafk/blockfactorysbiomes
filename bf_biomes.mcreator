@@ -670,6 +670,9 @@
     "BLOCKS:minecraft:leaves": [
       "CUSTOM:BushyCoconutLeaves"
     ],
+    "BLOCKS:minecraft:replaceable": [
+      "~CUSTOM:HangingCoconutLeaves"
+    ],
     "BLOCKS:minecraft:mineable/axe": [
       "~CUSTOM:CoconutDoor",
       "~CUSTOM:CoconutPlanks",
