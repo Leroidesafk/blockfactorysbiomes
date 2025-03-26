@@ -1,0 +1,9 @@
+{
+  "parent": "bf_biomes:custom/zigzag_shell",
+  "textures": {
+    "all": "bf_biomes:block/shell_particle",
+    "particle": "bf_biomes:block/shell_particle",
+    "missing": "bf_biomes:block/zigzag_shell"
+  },
+  "render_type": "cutout_mipped"
+}

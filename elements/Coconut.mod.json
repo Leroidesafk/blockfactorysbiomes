@@ -10,7 +10,7 @@
     "textureBack": "",
     "renderType": 2,
     "customModelName": "coconut:default",
-    "rotationMode": 1,
+    "rotationMode": 3,
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
@@ -128,6 +128,12 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onNeighbourBlockChanges": {
+      "name": "CoconutNeighbourBlockChanges"
+    },
+    "onHitByProjectile": {
+      "name": "CoconutOnBlockHitByProjectile"
+    },
     "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [

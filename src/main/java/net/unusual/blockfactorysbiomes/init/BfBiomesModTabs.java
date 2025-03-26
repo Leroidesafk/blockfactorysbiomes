@@ -21,8 +21,11 @@ public class BfBiomesModTabs {
 				tabData.accept(BfBiomesModBlocks.COCONUT_TRUNK.get().asItem());
 				tabData.accept(BfBiomesModBlocks.COCONUT_WOOD.get().asItem());
 				tabData.accept(BfBiomesModBlocks.COCONUT_LOG.get().asItem());
-				tabData.accept(BfBiomesModBlocks.COCONUT_PLANKS.get().asItem());
 				tabData.accept(BfBiomesModBlocks.COCONUT_LEAVES.get().asItem());
+				tabData.accept(BfBiomesModBlocks.BUSHY_COCONUT_LEAVES.get().asItem());
+				tabData.accept(BfBiomesModBlocks.HANGING_COCONUT_LEAVES.get().asItem());
+				tabData.accept(BfBiomesModBlocks.COCONUT_BUSH.get().asItem());
+				tabData.accept(BfBiomesModBlocks.COCONUT_PLANKS.get().asItem());
 				tabData.accept(BfBiomesModBlocks.COCONUT_STAIRS.get().asItem());
 				tabData.accept(BfBiomesModBlocks.COCONUT_SLAB.get().asItem());
 				tabData.accept(BfBiomesModBlocks.COCONUT_FENCE.get().asItem());
@@ -34,8 +37,15 @@ public class BfBiomesModTabs {
 				tabData.accept(BfBiomesModBlocks.COCONUT.get().asItem());
 				tabData.accept(BfBiomesModItems.OPENED_COCONUT.get());
 				tabData.accept(BfBiomesModItems.COCONUT_ITEM.get());
-				tabData.accept(BfBiomesModBlocks.BUSHY_COCONUT_LEAVES.get().asItem());
-				tabData.accept(BfBiomesModBlocks.HANGING_COCONUT_LEAVES.get().asItem());
+				tabData.accept(BfBiomesModBlocks.LONG_SHELL.get().asItem());
+				tabData.accept(BfBiomesModBlocks.ROUND_SHELL.get().asItem());
+				tabData.accept(BfBiomesModBlocks.ZIGAG_SHELL.get().asItem());
+				tabData.accept(BfBiomesModBlocks.BLUE_LION_PAW_SEASHELL.get().asItem());
+				tabData.accept(BfBiomesModBlocks.PINK_LION_PAW_SEASHEL.get().asItem());
+				tabData.accept(BfBiomesModBlocks.STARFISH.get().asItem());
+				tabData.accept(BfBiomesModBlocks.FALLEN_COCONUT_LOG.get().asItem());
+				tabData.accept(BfBiomesModBlocks.FALLEN_OVERGROWN_COCONUT_LOG.get().asItem());
+				tabData.accept(BfBiomesModBlocks.LOG_PILE.get().asItem());
 			})
 
 					.build());

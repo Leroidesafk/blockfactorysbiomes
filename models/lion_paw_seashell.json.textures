@@ -1,0 +1,16 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "blue_lion_paw_seashell"
+      },
+      "name": "default"
+    },
+    "pink": {
+      "map": {
+        "1": "pink_lion_paw_seashell"
+      },
+      "name": "pink"
+    }
+  }
+}

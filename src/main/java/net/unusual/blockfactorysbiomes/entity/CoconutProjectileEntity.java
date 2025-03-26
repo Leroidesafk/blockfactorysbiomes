@@ -70,13 +70,13 @@ public class CoconutProjectileEntity extends AbstractArrow implements ItemSuppli
 	@Override
 	public void onHitEntity(EntityHitResult entityHitResult) {
 		super.onHitEntity(entityHitResult);
-		CoconutItemProjectileHitProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ());
+		CoconutItemProjectileHitProcedure.execute(this.level(), this);
 	}
 
 	@Override
 	public void onHitBlock(BlockHitResult blockHitResult) {
 		super.onHitBlock(blockHitResult);
-		CoconutItemProjectileHitProcedure.execute(this.level(), blockHitResult.getBlockPos().getX(), blockHitResult.getBlockPos().getY(), blockHitResult.getBlockPos().getZ());
+		CoconutItemProjectileHitProcedure.execute(this.level(), this);
 	}
 
 	@Override

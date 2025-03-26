@@ -1,0 +1,9 @@
+{
+  "parent": "bf_biomes:custom/starfish",
+  "textures": {
+    "all": "bf_biomes:block/starfish_particle",
+    "particle": "bf_biomes:block/starfish_particle",
+    "0": "bf_biomes:block/starfish"
+  },
+  "render_type": "cutout_mipped"
+}

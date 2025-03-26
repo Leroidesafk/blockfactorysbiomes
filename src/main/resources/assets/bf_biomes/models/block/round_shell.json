@@ -1,0 +1,9 @@
+{
+  "parent": "bf_biomes:custom/round_shell",
+  "textures": {
+    "all": "bf_biomes:block/shell_particle",
+    "particle": "bf_biomes:block/shell_particle",
+    "missing": "bf_biomes:block/round_shell"
+  },
+  "render_type": "cutout_mipped"
+}

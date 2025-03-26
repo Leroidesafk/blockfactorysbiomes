@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "bf_biomes:block/pink_lion_paw_seashel"
+    },
+    "facing=east": {
+      "model": "bf_biomes:block/pink_lion_paw_seashel",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "bf_biomes:block/pink_lion_paw_seashel",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "bf_biomes:block/pink_lion_paw_seashel",
+      "y": 270
+    }
+  }
+}

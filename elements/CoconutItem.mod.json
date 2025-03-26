@@ -7,7 +7,7 @@
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Coconut Item",
+    "name": "Coconut",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:BlockFactorysBiomesTab"
@@ -36,7 +36,7 @@
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "enableRanged": true,
-    "shootConstantly": false,
+    "shootConstantly": true,
     "projectile": {
       "value": "CUSTOM:CoconutProjectile"
     },
@@ -48,6 +48,6 @@
     },
     "isMeat": false,
     "isAlwaysEdible": false,
-    "animation": "bow"
+    "animation": "none"
   }
 }

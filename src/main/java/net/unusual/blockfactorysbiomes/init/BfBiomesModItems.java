@@ -38,6 +38,16 @@ public class BfBiomesModItems {
 	public static final RegistryObject<Item> COCONUT_ITEM = REGISTRY.register("coconut_item", () -> new CoconutItemItem());
 	public static final RegistryObject<Item> BUSHY_COCONUT_LEAVES = block(BfBiomesModBlocks.BUSHY_COCONUT_LEAVES);
 	public static final RegistryObject<Item> HANGING_COCONUT_LEAVES = block(BfBiomesModBlocks.HANGING_COCONUT_LEAVES);
+	public static final RegistryObject<Item> LONG_SHELL = block(BfBiomesModBlocks.LONG_SHELL);
+	public static final RegistryObject<Item> ROUND_SHELL = block(BfBiomesModBlocks.ROUND_SHELL);
+	public static final RegistryObject<Item> ZIGAG_SHELL = block(BfBiomesModBlocks.ZIGAG_SHELL);
+	public static final RegistryObject<Item> BLUE_LION_PAW_SEASHELL = block(BfBiomesModBlocks.BLUE_LION_PAW_SEASHELL);
+	public static final RegistryObject<Item> PINK_LION_PAW_SEASHEL = block(BfBiomesModBlocks.PINK_LION_PAW_SEASHEL);
+	public static final RegistryObject<Item> FALLEN_COCONUT_LOG = block(BfBiomesModBlocks.FALLEN_COCONUT_LOG);
+	public static final RegistryObject<Item> FALLEN_OVERGROWN_COCONUT_LOG = block(BfBiomesModBlocks.FALLEN_OVERGROWN_COCONUT_LOG);
+	public static final RegistryObject<Item> LOG_PILE = block(BfBiomesModBlocks.LOG_PILE);
+	public static final RegistryObject<Item> STARFISH = block(BfBiomesModBlocks.STARFISH);
+	public static final RegistryObject<Item> COCONUT_BUSH = block(BfBiomesModBlocks.COCONUT_BUSH);
 
 	// Start of user code block custom items
 	// End of user code block custom items

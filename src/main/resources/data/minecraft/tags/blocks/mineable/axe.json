@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
+    "bf_biomes:log_pile",
+    "bf_biomes:fallen_overgrown_coconut_log",
+    "bf_biomes:fallen_coconut_log",
     "bf_biomes:coconut_door",
     "bf_biomes:coconut_planks",
     "bf_biomes:coconut_log",

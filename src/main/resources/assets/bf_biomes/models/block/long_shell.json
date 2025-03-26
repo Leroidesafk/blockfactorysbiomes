@@ -1,0 +1,9 @@
+{
+  "parent": "bf_biomes:custom/long_shell",
+  "textures": {
+    "all": "bf_biomes:block/shell_particle",
+    "particle": "bf_biomes:block/shell_particle",
+    "0": "bf_biomes:block/long_shell"
+  },
+  "render_type": "cutout_mipped"
+}

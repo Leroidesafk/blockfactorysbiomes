@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "bf_biomes:item/pink_lion_paw_seashell"
+  },
+  "render_type": "translucent"
+}
