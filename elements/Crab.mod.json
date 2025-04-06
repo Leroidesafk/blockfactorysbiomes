@@ -167,8 +167,8 @@
     "rangedAttackRadius": 1.0,
     "spawnThisMob": true,
     "doesDespawnWhenIdle": true,
-    "spawningProbability": 5,
-    "mobSpawningType": "creature",
+    "spawningProbability": 25,
+    "mobSpawningType": "ambient",
     "minNumberOfMobsPerGroup": 1,
     "maxNumberOfMobsPerGroup": 2,
     "restrictionBiomes": [

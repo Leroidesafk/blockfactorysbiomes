@@ -48,6 +48,12 @@ public class BfBiomesModItems {
 	public static final RegistryObject<Item> LOG_PILE = block(BfBiomesModBlocks.LOG_PILE);
 	public static final RegistryObject<Item> STARFISH = block(BfBiomesModBlocks.STARFISH);
 	public static final RegistryObject<Item> COCONUT_BUSH = block(BfBiomesModBlocks.COCONUT_BUSH);
+	public static final RegistryObject<Item> FIREFLY_SPAWN_EGG = REGISTRY.register("firefly_spawn_egg", () -> new ForgeSpawnEggItem(BfBiomesModEntities.FIREFLY, -10995188, -917659, new Item.Properties()));
+	public static final RegistryObject<Item> DRIED_GRASS = block(BfBiomesModBlocks.DRIED_GRASS);
+	public static final RegistryObject<Item> TALL_DRIED_GRASS = doubleBlock(BfBiomesModBlocks.TALL_DRIED_GRASS);
+	public static final RegistryObject<Item> DEAD_GRASS = block(BfBiomesModBlocks.DEAD_GRASS);
+	public static final RegistryObject<Item> TALL_DEAD_GRASS = doubleBlock(BfBiomesModBlocks.TALL_DEAD_GRASS);
+	public static final RegistryObject<Item> COCONUT_SAPLING = block(BfBiomesModBlocks.COCONUT_SAPLING);
 
 	// Start of user code block custom items
 	// End of user code block custom items

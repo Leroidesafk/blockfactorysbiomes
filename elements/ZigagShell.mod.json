@@ -24,12 +24,21 @@
     "disableOffset": false,
     "boundingBoxes": [
       {
+        "mx": 7.0,
+        "my": 0.0,
+        "mz": 2.0,
+        "Mx": 12.0,
+        "My": 3.0,
+        "Mz": 11.0,
+        "subtract": false
+      },
+      {
         "mx": 4.0,
         "my": 0.0,
-        "mz": 4.0,
-        "Mx": 12.0,
-        "My": 4.0,
-        "Mz": 12.0,
+        "mz": 7.0,
+        "Mx": 7.0,
+        "My": 3.0,
+        "Mz": 15.0,
         "subtract": false
       }
     ],
@@ -101,6 +110,9 @@
     "luminance": 0,
     "unbreakable": false,
     "breakHarvestLevel": 1,
+    "placingCondition": {
+      "name": "ShellBlockValidPlacementCondition"
+    },
     "isBonemealable": false,
     "hasInventory": false,
     "guiBoundTo": "<NONE>",
@@ -120,10 +132,14 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "generateFeature": false,
-    "restrictionBiomes": [],
+    "restrictionBiomes": [
+      {
+        "value": "beaches"
+      }
+    ],
     "blocksToReplace": [
       {
-        "value": "TAG:stone_ore_replaceables"
+        "value": "CUSTOM:DeadGrass"
       }
     ],
     "generationShape": "UNIFORM",

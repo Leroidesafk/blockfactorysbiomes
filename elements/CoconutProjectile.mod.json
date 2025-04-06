@@ -10,7 +10,7 @@
       "value": "entity.snowball.throw"
     },
     "igniteFire": false,
-    "power": 1.0,
+    "power": 0.6,
     "damage": 1.0,
     "knockback": 1,
     "entityModel": "Default",

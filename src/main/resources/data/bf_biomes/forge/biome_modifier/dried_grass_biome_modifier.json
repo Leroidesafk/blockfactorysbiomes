@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#minecraft:is_beach",
+  "features": "bf_biomes:dried_grass",
+  "step": "vegetal_decoration"
+}

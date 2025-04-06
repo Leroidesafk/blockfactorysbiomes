@@ -3,7 +3,7 @@
     {
       "name": "CoconutTrunk",
       "type": "block",
-      "sortid": 1,
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "registry_name": "coconut_trunk",
@@ -20,7 +20,7 @@
     {
       "name": "CoconutWood",
       "type": "block",
-      "sortid": 2,
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "registry_name": "coconut_wood",
@@ -37,7 +37,7 @@
     {
       "name": "CoconutLog",
       "type": "block",
-      "sortid": 3,
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "registry_name": "coconut_log",
@@ -54,7 +54,7 @@
     {
       "name": "CoconutPlanks",
       "type": "block",
-      "sortid": 8,
+      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "registry_name": "coconut_planks",
@@ -71,7 +71,7 @@
     {
       "name": "CoconutLeaves",
       "type": "block",
-      "sortid": 4,
+      "sortid": 15,
       "compiles": true,
       "locked_code": true,
       "registry_name": "coconut_leaves",
@@ -88,7 +88,7 @@
     {
       "name": "CoconutStairs",
       "type": "block",
-      "sortid": 9,
+      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "registry_name": "coconut_stairs",
@@ -107,7 +107,7 @@
     {
       "name": "CoconutSlab",
       "type": "block",
-      "sortid": 10,
+      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "registry_name": "coconut_slab",
@@ -126,7 +126,7 @@
     {
       "name": "CoconutFence",
       "type": "block",
-      "sortid": 11,
+      "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "registry_name": "coconut_fence",
@@ -145,7 +145,7 @@
     {
       "name": "CoconutFenceGate",
       "type": "block",
-      "sortid": 12,
+      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "registry_name": "coconut_fence_gate",
@@ -165,7 +165,7 @@
     {
       "name": "CoconutPressurePlate",
       "type": "block",
-      "sortid": 13,
+      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "registry_name": "coconut_pressure_plate",
@@ -183,7 +183,7 @@
     {
       "name": "CoconutButton",
       "type": "block",
-      "sortid": 14,
+      "sortid": 25,
       "compiles": true,
       "locked_code": false,
       "registry_name": "coconut_button",
@@ -202,7 +202,7 @@
     {
       "name": "CoconutWoodRecipe",
       "type": "recipe",
-      "sortid": 29,
+      "sortid": 35,
       "compiles": true,
       "locked_code": false,
       "registry_name": "coconut_wood_recipe",
@@ -215,7 +215,7 @@
     {
       "name": "CoconutPlanksLogRecipe",
       "type": "recipe",
-      "sortid": 30,
+      "sortid": 36,
       "compiles": true,
       "locked_code": false,
       "registry_name": "coconut_planks_log_recipe",
@@ -228,7 +228,7 @@
     {
       "name": "CoconutPlanksWoodRecipe",
       "type": "recipe",
-      "sortid": 31,
+      "sortid": 37,
       "compiles": true,
       "locked_code": false,
       "registry_name": "coconut_planks_wood_recipe",
@@ -241,7 +241,7 @@
     {
       "name": "CoconutStairsRecipe",
       "type": "recipe",
-      "sortid": 32,
+      "sortid": 38,
       "compiles": true,
       "locked_code": false,
       "registry_name": "coconut_stairs_recipe",
@@ -254,7 +254,7 @@
     {
       "name": "CoconutSlabRecipe",
       "type": "recipe",
-      "sortid": 33,
+      "sortid": 39,
       "compiles": true,
       "locked_code": false,
       "registry_name": "coconut_slab_recipe",
@@ -267,7 +267,7 @@
     {
       "name": "CoconutFenceRecipe",
       "type": "recipe",
-      "sortid": 34,
+      "sortid": 40,
       "compiles": true,
       "locked_code": false,
       "registry_name": "coconut_fence_recipe",
@@ -280,7 +280,7 @@
     {
       "name": "CoconutFenceGateRecipe",
       "type": "recipe",
-      "sortid": 35,
+      "sortid": 41,
       "compiles": true,
       "locked_code": false,
       "registry_name": "coconut_fence_gate_recipe",
@@ -293,7 +293,7 @@
     {
       "name": "CoconutPressurePlateRecipe",
       "type": "recipe",
-      "sortid": 36,
+      "sortid": 42,
       "compiles": true,
       "locked_code": false,
       "registry_name": "coconut_pressure_plate_recipe",
@@ -306,7 +306,7 @@
     {
       "name": "CoconutButtonRecipe",
       "type": "recipe",
-      "sortid": 37,
+      "sortid": 43,
       "compiles": true,
       "locked_code": false,
       "registry_name": "coconut_button_recipe",
@@ -319,7 +319,7 @@
     {
       "name": "CoconutStickRecipe",
       "type": "recipe",
-      "sortid": 38,
+      "sortid": 44,
       "compiles": true,
       "locked_code": false,
       "registry_name": "coconut_stick_recipe",
@@ -332,7 +332,7 @@
     {
       "name": "CoconutDoor",
       "type": "block",
-      "sortid": 15,
+      "sortid": 26,
       "compiles": true,
       "locked_code": false,
       "registry_name": "coconut_door",
@@ -356,7 +356,7 @@
     {
       "name": "BlockFactorysBiomesTab",
       "type": "tab",
-      "sortid": 39,
+      "sortid": 45,
       "compiles": true,
       "locked_code": false,
       "registry_name": "block_factorys_biomes_tab",
@@ -367,7 +367,7 @@
     {
       "name": "CrabModelVisualScale",
       "type": "procedure",
-      "sortid": 40,
+      "sortid": 46,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crab_model_visual_scale",
@@ -387,7 +387,7 @@
     {
       "name": "NullPrWhileProjectileFlyingTick",
       "type": "procedure",
-      "sortid": 41,
+      "sortid": 47,
       "compiles": true,
       "locked_code": false,
       "registry_name": "null_pr_while_projectile_flying_tick",
@@ -406,7 +406,7 @@
     {
       "name": "NullPr",
       "type": "projectile",
-      "sortid": 42,
+      "sortid": 48,
       "compiles": true,
       "locked_code": false,
       "registry_name": "null_pr",
@@ -419,7 +419,7 @@
     {
       "name": "Crab",
       "type": "livingentity",
-      "sortid": 16,
+      "sortid": 33,
       "compiles": true,
       "locked_code": true,
       "registry_name": "crab",
@@ -435,7 +435,7 @@
     {
       "name": "CrabOnEntityTickUpdate",
       "type": "procedure",
-      "sortid": 43,
+      "sortid": 49,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crab_on_entity_tick_update",
@@ -458,7 +458,7 @@
     {
       "name": "Coconut",
       "type": "block",
-      "sortid": 17,
+      "sortid": 1,
       "compiles": true,
       "locked_code": false,
       "registry_name": "coconut",
@@ -474,7 +474,7 @@
     {
       "name": "OpenedCoconut",
       "type": "item",
-      "sortid": 18,
+      "sortid": 3,
       "compiles": true,
       "locked_code": false,
       "registry_name": "opened_coconut",
@@ -488,7 +488,7 @@
     {
       "name": "CoconutItemProjectileHit",
       "type": "procedure",
-      "sortid": 44,
+      "sortid": 50,
       "compiles": true,
       "locked_code": false,
       "registry_name": "coconut_item_projectile_hit",
@@ -511,7 +511,7 @@
     {
       "name": "CoconutItem",
       "type": "item",
-      "sortid": 19,
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "coconut_item",
@@ -525,7 +525,7 @@
     {
       "name": "CoconutProjectile",
       "type": "projectile",
-      "sortid": 45,
+      "sortid": 51,
       "compiles": true,
       "locked_code": false,
       "registry_name": "coconut_projectile",
@@ -538,7 +538,7 @@
     {
       "name": "BushyCoconutLeaves",
       "type": "block",
-      "sortid": 5,
+      "sortid": 16,
       "compiles": true,
       "locked_code": true,
       "registry_name": "bushy_coconut_leaves",
@@ -555,7 +555,7 @@
     {
       "name": "OpenedCoconutRecipe",
       "type": "recipe",
-      "sortid": 46,
+      "sortid": 52,
       "compiles": true,
       "locked_code": false,
       "registry_name": "opened_coconut_recipe",
@@ -568,7 +568,7 @@
     {
       "name": "CoconutLoot",
       "type": "loottable",
-      "sortid": 47,
+      "sortid": 53,
       "compiles": true,
       "locked_code": false,
       "registry_name": "coconut_loot",
@@ -581,7 +581,7 @@
     {
       "name": "HangingCoconutLeavesBlockValidPlacementCondition",
       "type": "procedure",
-      "sortid": 48,
+      "sortid": 54,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hanging_coconut_leaves_block_valid_placement_condition",
@@ -613,7 +613,7 @@
     {
       "name": "HangingCoconutLeaves",
       "type": "block",
-      "sortid": 6,
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hanging_coconut_leaves",
@@ -630,7 +630,7 @@
     {
       "name": "LongShell",
       "type": "block",
-      "sortid": 20,
+      "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "registry_name": "long_shell",
@@ -647,7 +647,7 @@
     {
       "name": "RoundShell",
       "type": "block",
-      "sortid": 21,
+      "sortid": 28,
       "compiles": true,
       "locked_code": false,
       "registry_name": "round_shell",
@@ -664,7 +664,7 @@
     {
       "name": "ZigagShell",
       "type": "block",
-      "sortid": 22,
+      "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "registry_name": "zigag_shell",
@@ -681,7 +681,7 @@
     {
       "name": "BlueLionPawSeashell",
       "type": "block",
-      "sortid": 23,
+      "sortid": 30,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blue_lion_paw_seashell",
@@ -698,7 +698,7 @@
     {
       "name": "PinkLionPawSeashel",
       "type": "block",
-      "sortid": 24,
+      "sortid": 31,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pink_lion_paw_seashel",
@@ -715,7 +715,7 @@
     {
       "name": "FallenCoconutLog",
       "type": "block",
-      "sortid": 26,
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fallen_coconut_log",
@@ -732,7 +732,7 @@
     {
       "name": "FallenCoconutLogBB",
       "type": "blockstates",
-      "sortid": 49,
+      "sortid": 55,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fallen_coconut_log_bb",
@@ -746,7 +746,7 @@
     {
       "name": "FallenCoconutLogBlockAdded",
       "type": "procedure",
-      "sortid": 50,
+      "sortid": 56,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fallen_coconut_log_block_added",
@@ -777,7 +777,7 @@
     {
       "name": "FallenOvergrownCoconutLog",
       "type": "block",
-      "sortid": 27,
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fallen_overgrown_coconut_log",
@@ -794,7 +794,7 @@
     {
       "name": "FallenOvergrownCoconutLogBB",
       "type": "blockstates",
-      "sortid": 51,
+      "sortid": 57,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fallen_overgrown_coconut_log_bb",
@@ -808,7 +808,7 @@
     {
       "name": "LogPile",
       "type": "block",
-      "sortid": 28,
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "registry_name": "log_pile",
@@ -825,7 +825,7 @@
     {
       "name": "Starfish",
       "type": "block",
-      "sortid": 25,
+      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "registry_name": "starfish",
@@ -842,7 +842,7 @@
     {
       "name": "CoconutBush",
       "type": "block",
-      "sortid": 7,
+      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "registry_name": "coconut_bush",
@@ -859,7 +859,7 @@
     {
       "name": "CoconutBushBlockValidPlacementCondition",
       "type": "procedure",
-      "sortid": 52,
+      "sortid": 58,
       "compiles": true,
       "locked_code": false,
       "registry_name": "coconut_bush_block_valid_placement_condition",
@@ -891,7 +891,7 @@
     {
       "name": "CoconutNeighbourBlockChanges",
       "type": "procedure",
-      "sortid": 53,
+      "sortid": 59,
       "compiles": true,
       "locked_code": false,
       "registry_name": "coconut_neighbour_block_changes",
@@ -926,7 +926,7 @@
     {
       "name": "CoconutOnBlockHitByProjectile",
       "type": "procedure",
-      "sortid": 54,
+      "sortid": 60,
       "compiles": true,
       "locked_code": false,
       "registry_name": "coconut_on_block_hit_by_projectile",
@@ -935,18 +935,6 @@
           "src/main/java/net/unusual/blockfactorysbiomes/procedures/CoconutOnBlockHitByProjectileProcedure.java"
         ],
         "dependencies": [
-          {
-            "name": "hitX",
-            "type": "number"
-          },
-          {
-            "name": "hitY",
-            "type": "number"
-          },
-          {
-            "name": "hitZ",
-            "type": "number"
-          },
           {
             "name": "x",
             "type": "number"
@@ -963,6 +951,505 @@
             "name": "world",
             "type": "world"
           }
+        ]
+      }
+    },
+    {
+      "name": "Fireflytest",
+      "type": "procedure",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fireflytest",
+      "metadata": {
+        "files": [
+          "src/main/java/net/unusual/blockfactorysbiomes/procedures/FireflytestProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "partialTick",
+            "type": "number"
+          },
+          {
+            "name": "ticks",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FireflyNaturalEntitySpawningCondition",
+      "type": "procedure",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "firefly_natural_entity_spawning_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/unusual/blockfactorysbiomes/procedures/FireflyNaturalEntitySpawningConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Firefly",
+      "type": "livingentity",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "firefly",
+      "metadata": {
+        "files": [
+          "src/main/java/net/unusual/blockfactorysbiomes/entity/FireflyEntity.java",
+          "src/main/resources/data/bf_biomes/forge/biome_modifier/firefly_biome_modifier.json",
+          "src/main/java/net/unusual/blockfactorysbiomes/client/renderer/FireflyRenderer.java",
+          "src/main/resources/assets/bf_biomes/models/item/firefly_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "FireflyOnEntityTickUpdate",
+      "type": "procedure",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "firefly_on_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/unusual/blockfactorysbiomes/procedures/FireflyOnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DriedGrass",
+      "type": "plant",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dried_grass",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bf_biomes/models/item/dried_grass.json",
+          "src/main/java/net/unusual/blockfactorysbiomes/block/DriedGrassBlock.java",
+          "src/main/resources/data/bf_biomes/forge/biome_modifier/dried_grass_biome_modifier.json",
+          "src/main/resources/data/bf_biomes/worldgen/placed_feature/dried_grass.json",
+          "src/main/resources/assets/bf_biomes/models/block/dried_grass.json",
+          "src/main/resources/assets/bf_biomes/blockstates/dried_grass.json",
+          "src/main/resources/data/bf_biomes/worldgen/configured_feature/dried_grass.json"
+        ]
+      }
+    },
+    {
+      "name": "TallDriedGrass",
+      "type": "plant",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tall_dried_grass",
+      "metadata": {
+        "files": [
+          "src/main/java/net/unusual/blockfactorysbiomes/block/TallDriedGrassBlock.java",
+          "src/main/resources/data/bf_biomes/worldgen/configured_feature/tall_dried_grass.json",
+          "src/main/resources/assets/bf_biomes/models/block/tall_dried_grass_bottom.json",
+          "src/main/resources/assets/bf_biomes/blockstates/tall_dried_grass.json",
+          "src/main/resources/assets/bf_biomes/models/block/tall_dried_grass.json",
+          "src/main/resources/data/bf_biomes/worldgen/placed_feature/tall_dried_grass.json",
+          "src/main/resources/data/bf_biomes/forge/biome_modifier/tall_dried_grass_biome_modifier.json",
+          "src/main/resources/assets/bf_biomes/models/item/tall_dried_grass.json"
+        ]
+      }
+    },
+    {
+      "name": "DeadGrass",
+      "type": "plant",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dead_grass",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bf_biomes/models/item/dead_grass.json",
+          "src/main/java/net/unusual/blockfactorysbiomes/block/DeadGrassBlock.java",
+          "src/main/resources/assets/bf_biomes/blockstates/dead_grass.json",
+          "src/main/resources/data/bf_biomes/worldgen/placed_feature/dead_grass.json",
+          "src/main/resources/assets/bf_biomes/models/block/dead_grass.json",
+          "src/main/resources/data/bf_biomes/forge/biome_modifier/dead_grass_biome_modifier.json",
+          "src/main/resources/data/bf_biomes/worldgen/configured_feature/dead_grass.json"
+        ]
+      }
+    },
+    {
+      "name": "TallDeadGrass",
+      "type": "plant",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tall_dead_grass",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bf_biomes/worldgen/configured_feature/tall_dead_grass.json",
+          "src/main/resources/data/bf_biomes/worldgen/placed_feature/tall_dead_grass.json",
+          "src/main/java/net/unusual/blockfactorysbiomes/block/TallDeadGrassBlock.java",
+          "src/main/resources/assets/bf_biomes/models/item/tall_dead_grass.json",
+          "src/main/resources/assets/bf_biomes/models/block/tall_dead_grass_bottom.json",
+          "src/main/resources/assets/bf_biomes/models/block/tall_dead_grass.json",
+          "src/main/resources/data/bf_biomes/forge/biome_modifier/tall_dead_grass_biome_modifier.json",
+          "src/main/resources/assets/bf_biomes/blockstates/tall_dead_grass.json"
+        ]
+      }
+    },
+    {
+      "name": "DriedGrassCanBoneMealBeUsedOnThisBlock",
+      "type": "procedure",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dried_grass_can_bone_meal_be_used_on_this_block",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/unusual/blockfactorysbiomes/procedures/DriedGrassCanBoneMealBeUsedOnThisBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DriedGrassOnBoneMealSuccess",
+      "type": "procedure",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dried_grass_on_bone_meal_success",
+      "metadata": {
+        "files": [
+          "src/main/java/net/unusual/blockfactorysbiomes/procedures/DriedGrassOnBoneMealSuccessProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DeadGrassOnBoneMealSuccess",
+      "type": "procedure",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dead_grass_on_bone_meal_success",
+      "metadata": {
+        "files": [
+          "src/main/java/net/unusual/blockfactorysbiomes/procedures/DeadGrassOnBoneMealSuccessProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CoconutTree",
+      "type": "feature",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coconut_tree",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bf_biomes/forge/biome_modifier/coconut_tree_biome_modifier.json",
+          "src/main/resources/data/bf_biomes/worldgen/configured_feature/coconut_tree.json",
+          "src/main/resources/data/bf_biomes/worldgen/placed_feature/coconut_tree.json"
+        ],
+        "has_nbt_structure": true
+      }
+    },
+    {
+      "name": "ShellBlockValidPlacementCondition",
+      "type": "procedure",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shell_block_valid_placement_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/unusual/blockfactorysbiomes/procedures/ShellBlockValidPlacementConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CoconutLeavesLoot",
+      "type": "loottable",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coconut_leaves_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bf_biomes/loot_tables/blocks/coconut_leaves.json"
+        ]
+      }
+    },
+    {
+      "name": "CoconutSapling",
+      "type": "plant",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coconut_sapling",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bf_biomes/models/block/coconut_sapling.json",
+          "src/main/resources/assets/bf_biomes/blockstates/coconut_sapling.json",
+          "src/main/resources/data/bf_biomes/loot_tables/blocks/coconut_sapling.json",
+          "src/main/resources/assets/bf_biomes/models/item/coconut_sapling.json",
+          "src/main/java/net/unusual/blockfactorysbiomes/block/CoconutSaplingBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "CoconutTreeAdditionalGenerationCondition",
+      "type": "procedure",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coconut_tree_additional_generation_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/unusual/blockfactorysbiomes/procedures/CoconutTreeAdditionalGenerationConditionProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "CoconutSaplingOnTickUpdate",
+      "type": "procedure",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coconut_sapling_on_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/unusual/blockfactorysbiomes/procedures/CoconutSaplingOnTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CoconutSaplingBoneMealSuccessCondition",
+      "type": "procedure",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coconut_sapling_bone_meal_success_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/unusual/blockfactorysbiomes/procedures/CoconutSaplingBoneMealSuccessConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CoconutSaplingOnBoneMealSuccess",
+      "type": "procedure",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coconut_sapling_on_bone_meal_success",
+      "metadata": {
+        "files": [
+          "src/main/java/net/unusual/blockfactorysbiomes/procedures/CoconutSaplingOnBoneMealSuccessProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CoconutBushes",
+      "type": "feature",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coconut_bushes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bf_biomes/forge/biome_modifier/coconut_bushes_biome_modifier.json",
+          "src/main/resources/data/bf_biomes/worldgen/placed_feature/coconut_bushes.json",
+          "src/main/resources/data/bf_biomes/worldgen/configured_feature/coconut_bushes.json"
+        ],
+        "has_nbt_structure": true
+      }
+    },
+    {
+      "name": "ShellPlacement",
+      "type": "feature",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shell_placement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bf_biomes/worldgen/placed_feature/shell_placement.json",
+          "src/main/resources/data/bf_biomes/worldgen/configured_feature/shell_placement.json",
+          "src/main/resources/data/bf_biomes/forge/biome_modifier/shell_placement_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "StarfishPlacement",
+      "type": "feature",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "starfish_placement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bf_biomes/worldgen/configured_feature/starfish_placement.json",
+          "src/main/resources/data/bf_biomes/forge/biome_modifier/starfish_placement_biome_modifier.json",
+          "src/main/resources/data/bf_biomes/worldgen/placed_feature/starfish_placement.json"
         ]
       }
     }
@@ -995,9 +1482,38 @@
       ],
       "category": "hostile",
       "subtitle": "Crab walking"
+    },
+    {
+      "name": "firefly_flying",
+      "files": [
+        "firefly_flying_1",
+        "firefly_flying_2",
+        "firefly_flying_3",
+        "firefly_flying_4",
+        "firefly_flying_5"
+      ],
+      "category": "ambient",
+      "subtitle": "Firefly flying"
     }
   ],
   "tag_elements": {
+    "BLOCKS:minecraft:replaceable": [
+      "~CUSTOM:TallDeadGrass",
+      "~CUSTOM:TallDriedGrass",
+      "~CUSTOM:DriedGrass",
+      "~CUSTOM:DeadGrass"
+    ],
+    "ITEMS:minecraft:wooden_stairs": [
+      "CUSTOM:CoconutStairs"
+    ],
+    "BLOCKS:minecraft:logs": [
+      "CUSTOM:CoconutWood",
+      "CUSTOM:CoconutLog"
+    ],
+    "ITEMS:minecraft:logs": [
+      "CUSTOM:CoconutWood",
+      "CUSTOM:CoconutLog"
+    ],
     "BLOCKS:minecraft:leaves": [
       "CUSTOM:BushyCoconutLeaves",
       "CUSTOM:CoconutLeaves"
@@ -1026,25 +1542,14 @@
     "BLOCKS:minecraft:fences": [
       "~CUSTOM:CoconutFence"
     ],
-    "ITEMS:minecraft:wooden_stairs": [
-      "CUSTOM:CoconutStairs"
-    ],
     "BLOCKS:minecraft:stairs": [
       "~CUSTOM:CoconutStairs"
     ],
     "ITEMS:minecraft:wooden_slabs": [
       "CUSTOM:CoconutSlab"
     ],
-    "BLOCKS:minecraft:logs": [
-      "CUSTOM:CoconutWood",
-      "CUSTOM:CoconutLog"
-    ],
     "ITEMS:minecraft:planks": [
       "CUSTOM:CoconutPlanks"
-    ],
-    "ITEMS:minecraft:logs": [
-      "CUSTOM:CoconutWood",
-      "CUSTOM:CoconutLog"
     ]
   },
   "language_map": {
@@ -1052,24 +1557,31 @@
       "block.bf_biomes.pink_lion_paw_seashel": "Pink Lion Paw Seashell",
       "block.bf_biomes.coconut_door": "Coconut Door",
       "block.bf_biomes.coconut_bush": "Coconut Bush",
+      "item.bf_biomes.firefly_spawn_egg": "Firefly Spawn Egg",
       "block.bf_biomes.log_pile": "Fallen Coconut Log",
+      "entity.bf_biomes.firefly": "Firefly",
       "block.bf_biomes.fallen_coconut_log": "Fallen Coconut Log",
       "block.bf_biomes.coconut_log": "Coconut Log",
       "block.bf_biomes.coconut_leaves": "Coconut Leaves",
-      "block.bf_biomes.hanging_coconut_leaves": "Hanging Coconut Leaves",
-      "block.bf_biomes.bushy_coconut_leaves": "Bushy Coconut Leaves",
       "block.bf_biomes.round_shell": "Round Shell",
+      "block.bf_biomes.bushy_coconut_leaves": "Bushy Coconut Leaves",
+      "block.bf_biomes.hanging_coconut_leaves": "Hanging Coconut Leaves",
       "block.bf_biomes.long_shell": "Long Shell",
+      "block.bf_biomes.tall_dead_grass": "Tall Dried Grass",
       "block.bf_biomes.starfish": "Starfish",
       "item.bf_biomes.crab_spawn_egg": "Crab Spawn Egg",
       "item.bf_biomes.opened_coconut": "Opened Coconut",
       "block.bf_biomes.fallen_overgrown_coconut_log": "Fallen Overgrown Coconut Log",
       "block.bf_biomes.coconut_trunk": "Coconut Trunk",
+      "block.bf_biomes.coconut_sapling": "Coconut Sapling",
       "block.bf_biomes.coconut_fence": "Coconut Fence",
+      "subtitles.firefly_flying": "Firefly flying",
+      "block.bf_biomes.dead_grass": "Dead Grass",
       "block.bf_biomes.coconut_pressure_plate": "Coconut Pressure Plate",
       "block.bf_biomes.blue_lion_paw_seashell": "Blue Lion Paw Seashell",
       "block.bf_biomes.coconut_stairs": "Coconut Stairs",
       "subtitles.crab_attack": "Crab attack",
+      "block.bf_biomes.dried_grass": "Dried Grass",
       "block.bf_biomes.coconut_button": "Coconut Button",
       "block.bf_biomes.zigag_shell": "Zigzag Shell",
       "subtitles.crab_walking": "Crab walking",
@@ -1079,6 +1591,7 @@
       "block.bf_biomes.coconut_fence_gate": "Coconut Fence Gate",
       "block.bf_biomes.coconut_planks": "Coconut Planks",
       "block.bf_biomes.coconut_wood": "Coconut Wood",
+      "block.bf_biomes.tall_dried_grass": "Tall Dried Grass",
       "block.bf_biomes.coconut_slab": "Coconut Slab",
       "item.bf_biomes.coconut_item": "Coconut"
     }

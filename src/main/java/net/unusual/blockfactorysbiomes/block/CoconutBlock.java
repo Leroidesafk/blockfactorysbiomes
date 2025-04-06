@@ -107,6 +107,6 @@ public class CoconutBlock extends Block implements SimpleWaterloggedBlock {
 
 	@Override
 	public void onProjectileHit(Level world, BlockState blockstate, BlockHitResult hit, Projectile entity) {
-		CoconutOnBlockHitByProjectileProcedure.execute(world, hit.getBlockPos().getX(), hit.getBlockPos().getY(), hit.getBlockPos().getZ(), hit.getLocation().x(), hit.getLocation().y(), hit.getLocation().z());
+		CoconutOnBlockHitByProjectileProcedure.execute(world, hit.getBlockPos().getX(), hit.getBlockPos().getY(), hit.getBlockPos().getZ());
 	}
 }

@@ -5,6 +5,8 @@
 package net.unusual.blockfactorysbiomes.init;
 
 import net.unusual.blockfactorysbiomes.block.ZigagShellBlock;
+import net.unusual.blockfactorysbiomes.block.TallDriedGrassBlock;
+import net.unusual.blockfactorysbiomes.block.TallDeadGrassBlock;
 import net.unusual.blockfactorysbiomes.block.StarfishBlock;
 import net.unusual.blockfactorysbiomes.block.RoundShellBlock;
 import net.unusual.blockfactorysbiomes.block.PinkLionPawSeashelBlock;
@@ -13,10 +15,13 @@ import net.unusual.blockfactorysbiomes.block.LogPileBlock;
 import net.unusual.blockfactorysbiomes.block.HangingCoconutLeavesBlock;
 import net.unusual.blockfactorysbiomes.block.FallenOvergrownCoconutLogBlock;
 import net.unusual.blockfactorysbiomes.block.FallenCoconutLogBlock;
+import net.unusual.blockfactorysbiomes.block.DriedGrassBlock;
+import net.unusual.blockfactorysbiomes.block.DeadGrassBlock;
 import net.unusual.blockfactorysbiomes.block.CoconutWoodBlock;
 import net.unusual.blockfactorysbiomes.block.CoconutTrunkBlock;
 import net.unusual.blockfactorysbiomes.block.CoconutStairsBlock;
 import net.unusual.blockfactorysbiomes.block.CoconutSlabBlock;
+import net.unusual.blockfactorysbiomes.block.CoconutSaplingBlock;
 import net.unusual.blockfactorysbiomes.block.CoconutPressurePlateBlock;
 import net.unusual.blockfactorysbiomes.block.CoconutPlanksBlock;
 import net.unusual.blockfactorysbiomes.block.CoconutLogBlock;
@@ -64,6 +69,11 @@ public class BfBiomesModBlocks {
 	public static final RegistryObject<Block> LOG_PILE = REGISTRY.register("log_pile", () -> new LogPileBlock());
 	public static final RegistryObject<Block> STARFISH = REGISTRY.register("starfish", () -> new StarfishBlock());
 	public static final RegistryObject<Block> COCONUT_BUSH = REGISTRY.register("coconut_bush", () -> new CoconutBushBlock());
+	public static final RegistryObject<Block> DRIED_GRASS = REGISTRY.register("dried_grass", () -> new DriedGrassBlock());
+	public static final RegistryObject<Block> TALL_DRIED_GRASS = REGISTRY.register("tall_dried_grass", () -> new TallDriedGrassBlock());
+	public static final RegistryObject<Block> DEAD_GRASS = REGISTRY.register("dead_grass", () -> new DeadGrassBlock());
+	public static final RegistryObject<Block> TALL_DEAD_GRASS = REGISTRY.register("tall_dead_grass", () -> new TallDeadGrassBlock());
+	public static final RegistryObject<Block> COCONUT_SAPLING = REGISTRY.register("coconut_sapling", () -> new CoconutSaplingBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

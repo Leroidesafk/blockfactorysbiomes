@@ -1,0 +1,52 @@
+{
+  "type": "minecraft:simple_random_selector",
+  "config": {
+    "features": [
+      {
+        "feature": {
+          "type": "bf_biomes:structure_feature",
+          "config": {
+            "structure": "bf_biomes:fallen_coconut_log",
+            "ignored_blocks": "minecraft:air",
+            "offset": [
+              -1,
+              0,
+              -1
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "bf_biomes:structure_feature",
+          "config": {
+            "structure": "bf_biomes:coconut_bush",
+            "ignored_blocks": "minecraft:air",
+            "offset": [
+              -1,
+              0,
+              -1
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "bf_biomes:structure_feature",
+          "config": {
+            "structure": "bf_biomes:coconut_bush",
+            "ignored_blocks": "minecraft:air",
+            "offset": [
+              -1,
+              0,
+              -1
+            ]
+          }
+        },
+        "placement": []
+      }
+    ]
+  }
+}
