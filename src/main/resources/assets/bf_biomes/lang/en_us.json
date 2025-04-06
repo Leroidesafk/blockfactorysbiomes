@@ -2,9 +2,12 @@
   "block.bf_biomes.pink_lion_paw_seashel": "Pink Lion Paw Seashell",
   "block.bf_biomes.coconut_door": "Coconut Door",
   "block.bf_biomes.coconut_bush": "Coconut Bush",
+  "block.bf_biomes.stripped_coconut_wood": "Stripped Coconut Wood",
   "item.bf_biomes.firefly_spawn_egg": "Firefly Spawn Egg",
+  "block.bf_biomes.stripped_coconut_log": "Coconut Log",
   "block.bf_biomes.log_pile": "Fallen Coconut Log",
   "entity.bf_biomes.firefly": "Firefly",
+  "item.bf_biomes.cooked_crab_meat": "Cooked Crab Meat",
   "block.bf_biomes.fallen_coconut_log": "Fallen Coconut Log",
   "block.bf_biomes.coconut_log": "Coconut Log",
   "block.bf_biomes.coconut_leaves": "Coconut Leaves",
@@ -37,6 +40,7 @@
   "block.bf_biomes.coconut_planks": "Coconut Planks",
   "block.bf_biomes.coconut_wood": "Coconut Wood",
   "block.bf_biomes.tall_dried_grass": "Tall Dried Grass",
+  "item.bf_biomes.raw_crab_meat": "Raw Crab Meat",
   "block.bf_biomes.coconut_slab": "Coconut Slab",
   "item.bf_biomes.coconut_item": "Coconut"
 }

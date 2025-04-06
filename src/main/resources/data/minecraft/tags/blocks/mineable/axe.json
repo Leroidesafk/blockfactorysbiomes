@@ -1,6 +1,14 @@
 {
   "replace": false,
   "values": [
+    "bf_biomes:coconut_button",
+    "bf_biomes:coconut_pressure_plate",
+    "bf_biomes:coconut_fence_gate",
+    "bf_biomes:coconut_fence",
+    "bf_biomes:stripped_coconut_log",
+    "bf_biomes:stripped_coconut_wood",
+    "bf_biomes:coconut_stairs",
+    "bf_biomes:coconut_slab",
     "bf_biomes:log_pile",
     "bf_biomes:fallen_overgrown_coconut_log",
     "bf_biomes:fallen_coconut_log",

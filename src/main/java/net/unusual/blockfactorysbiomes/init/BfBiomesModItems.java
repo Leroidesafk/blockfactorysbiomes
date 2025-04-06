@@ -4,7 +4,9 @@
  */
 package net.unusual.blockfactorysbiomes.init;
 
+import net.unusual.blockfactorysbiomes.item.RawCrabMeatItem;
 import net.unusual.blockfactorysbiomes.item.OpenedCoconutItem;
+import net.unusual.blockfactorysbiomes.item.CookedCrabMeatItem;
 import net.unusual.blockfactorysbiomes.item.CoconutItemItem;
 import net.unusual.blockfactorysbiomes.BfBiomesMod;
 
@@ -54,6 +56,10 @@ public class BfBiomesModItems {
 	public static final RegistryObject<Item> DEAD_GRASS = block(BfBiomesModBlocks.DEAD_GRASS);
 	public static final RegistryObject<Item> TALL_DEAD_GRASS = doubleBlock(BfBiomesModBlocks.TALL_DEAD_GRASS);
 	public static final RegistryObject<Item> COCONUT_SAPLING = block(BfBiomesModBlocks.COCONUT_SAPLING);
+	public static final RegistryObject<Item> STRIPPED_COCONUT_WOOD = block(BfBiomesModBlocks.STRIPPED_COCONUT_WOOD);
+	public static final RegistryObject<Item> STRIPPED_COCONUT_LOG = block(BfBiomesModBlocks.STRIPPED_COCONUT_LOG);
+	public static final RegistryObject<Item> RAW_CRAB_MEAT = REGISTRY.register("raw_crab_meat", () -> new RawCrabMeatItem());
+	public static final RegistryObject<Item> COOKED_CRAB_MEAT = REGISTRY.register("cooked_crab_meat", () -> new CookedCrabMeatItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

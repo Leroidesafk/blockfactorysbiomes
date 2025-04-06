@@ -7,6 +7,8 @@ package net.unusual.blockfactorysbiomes.init;
 import net.unusual.blockfactorysbiomes.block.ZigagShellBlock;
 import net.unusual.blockfactorysbiomes.block.TallDriedGrassBlock;
 import net.unusual.blockfactorysbiomes.block.TallDeadGrassBlock;
+import net.unusual.blockfactorysbiomes.block.StrippedCoconutWoodBlock;
+import net.unusual.blockfactorysbiomes.block.StrippedCoconutLogBlock;
 import net.unusual.blockfactorysbiomes.block.StarfishBlock;
 import net.unusual.blockfactorysbiomes.block.RoundShellBlock;
 import net.unusual.blockfactorysbiomes.block.PinkLionPawSeashelBlock;
@@ -74,6 +76,8 @@ public class BfBiomesModBlocks {
 	public static final RegistryObject<Block> DEAD_GRASS = REGISTRY.register("dead_grass", () -> new DeadGrassBlock());
 	public static final RegistryObject<Block> TALL_DEAD_GRASS = REGISTRY.register("tall_dead_grass", () -> new TallDeadGrassBlock());
 	public static final RegistryObject<Block> COCONUT_SAPLING = REGISTRY.register("coconut_sapling", () -> new CoconutSaplingBlock());
+	public static final RegistryObject<Block> STRIPPED_COCONUT_WOOD = REGISTRY.register("stripped_coconut_wood", () -> new StrippedCoconutWoodBlock());
+	public static final RegistryObject<Block> STRIPPED_COCONUT_LOG = REGISTRY.register("stripped_coconut_log", () -> new StrippedCoconutLogBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

@@ -2,21 +2,20 @@
   "_fv": 60,
   "_type": "block",
   "definition": {
-    "texture": "coconut_planks",
-    "textureTop": "coconut_planks",
+    "texture": "stripped_coconut_log",
+    "textureTop": "",
     "textureLeft": "",
-    "textureFront": "coconut_planks",
+    "textureFront": "",
     "textureRight": "",
     "textureBack": "",
-    "renderType": 10,
-    "customModelName": "Normal",
-    "rotationMode": 0,
+    "renderType": 11,
+    "customModelName": "Single texture",
+    "rotationMode": 5,
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "",
     "particleTexture": "",
-    "blockBase": "Stairs",
     "tintType": "No tint",
     "isItemTinted": false,
     "hasTransparency": false,
@@ -34,11 +33,11 @@
         "subtract": false
       }
     ],
-    "name": "Coconut Stairs",
+    "name": "Stripped Coconut Wood",
     "specialInformation": {
       "fixedValue": []
     },
-    "hardness": 3.0,
+    "hardness": 2.0,
     "resistance": 2.0,
     "hasGravity": false,
     "isWaterloggable": false,
@@ -55,7 +54,7 @@
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canRedstoneConnect": false,
-    "lightOpacity": 0,
+    "lightOpacity": 15,
     "material": {
       "value": "WOOD"
     },

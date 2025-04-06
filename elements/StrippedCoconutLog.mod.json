@@ -2,21 +2,20 @@
   "_fv": 60,
   "_type": "block",
   "definition": {
-    "texture": "coconut_planks",
-    "textureTop": "coconut_planks",
-    "textureLeft": "",
-    "textureFront": "coconut_planks",
-    "textureRight": "",
-    "textureBack": "",
+    "texture": "stripped_coconut_log_top",
+    "textureTop": "stripped_coconut_log_top",
+    "textureLeft": "stripped_coconut_log",
+    "textureFront": "stripped_coconut_log",
+    "textureRight": "stripped_coconut_log",
+    "textureBack": "stripped_coconut_log",
     "renderType": 10,
     "customModelName": "Normal",
-    "rotationMode": 0,
+    "rotationMode": 5,
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "",
     "particleTexture": "",
-    "blockBase": "Stairs",
     "tintType": "No tint",
     "isItemTinted": false,
     "hasTransparency": false,
@@ -34,11 +33,11 @@
         "subtract": false
       }
     ],
-    "name": "Coconut Stairs",
+    "name": "Coconut Log",
     "specialInformation": {
       "fixedValue": []
     },
-    "hardness": 3.0,
+    "hardness": 2.0,
     "resistance": 2.0,
     "hasGravity": false,
     "isWaterloggable": false,
@@ -55,7 +54,7 @@
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canRedstoneConnect": false,
-    "lightOpacity": 0,
+    "lightOpacity": 15,
     "material": {
       "value": "WOOD"
     },

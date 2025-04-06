@@ -28,6 +28,8 @@ public class BfBiomesModTabs {
 				tabData.accept(BfBiomesModBlocks.TALL_DRIED_GRASS.get().asItem());
 				tabData.accept(BfBiomesModBlocks.COCONUT_WOOD.get().asItem());
 				tabData.accept(BfBiomesModBlocks.COCONUT_LOG.get().asItem());
+				tabData.accept(BfBiomesModBlocks.STRIPPED_COCONUT_WOOD.get().asItem());
+				tabData.accept(BfBiomesModBlocks.STRIPPED_COCONUT_LOG.get().asItem());
 				tabData.accept(BfBiomesModBlocks.COCONUT_TRUNK.get().asItem());
 				tabData.accept(BfBiomesModBlocks.FALLEN_COCONUT_LOG.get().asItem());
 				tabData.accept(BfBiomesModBlocks.FALLEN_OVERGROWN_COCONUT_LOG.get().asItem());
@@ -52,6 +54,8 @@ public class BfBiomesModTabs {
 				tabData.accept(BfBiomesModBlocks.STARFISH.get().asItem());
 				tabData.accept(BfBiomesModItems.CRAB_SPAWN_EGG.get());
 				tabData.accept(BfBiomesModItems.FIREFLY_SPAWN_EGG.get());
+				tabData.accept(BfBiomesModItems.RAW_CRAB_MEAT.get());
+				tabData.accept(BfBiomesModItems.COOKED_CRAB_MEAT.get());
 			})
 
 					.build());
