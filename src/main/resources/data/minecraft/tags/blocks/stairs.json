@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "bf_biomes:baobab_stairs",
     "bf_biomes:maple_stairs",
     "bf_biomes:coconut_stairs"
   ]

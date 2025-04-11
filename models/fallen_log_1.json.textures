@@ -2,7 +2,7 @@
   "mappings": {
     "default": {
       "map": {
-        "1": "coconut_log_pile"
+        "1": "fallen_overgrown_maple_log"
       },
       "name": "default"
     },
@@ -11,6 +11,30 @@
         "1": "fallen_overgrown_coconut_log"
       },
       "name": "overgrown"
+    },
+    "maple": {
+      "map": {
+        "1": "fallen_maple_log"
+      },
+      "name": "maple"
+    },
+    "maple_overgrown": {
+      "map": {
+        "1": "fallen_overgrown_maple_log"
+      },
+      "name": "maple_overgrown"
+    },
+    "baobab": {
+      "map": {
+        "1": "fallen_baobab_log"
+      },
+      "name": "baobab"
+    },
+    "baobab_overgrown": {
+      "map": {
+        "1": "fallen_overgrown_baobab_log"
+      },
+      "name": "baobab_overgrown"
     }
   }
 }

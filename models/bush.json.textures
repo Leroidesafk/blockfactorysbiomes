@@ -5,6 +5,18 @@
         "0": "coconut_bush"
       },
       "name": "default"
+    },
+    "maple_bush": {
+      "map": {
+        "0": "maple_bush"
+      },
+      "name": "maple_bush"
+    },
+    "baobab_bush": {
+      "map": {
+        "0": "baobab_bush"
+      },
+      "name": "baobab_bush"
     }
   }
 }

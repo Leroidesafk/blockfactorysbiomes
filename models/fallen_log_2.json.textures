@@ -11,6 +11,30 @@
         "missing": "fallen_overgrown_coconut_log"
       },
       "name": "overgrown"
+    },
+    "maple": {
+      "map": {
+        "missing": "fallen_maple_log"
+      },
+      "name": "maple"
+    },
+    "maple_overgrown": {
+      "map": {
+        "missing": "fallen_overgrown_maple_log"
+      },
+      "name": "maple_overgrown"
+    },
+    "baobab": {
+      "map": {
+        "missing": "fallen_baobab_log"
+      },
+      "name": "baobab"
+    },
+    "baobab_overgrown": {
+      "map": {
+        "missing": "fallen_overgrown_baobab_log"
+      },
+      "name": "baobab_overgrown"
     }
   }
 }

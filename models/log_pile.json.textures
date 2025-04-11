@@ -5,6 +5,18 @@
         "missing": "coconut_log_pile"
       },
       "name": "default"
+    },
+    "maple": {
+      "map": {
+        "missing": "maple_log_pile"
+      },
+      "name": "maple"
+    },
+    "baobab": {
+      "map": {
+        "missing": "fallen_baobab_log"
+      },
+      "name": "baobab"
     }
   }
 }

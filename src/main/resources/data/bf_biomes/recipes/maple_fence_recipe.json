@@ -8,14 +8,14 @@
   ],
   "key": {
     "a": {
-      "item": "bf_biomes:deleted_mod_element"
+      "item": "bf_biomes:maple_planks"
     },
     "b": {
       "item": "minecraft:stick"
     }
   },
   "result": {
-    "item": "bf_biomes:deleted_mod_element",
+    "item": "bf_biomes:maple_fence",
     "count": 3
   }
 }

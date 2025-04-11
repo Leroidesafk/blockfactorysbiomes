@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "bf_biomes:block/baobab_pressure_plate"
+    },
+    "powered=true": {
+      "model": "bf_biomes:block/baobab_pressure_plate_down"
+    }
+  }
+}

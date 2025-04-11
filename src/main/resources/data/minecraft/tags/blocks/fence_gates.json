@@ -2,6 +2,7 @@
   "replace": false,
   "values": [
     "bf_biomes:coconut_fence_gate",
-    "bf_biomes:maple_fence_gate"
+    "bf_biomes:maple_fence_gate",
+    "bf_biomes:baobab_fence_gate"
   ]
 }

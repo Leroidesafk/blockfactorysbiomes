@@ -1,0 +1,7 @@
+{
+  "parent": "block/button_pressed",
+  "textures": {
+    "texture": "bf_biomes:block/baobab_planks"
+  },
+  "render_type": "solid"
+}

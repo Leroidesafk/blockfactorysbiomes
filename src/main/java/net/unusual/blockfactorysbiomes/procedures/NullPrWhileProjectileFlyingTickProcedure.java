@@ -1,6 +1,6 @@
 package net.unusual.blockfactorysbiomes.procedures;
 
-import net.minecraftforge.eventbus.api.Event;
+import net.minecraft.world.entity.Entity;
 
 public class NullPrWhileProjectileFlyingTickProcedure {
 	public static void execute(Entity immediatesourceentity) {

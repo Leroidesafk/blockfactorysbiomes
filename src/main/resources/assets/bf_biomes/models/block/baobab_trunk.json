@@ -1,0 +1,9 @@
+{
+  "parent": "bf_biomes:custom/trunk",
+  "textures": {
+    "all": "bf_biomes:block/baobab_log_top",
+    "particle": "bf_biomes:block/baobab_log_top",
+    "0": "bf_biomes:block/baobab_trunk"
+  },
+  "render_type": "cutout_mipped"
+}

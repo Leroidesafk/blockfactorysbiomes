@@ -1,0 +1,9 @@
+{
+  "parent": "bf_biomes:custom/bush",
+  "textures": {
+    "all": "bf_biomes:block/baobab_leaves",
+    "particle": "bf_biomes:block/baobab_leaves",
+    "0": "bf_biomes:block/baobab_bush"
+  },
+  "render_type": "cutout_mipped"
+}

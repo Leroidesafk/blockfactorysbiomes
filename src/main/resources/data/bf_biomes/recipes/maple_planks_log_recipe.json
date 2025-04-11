@@ -4,11 +4,11 @@
   "category": "building",
   "ingredients": [
     {
-      "item": "bf_biomes:deleted_mod_element"
+      "item": "bf_biomes:maple_log"
     }
   ],
   "result": {
-    "item": "bf_biomes:deleted_mod_element",
+    "item": "bf_biomes:maple_planks",
     "count": 4
   }
 }

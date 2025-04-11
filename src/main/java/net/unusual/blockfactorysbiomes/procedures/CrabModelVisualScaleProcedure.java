@@ -1,6 +1,7 @@
 package net.unusual.blockfactorysbiomes.procedures;
 
-import net.minecraftforge.eventbus.api.Event;
+import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.Entity;
 
 public class CrabModelVisualScaleProcedure {
 	public static double execute(Entity entity) {

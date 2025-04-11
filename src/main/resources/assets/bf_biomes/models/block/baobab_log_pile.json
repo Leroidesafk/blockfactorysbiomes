@@ -1,0 +1,9 @@
+{
+  "parent": "bf_biomes:custom/log_pile",
+  "textures": {
+    "all": "bf_biomes:block/baobab_log",
+    "particle": "bf_biomes:block/baobab_log",
+    "missing": "bf_biomes:block/fallen_baobab_log"
+  },
+  "render_type": "cutout_mipped"
+}

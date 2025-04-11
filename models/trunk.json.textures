@@ -23,6 +23,18 @@
         "0": "mossy_maple_trunk"
       },
       "name": "mossy_maple_trunk"
+    },
+    "baobab_trunk": {
+      "map": {
+        "0": "baobab_trunk"
+      },
+      "name": "baobab_trunk"
+    },
+    "mossy_baobab_trunk": {
+      "map": {
+        "0": "mossy_baobab_trunk"
+      },
+      "name": "mossy_baobab_trunk"
     }
   }
 }

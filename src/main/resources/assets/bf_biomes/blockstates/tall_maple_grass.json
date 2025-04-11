@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=upper": {
+      "model": "bf_biomes:block/tall_maple_grass"
+    },
+    "half=lower": {
+      "model": "bf_biomes:block/tall_maple_grass_bottom"
+    }
+  }
+}

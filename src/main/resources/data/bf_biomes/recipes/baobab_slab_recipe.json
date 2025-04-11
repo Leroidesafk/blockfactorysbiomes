@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_slab",
+  "category": "building",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "bf_biomes:baobab_planks"
+    }
+  },
+  "result": {
+    "item": "bf_biomes:baobab_slab",
+    "count": 6
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "bf_biomes:block/maple_log_top",
+    "up": "bf_biomes:block/maple_log_top",
+    "north": "bf_biomes:block/driping_maple_log",
+    "east": "bf_biomes:block/driping_maple_log",
+    "south": "bf_biomes:block/driping_maple_log",
+    "west": "bf_biomes:block/driping_maple_log",
+    "particle": "bf_biomes:block/maple_log_top"
+  },
+  "render_type": "solid"
+}

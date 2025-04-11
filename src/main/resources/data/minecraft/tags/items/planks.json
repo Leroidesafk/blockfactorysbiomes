@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
-    "bf_biomes:coconut_planks"
+    "bf_biomes:coconut_planks",
+    "bf_biomes:maple_planks",
+    "bf_biomes:baobab_planks"
   ]
 }

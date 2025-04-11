@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "bf_biomes:block/short_maple_grass",
+    "particle": "bf_biomes:block/short_maple_grass"
+  },
+  "render_type": "cutout"
+}

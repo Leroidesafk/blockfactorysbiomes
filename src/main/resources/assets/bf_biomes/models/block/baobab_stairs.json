@@ -1,0 +1,9 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "bf_biomes:block/baobab_planks",
+    "top": "bf_biomes:block/baobab_planks",
+    "side": "bf_biomes:block/baobab_planks"
+  },
+  "render_type": "solid"
+}
