@@ -1,0 +1,16 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "coconut_log_pile"
+      },
+      "name": "default"
+    },
+    "overgrown": {
+      "map": {
+        "1": "fallen_overgrown_coconut_log"
+      },
+      "name": "overgrown"
+    }
+  }
+}

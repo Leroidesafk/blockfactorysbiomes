@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "bf_biomes:hanging_coconut_leaves"
+    "bf_biomes:tall_dead_grass",
+    "bf_biomes:tall_dried_grass",
+    "bf_biomes:dried_grass",
+    "bf_biomes:dead_grass"
   ]
 }

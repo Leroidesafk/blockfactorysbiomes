@@ -45,7 +45,7 @@
     "creativeTab": {
       "value": "CUSTOM:BlockFactorysBiomesTab"
     },
-    "destroyTool": "Not specified",
+    "destroyTool": "axe",
     "customDrop": {
       "value": ""
     },

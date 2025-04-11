@@ -4,7 +4,6 @@ package net.unusual.blockfactorysbiomes.item;
 import net.unusual.blockfactorysbiomes.entity.CoconutProjectileEntity;
 
 import net.minecraft.world.level.Level;
-import net.minecraft.world.item.UseAnim;
 import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.ProjectileWeaponItem;
 import net.minecraft.world.item.ItemStack;
@@ -19,11 +18,6 @@ import net.minecraft.server.level.ServerPlayer;
 public class CoconutItemItem extends Item {
 	public CoconutItemItem() {
 		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON));
-	}
-
-	@Override
-	public UseAnim getUseAnimation(ItemStack itemstack) {
-		return UseAnim.BOW;
 	}
 
 	@Override
@@ -42,7 +36,7 @@ public class CoconutItemItem extends Item {
 	}
 
 	@Override
-	public void releaseUsing(ItemStack itemstack, Level world, LivingEntity entity, int time) {
+	public void onUseTick(Level world, LivingEntity entity, ItemStack itemstack, int count) {
 		if (!world.isClientSide() && entity instanceof ServerPlayer player) {
 			ItemStack stack = findAmmo(player);
 			if (player.getAbilities().instabuild || stack != ItemStack.EMPTY) {
@@ -64,6 +58,7 @@ public class CoconutItemItem extends Item {
 					}
 				}
 			}
+			entity.releaseUsingItem();
 		}
 	}
 

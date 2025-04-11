@@ -2,6 +2,12 @@
   "replace": false,
   "values": [
     "bf_biomes:coconut_wood",
-    "bf_biomes:coconut_log"
+    "bf_biomes:coconut_log",
+    "bf_biomes:stripped_coconut_wood",
+    "bf_biomes:stripped_coconut_log",
+    "bf_biomes:maple_wood",
+    "bf_biomes:maple_log",
+    "bf_biomes:stripped_maple_wood",
+    "bf_biomes:stripped_maple_log"
   ]
 }

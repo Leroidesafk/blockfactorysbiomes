@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "bf_biomes:block/maple_planks",
+    "top": "bf_biomes:block/maple_planks",
+    "side": "bf_biomes:block/maple_planks"
+  },
+  "render_type": "solid"
+}

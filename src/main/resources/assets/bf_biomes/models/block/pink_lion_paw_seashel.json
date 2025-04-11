@@ -1,0 +1,9 @@
+{
+  "parent": "bf_biomes:custom/lion_paw_seashell",
+  "textures": {
+    "all": "bf_biomes:block/pink_lion_paw_seashell",
+    "particle": "bf_biomes:block/pink_lion_paw_seashell",
+    "1": "bf_biomes:block/pink_lion_paw_seashell"
+  },
+  "render_type": "cutout_mipped"
+}

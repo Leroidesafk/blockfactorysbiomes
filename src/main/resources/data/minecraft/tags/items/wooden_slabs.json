@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "bf_biomes:coconut_slab"
+    "bf_biomes:coconut_slab",
+    "bf_biomes:maple_slab"
   ]
 }

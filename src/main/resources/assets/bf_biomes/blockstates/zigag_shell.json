@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "bf_biomes:block/zigag_shell"
+    },
+    "facing=east": {
+      "model": "bf_biomes:block/zigag_shell",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "bf_biomes:block/zigag_shell",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "bf_biomes:block/zigag_shell",
+      "y": 270
+    }
+  }
+}

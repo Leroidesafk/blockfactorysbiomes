@@ -1,0 +1,35 @@
+{
+  "_fv": 60,
+  "_type": "blockstates",
+  "definition": {
+    "block": "FallenCoconutLog",
+    "blockstateList": [
+      {
+        "texture": "coconut_log",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "coconut_log",
+        "renderType": 2,
+        "customModelName": "fallen_log_1:default",
+        "luminance": 0,
+        "boundingBoxes": []
+      },
+      {
+        "texture": "coconut_log",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "coconut_log",
+        "renderType": 2,
+        "customModelName": "fallen_log_2:default",
+        "luminance": 0,
+        "boundingBoxes": []
+      }
+    ]
+  }
+}

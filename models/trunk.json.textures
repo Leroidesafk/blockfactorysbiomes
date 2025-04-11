@@ -11,6 +11,18 @@
         "0": "mossy_coconut_trunk"
       },
       "name": "mossy_coconut_trunk"
+    },
+    "maple_trunk": {
+      "map": {
+        "0": "maple_trunk"
+      },
+      "name": "maple_trunk"
+    },
+    "mossy_maple_trunk": {
+      "map": {
+        "0": "mossy_maple_trunk"
+      },
+      "name": "mossy_maple_trunk"
     }
   }
 }

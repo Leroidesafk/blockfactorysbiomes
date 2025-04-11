@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#minecraft:is_beach",
+  "features": "bf_biomes:shell_placement",
+  "step": "vegetal_decoration"
+}

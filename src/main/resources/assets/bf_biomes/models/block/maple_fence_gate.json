@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_fence_gate",
+  "textures": {
+    "texture": "bf_biomes:block/maple_planks"
+  },
+  "render_type": "solid"
+}

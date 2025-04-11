@@ -70,13 +70,13 @@ public class CoconutProjectileEntity extends AbstractArrow implements ItemSuppli
 	@Override
 	public void onHitEntity(EntityHitResult entityHitResult) {
 		super.onHitEntity(entityHitResult);
-		CoconutItemProjectileHitProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ());
+		CoconutItemProjectileHitProcedure.execute(this.level(), this);
 	}
 
 	@Override
 	public void onHitBlock(BlockHitResult blockHitResult) {
 		super.onHitBlock(blockHitResult);
-		CoconutItemProjectileHitProcedure.execute(this.level(), blockHitResult.getBlockPos().getX(), blockHitResult.getBlockPos().getY(), blockHitResult.getBlockPos().getZ());
+		CoconutItemProjectileHitProcedure.execute(this.level(), this);
 	}
 
 	@Override
@@ -87,7 +87,7 @@ public class CoconutProjectileEntity extends AbstractArrow implements ItemSuppli
 	}
 
 	public static CoconutProjectileEntity shoot(Level world, LivingEntity entity, RandomSource source) {
-		return shoot(world, entity, source, 1f, 1, 1);
+		return shoot(world, entity, source, 0.6f, 1, 1);
 	}
 
 	public static CoconutProjectileEntity shoot(Level world, LivingEntity entity, RandomSource random, float power, double damage, int knockback) {
@@ -107,7 +107,7 @@ public class CoconutProjectileEntity extends AbstractArrow implements ItemSuppli
 		double dx = target.getX() - entity.getX();
 		double dy = target.getY() + target.getEyeHeight() - 1.1;
 		double dz = target.getZ() - entity.getZ();
-		entityarrow.shoot(dx, dy - entityarrow.getY() + Math.hypot(dx, dz) * 0.2F, dz, 1f * 2, 12.0F);
+		entityarrow.shoot(dx, dy - entityarrow.getY() + Math.hypot(dx, dz) * 0.2F, dz, 0.6f * 2, 12.0F);
 		entityarrow.setSilent(true);
 		entityarrow.setBaseDamage(1);
 		entityarrow.setKnockback(1);

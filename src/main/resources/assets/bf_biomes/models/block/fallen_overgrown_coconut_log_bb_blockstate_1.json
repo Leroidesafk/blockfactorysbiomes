@@ -1,0 +1,9 @@
+{
+  "parent": "bf_biomes:custom/fallen_log_2",
+  "textures": {
+    "all": "bf_biomes:block/coconut_log",
+    "particle": "bf_biomes:block/coconut_log",
+    "missing": "bf_biomes:block/fallen_overgrown_coconut_log"
+  },
+  "render_type": "cutout_mipped"
+}

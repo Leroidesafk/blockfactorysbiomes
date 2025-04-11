@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=upper": {
+      "model": "bf_biomes:block/tall_dried_grass"
+    },
+    "half=lower": {
+      "model": "bf_biomes:block/tall_dried_grass_bottom"
+    }
+  }
+}

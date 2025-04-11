@@ -4,6 +4,7 @@
  */
 package net.unusual.blockfactorysbiomes.init;
 
+import net.unusual.blockfactorysbiomes.client.renderer.FireflyRenderer;
 import net.unusual.blockfactorysbiomes.client.renderer.CrabRenderer;
 
 import net.minecraftforge.fml.common.Mod;
@@ -20,5 +21,6 @@ public class BfBiomesModEntityRenderers {
 		event.registerEntityRenderer(BfBiomesModEntities.NULL_PR.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(BfBiomesModEntities.CRAB.get(), CrabRenderer::new);
 		event.registerEntityRenderer(BfBiomesModEntities.COCONUT_PROJECTILE.get(), ThrownItemRenderer::new);
+		event.registerEntityRenderer(BfBiomesModEntities.FIREFLY.get(), FireflyRenderer::new);
 	}
 }

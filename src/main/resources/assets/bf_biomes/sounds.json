@@ -60,5 +60,30 @@
         "stream": false
       }
     ]
+  },
+  "firefly_flying": {
+    "subtitle": "subtitles.firefly_flying",
+    "sounds": [
+      {
+        "name": "bf_biomes:firefly_flying_1",
+        "stream": false
+      },
+      {
+        "name": "bf_biomes:firefly_flying_2",
+        "stream": false
+      },
+      {
+        "name": "bf_biomes:firefly_flying_3",
+        "stream": false
+      },
+      {
+        "name": "bf_biomes:firefly_flying_4",
+        "stream": false
+      },
+      {
+        "name": "bf_biomes:firefly_flying_5",
+        "stream": false
+      }
+    ]
   }
 }

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "bf_biomes:blocks/blue_lion_paw_seashell",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "bf_biomes:blue_lion_paw_seashell"
+        }
+      ]
+    }
+  ]
+}

@@ -12,14 +12,13 @@ import net.minecraftforge.common.crafting.CompoundIngredient;
 
 import net.minecraft.world.level.levelgen.Heightmap;
 import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.monster.RangedAttackMob;
 import net.minecraft.world.entity.animal.Animal;
-import net.minecraft.world.entity.ai.goal.target.NearestAttackableTargetGoal;
 import net.minecraft.world.entity.ai.goal.target.HurtByTargetGoal;
 import net.minecraft.world.entity.ai.goal.RangedAttackGoal;
 import net.minecraft.world.entity.ai.goal.RandomStrollGoal;
@@ -54,12 +53,18 @@ import net.minecraft.network.protocol.Packet;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.core.BlockPos;
 
+import javax.annotation.Nullable;
+
 public class CrabEntity extends Animal implements RangedAttackMob {
+	public final AnimationState danceAnimationState = new AnimationState();
 	public final AnimationState idleAnimationState = new AnimationState();
 	public final AnimationState attackAnimationState = new AnimationState();
 	public static final EntityDataAccessor<Integer> DATA_attack_cooldown = SynchedEntityData.defineId(CrabEntity.class, EntityDataSerializers.INT);
 	public static final EntityDataAccessor<Integer> DATA_attack_animtime = SynchedEntityData.defineId(CrabEntity.class, EntityDataSerializers.INT);
 	public static final EntityDataAccessor<Boolean> DATA_attack_side = SynchedEntityData.defineId(CrabEntity.class, EntityDataSerializers.BOOLEAN);
+	public static final EntityDataAccessor<Boolean> DATA_is_dancing = SynchedEntityData.defineId(CrabEntity.class, EntityDataSerializers.BOOLEAN);
+	@Nullable
+	private BlockPos jukebox;
 
 	public CrabEntity(PlayMessages.SpawnEntity packet, Level world) {
 		this(BfBiomesModEntities.CRAB.get(), world);
@@ -83,22 +88,22 @@ public class CrabEntity extends Animal implements RangedAttackMob {
 		this.entityData.define(DATA_attack_cooldown, 20);
 		this.entityData.define(DATA_attack_animtime, 0);
 		this.entityData.define(DATA_attack_side, false);
+		this.entityData.define(DATA_is_dancing, false);
 	}
 
 	@Override
 	protected void registerGoals() {
 		super.registerGoals();
-		this.goalSelector.addGoal(1, new MeleeAttackGoal(this, 0.7, false) {
+		this.goalSelector.addGoal(1, new MeleeAttackGoal(this, 0.9, false) {
 			@Override
 			protected double getAttackReachSqr(LivingEntity entity) {
 				return this.mob.getBbWidth() * this.mob.getBbWidth() + entity.getBbWidth();
 			}
 		});
-		this.goalSelector.addGoal(2, new RandomStrollGoal(this, 0.6));
-		this.goalSelector.addGoal(3, new BreedGoal(this, 0.7));
+		this.goalSelector.addGoal(2, new RandomStrollGoal(this, 0.8));
+		this.goalSelector.addGoal(3, new BreedGoal(this, 0.9));
 		this.goalSelector.addGoal(4, new RandomLookAroundGoal(this));
-		this.targetSelector.addGoal(5, new NearestAttackableTargetGoal(this, Player.class, false, false));
-		this.targetSelector.addGoal(6, new HurtByTargetGoal(this));
+		this.targetSelector.addGoal(5, new HurtByTargetGoal(this));
 		this.goalSelector.addGoal(1, new RangedAttackGoal(this, 1.25, 20, 1f) {
 			@Override
 			public boolean canContinueToUse() {
@@ -107,11 +112,25 @@ public class CrabEntity extends Animal implements RangedAttackMob {
 		});
 	}
 
+	public void aiStep() {
+		if (this.jukebox == null || !this.jukebox.closerToCenterThan(this.position(), 3.46D) || !this.level().getBlockState(this.jukebox).is(Blocks.JUKEBOX)) {
+			this.getEntityData().set(this.DATA_is_dancing, false);
+			this.jukebox = null;
+		}
+		super.aiStep();
+	}
+
+	public void setRecordPlayingNearby(BlockPos p_29395_, boolean p_29396_) {
+		this.jukebox = p_29395_;
+		this.getEntityData().set(this.DATA_is_dancing, p_29396_);
+	}
+
 	@Override
 	public void tick() {
 		if (level().isClientSide) {
 			this.idleAnimationState.animateWhen((true), this.tickCount);
 			this.attackAnimationState.animateWhen((this.getEntityData().get(this.DATA_attack_animtime) > 0), this.tickCount);
+			this.danceAnimationState.animateWhen((this.getEntityData().get(this.DATA_is_dancing)), this.tickCount);
 		}
 		super.tick();
 	}
@@ -149,6 +168,7 @@ public class CrabEntity extends Animal implements RangedAttackMob {
 		compound.putInt("Dataattack_cooldown", this.entityData.get(DATA_attack_cooldown));
 		compound.putInt("Dataattack_animtime", this.entityData.get(DATA_attack_animtime));
 		compound.putBoolean("Dataattack_side", this.entityData.get(DATA_attack_side));
+		compound.putBoolean("Datais_dancing", this.entityData.get(DATA_is_dancing));
 	}
 
 	@Override
@@ -160,6 +180,8 @@ public class CrabEntity extends Animal implements RangedAttackMob {
 			this.entityData.set(DATA_attack_animtime, compound.getInt("Dataattack_animtime"));
 		if (compound.contains("Dataattack_side"))
 			this.entityData.set(DATA_attack_side, compound.getBoolean("Dataattack_side"));
+		if (compound.contains("Datais_dancing"))
+			this.entityData.set(DATA_is_dancing, compound.getBoolean("Datais_dancing"));
 	}
 
 	@Override
