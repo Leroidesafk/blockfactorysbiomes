@@ -1,11 +1,11 @@
 {
   "replace": false,
   "values": [
-    "bf_biomes:starfish",
     "bf_biomes:pink_lion_paw_seashel",
+    "bf_biomes:starfish",
     "bf_biomes:blue_lion_paw_seashell",
-    "bf_biomes:zigag_shell",
     "bf_biomes:round_shell",
-    "bf_biomes:long_shell"
+    "bf_biomes:long_shell",
+    "bf_biomes:zigag_shell"
   ]
 }

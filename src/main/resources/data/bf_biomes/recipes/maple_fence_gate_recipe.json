@@ -11,11 +11,11 @@
       "item": "minecraft:stick"
     },
     "b": {
-      "item": "bf_biomes:maple_planks"
+      "item": "bf_biomes:deleted_mod_element"
     }
   },
   "result": {
-    "item": "bf_biomes:maple_fence_gate",
+    "item": "bf_biomes:deleted_mod_element",
     "count": 1
   }
 }

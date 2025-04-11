@@ -4,11 +4,11 @@
   "category": "redstone",
   "ingredients": [
     {
-      "item": "bf_biomes:maple_planks"
+      "item": "bf_biomes:deleted_mod_element"
     }
   ],
   "result": {
-    "item": "bf_biomes:maple_button",
+    "item": "bf_biomes:deleted_mod_element",
     "count": 1
   }
 }

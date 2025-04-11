@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "bf_biomes:coconut_fence",
-    "bf_biomes:maple_fence"
+    "bf_biomes:maple_fence",
+    "bf_biomes:coconut_fence"
   ]
 }

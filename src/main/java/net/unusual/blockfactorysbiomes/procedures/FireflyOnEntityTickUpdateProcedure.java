@@ -1,7 +1,6 @@
 package net.unusual.blockfactorysbiomes.procedures;
 
-import net.minecraft.world.phys.Vec3;
-import net.minecraft.world.entity.Entity;
+import net.minecraftforge.eventbus.api.Event;
 
 public class FireflyOnEntityTickUpdateProcedure {
 	public static void execute(Entity entity) {
