@@ -8,12 +8,17 @@ import net.unusual.blockfactorysbiomes.BfBiomesMod;
 
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.network.chat.Component;
 import net.minecraft.core.registries.Registries;
 
+@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class BfBiomesModTabs {
 	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, BfBiomesMod.MODID);
 	public static final RegistryObject<CreativeModeTab> BLOCK_FACTORYS_BIOMES_TAB = REGISTRY.register("block_factorys_biomes_tab",
@@ -33,6 +38,7 @@ public class BfBiomesModTabs {
 				tabData.accept(BfBiomesModBlocks.COCONUT_TRUNK.get().asItem());
 				tabData.accept(BfBiomesModBlocks.FALLEN_COCONUT_LOG.get().asItem());
 				tabData.accept(BfBiomesModBlocks.FALLEN_OVERGROWN_COCONUT_LOG.get().asItem());
+				tabData.accept(BfBiomesModBlocks.COCONUT_LOG_PILE.get().asItem());
 				tabData.accept(BfBiomesModBlocks.COCONUT_LEAVES.get().asItem());
 				tabData.accept(BfBiomesModBlocks.BUSHY_COCONUT_LEAVES.get().asItem());
 				tabData.accept(BfBiomesModBlocks.HANGING_COCONUT_LEAVES.get().asItem());
@@ -44,6 +50,7 @@ public class BfBiomesModTabs {
 				tabData.accept(BfBiomesModBlocks.COCONUT_FENCE_GATE.get().asItem());
 				tabData.accept(BfBiomesModBlocks.COCONUT_PRESSURE_PLATE.get().asItem());
 				tabData.accept(BfBiomesModBlocks.COCONUT_BUTTON.get().asItem());
+				tabData.accept(BfBiomesModBlocks.COCONUT_TRAPDOOR.get().asItem());
 				tabData.accept(BfBiomesModBlocks.COCONUT_DOOR.get().asItem());
 				tabData.accept(BfBiomesModBlocks.LONG_SHELL.get().asItem());
 				tabData.accept(BfBiomesModBlocks.ROUND_SHELL.get().asItem());
@@ -55,11 +62,21 @@ public class BfBiomesModTabs {
 				tabData.accept(BfBiomesModItems.FIREFLY_SPAWN_EGG.get());
 				tabData.accept(BfBiomesModItems.RAW_CRAB_MEAT.get());
 				tabData.accept(BfBiomesModItems.COOKED_CRAB_MEAT.get());
+				tabData.accept(BfBiomesModBlocks.MAPLE_SAPLING.get().asItem());
+				tabData.accept(BfBiomesModBlocks.MAPLE_GRASS.get().asItem());
+				tabData.accept(BfBiomesModBlocks.TALL_MAPLE_GRASS.get().asItem());
 				tabData.accept(BfBiomesModBlocks.MAPLE_TRUNK.get().asItem());
+				tabData.accept(BfBiomesModBlocks.DRIPING_MAPLE_LOG.get().asItem());
 				tabData.accept(BfBiomesModBlocks.MAPLE_WOOD.get().asItem());
 				tabData.accept(BfBiomesModBlocks.MAPLE_LOG.get().asItem());
 				tabData.accept(BfBiomesModBlocks.STRIPPED_MAPLE_WOOD.get().asItem());
 				tabData.accept(BfBiomesModBlocks.STRIPPED_MAPLE_LOG.get().asItem());
+				tabData.accept(BfBiomesModBlocks.FALLEN_MAPLE_LOG.get().asItem());
+				tabData.accept(BfBiomesModBlocks.FALLEN_OVERGROWN_MAPLE_LOG.get().asItem());
+				tabData.accept(BfBiomesModBlocks.MAPLE_LOG_PILE.get().asItem());
+				tabData.accept(BfBiomesModBlocks.MAPLE_LEAVES.get().asItem());
+				tabData.accept(BfBiomesModBlocks.BUSHY_MAPLE_LEAVES.get().asItem());
+				tabData.accept(BfBiomesModBlocks.MAPLE_BUSH.get().asItem());
 				tabData.accept(BfBiomesModBlocks.MAPLE_PLANKS.get().asItem());
 				tabData.accept(BfBiomesModBlocks.MAPLE_STAIRS.get().asItem());
 				tabData.accept(BfBiomesModBlocks.MAPLE_SLAB.get().asItem());
@@ -68,21 +85,19 @@ public class BfBiomesModTabs {
 				tabData.accept(BfBiomesModBlocks.MAPLE_PRESSURE_PLATE.get().asItem());
 				tabData.accept(BfBiomesModBlocks.MAPLE_BUTTON.get().asItem());
 				tabData.accept(BfBiomesModBlocks.MAPLE_DOOR.get().asItem());
-				tabData.accept(BfBiomesModBlocks.COCONUT_TRAPDOOR.get().asItem());
 				tabData.accept(BfBiomesModBlocks.MAPLE_TRAPDOOR.get().asItem());
-				tabData.accept(BfBiomesModBlocks.MAPLE_GRASS.get().asItem());
-				tabData.accept(BfBiomesModBlocks.TALL_MAPLE_GRASS.get().asItem());
-				tabData.accept(BfBiomesModBlocks.MAPLE_BUSH.get().asItem());
-				tabData.accept(BfBiomesModBlocks.MAPLE_SAPLING.get().asItem());
-				tabData.accept(BfBiomesModBlocks.FALLEN_MAPLE_LOG.get().asItem());
-				tabData.accept(BfBiomesModBlocks.FALLEN_OVERGROWN_MAPLE_LOG.get().asItem());
-				tabData.accept(BfBiomesModBlocks.MAPLE_LOG_PILE.get().asItem());
-				tabData.accept(BfBiomesModBlocks.COCONUT_LOG_PILE.get().asItem());
+				tabData.accept(BfBiomesModBlocks.BAOBAB_SAPLING.get().asItem());
 				tabData.accept(BfBiomesModBlocks.BAOBAB_TRUNK.get().asItem());
 				tabData.accept(BfBiomesModBlocks.BAOBAB_WOOD.get().asItem());
 				tabData.accept(BfBiomesModBlocks.BAOBAB_LOG.get().asItem());
 				tabData.accept(BfBiomesModBlocks.STRIPPED_BAOBAB_WOOD.get().asItem());
 				tabData.accept(BfBiomesModBlocks.STRIPPED_BAOBAB_LOG.get().asItem());
+				tabData.accept(BfBiomesModBlocks.FALLEN_BAOBAB_LOG.get().asItem());
+				tabData.accept(BfBiomesModBlocks.FALLEN_OVERGROWN_BAOBAB_LOG.get().asItem());
+				tabData.accept(BfBiomesModBlocks.BAOBAB_LOG_PILE.get().asItem());
+				tabData.accept(BfBiomesModBlocks.BAOBAB_LEAVES.get().asItem());
+				tabData.accept(BfBiomesModBlocks.BUSHY_BAOBAB_LEAVES.get().asItem());
+				tabData.accept(BfBiomesModBlocks.BAOBAB_BUSH.get().asItem());
 				tabData.accept(BfBiomesModBlocks.BAOBAB_PLANKS.get().asItem());
 				tabData.accept(BfBiomesModBlocks.BAOBAB_STAIRS.get().asItem());
 				tabData.accept(BfBiomesModBlocks.BAOBAB_SLAB.get().asItem());
@@ -90,15 +105,16 @@ public class BfBiomesModTabs {
 				tabData.accept(BfBiomesModBlocks.BAOBAB_FENCE_GATE.get().asItem());
 				tabData.accept(BfBiomesModBlocks.BAOBAB_PRESSURE_PLATE.get().asItem());
 				tabData.accept(BfBiomesModBlocks.BAOBAB_BUTTON.get().asItem());
-				tabData.accept(BfBiomesModBlocks.DRIPING_MAPLE_LOG.get().asItem());
 				tabData.accept(BfBiomesModBlocks.BAOBAB_DOOR.get().asItem());
 				tabData.accept(BfBiomesModBlocks.BAOBAB_TRAPDOOR.get().asItem());
-				tabData.accept(BfBiomesModBlocks.BAOBAB_BUSH.get().asItem());
-				tabData.accept(BfBiomesModBlocks.BAOBAB_SAPLING.get().asItem());
-				tabData.accept(BfBiomesModBlocks.FALLEN_BAOBAB_LOG.get().asItem());
-				tabData.accept(BfBiomesModBlocks.FALLEN_OVERGROWN_BAOBAB_LOG.get().asItem());
-				tabData.accept(BfBiomesModBlocks.BAOBAB_LOG_PILE.get().asItem());
 			})
 
 					.build());
+
+	@SubscribeEvent
+	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
+		if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
+			tabData.accept(BfBiomesModItems.SQUIRREL_SPAWN_EGG.get());
+		}
+	}
 }

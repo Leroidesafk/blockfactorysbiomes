@@ -4,6 +4,7 @@
  */
 package net.unusual.blockfactorysbiomes.init;
 
+import net.unusual.blockfactorysbiomes.entity.SquirrelEntity;
 import net.unusual.blockfactorysbiomes.entity.NullPrEntity;
 import net.unusual.blockfactorysbiomes.entity.FireflyEntity;
 import net.unusual.blockfactorysbiomes.entity.CrabEntity;
@@ -37,6 +38,10 @@ public class BfBiomesModEntities {
 			EntityType.Builder.<FireflyEntity>of(FireflyEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(FireflyEntity::new)
 
 					.sized(0.4f, 0.25f));
+	public static final RegistryObject<EntityType<SquirrelEntity>> SQUIRREL = register("squirrel",
+			EntityType.Builder.<SquirrelEntity>of(SquirrelEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(SquirrelEntity::new)
+
+					.sized(0.5f, 0.65f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -47,6 +52,7 @@ public class BfBiomesModEntities {
 		event.enqueueWork(() -> {
 			CrabEntity.init();
 			FireflyEntity.init();
+			SquirrelEntity.init();
 		});
 	}
 
@@ -54,5 +60,6 @@ public class BfBiomesModEntities {
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
 		event.put(CRAB.get(), CrabEntity.createAttributes().build());
 		event.put(FIREFLY.get(), FireflyEntity.createAttributes().build());
+		event.put(SQUIRREL.get(), SquirrelEntity.createAttributes().build());
 	}
 }

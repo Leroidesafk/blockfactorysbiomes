@@ -4,6 +4,7 @@
  */
 package net.unusual.blockfactorysbiomes.init;
 
+import net.unusual.blockfactorysbiomes.client.renderer.SquirrelRenderer;
 import net.unusual.blockfactorysbiomes.client.renderer.FireflyRenderer;
 import net.unusual.blockfactorysbiomes.client.renderer.CrabRenderer;
 
@@ -22,5 +23,6 @@ public class BfBiomesModEntityRenderers {
 		event.registerEntityRenderer(BfBiomesModEntities.CRAB.get(), CrabRenderer::new);
 		event.registerEntityRenderer(BfBiomesModEntities.COCONUT_PROJECTILE.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(BfBiomesModEntities.FIREFLY.get(), FireflyRenderer::new);
+		event.registerEntityRenderer(BfBiomesModEntities.SQUIRREL.get(), SquirrelRenderer::new);
 	}
 }

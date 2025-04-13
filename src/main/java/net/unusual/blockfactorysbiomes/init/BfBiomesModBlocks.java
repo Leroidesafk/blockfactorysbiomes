@@ -27,6 +27,7 @@ import net.unusual.blockfactorysbiomes.block.MaplePressurePlateBlock;
 import net.unusual.blockfactorysbiomes.block.MaplePlanksBlock;
 import net.unusual.blockfactorysbiomes.block.MapleLogPileBlock;
 import net.unusual.blockfactorysbiomes.block.MapleLogBlock;
+import net.unusual.blockfactorysbiomes.block.MapleLeavesBlock;
 import net.unusual.blockfactorysbiomes.block.MapleGrassBlock;
 import net.unusual.blockfactorysbiomes.block.MapleFenceGateBlock;
 import net.unusual.blockfactorysbiomes.block.MapleFenceBlock;
@@ -61,7 +62,9 @@ import net.unusual.blockfactorysbiomes.block.CoconutDoorBlock;
 import net.unusual.blockfactorysbiomes.block.CoconutButtonBlock;
 import net.unusual.blockfactorysbiomes.block.CoconutBushBlock;
 import net.unusual.blockfactorysbiomes.block.CoconutBlock;
+import net.unusual.blockfactorysbiomes.block.BushyMapleLeavesBlock;
 import net.unusual.blockfactorysbiomes.block.BushyCoconutLeavesBlock;
+import net.unusual.blockfactorysbiomes.block.BushyBaobabLeavesBlock;
 import net.unusual.blockfactorysbiomes.block.BlueLionPawSeashellBlock;
 import net.unusual.blockfactorysbiomes.block.BaobabWoodBlock;
 import net.unusual.blockfactorysbiomes.block.BaobabTrunkBlock;
@@ -73,6 +76,7 @@ import net.unusual.blockfactorysbiomes.block.BaobabPressurePlateBlock;
 import net.unusual.blockfactorysbiomes.block.BaobabPlanksBlock;
 import net.unusual.blockfactorysbiomes.block.BaobabLogPileBlock;
 import net.unusual.blockfactorysbiomes.block.BaobabLogBlock;
+import net.unusual.blockfactorysbiomes.block.BaobabLeavesBlock;
 import net.unusual.blockfactorysbiomes.block.BaobabFenceGateBlock;
 import net.unusual.blockfactorysbiomes.block.BaobabFenceBlock;
 import net.unusual.blockfactorysbiomes.block.BaobabDoorBlock;
@@ -162,6 +166,10 @@ public class BfBiomesModBlocks {
 	public static final RegistryObject<Block> FALLEN_BAOBAB_LOG = REGISTRY.register("fallen_baobab_log", () -> new FallenBaobabLogBlock());
 	public static final RegistryObject<Block> FALLEN_OVERGROWN_BAOBAB_LOG = REGISTRY.register("fallen_overgrown_baobab_log", () -> new FallenOvergrownBaobabLogBlock());
 	public static final RegistryObject<Block> BAOBAB_LOG_PILE = REGISTRY.register("baobab_log_pile", () -> new BaobabLogPileBlock());
+	public static final RegistryObject<Block> MAPLE_LEAVES = REGISTRY.register("maple_leaves", () -> new MapleLeavesBlock());
+	public static final RegistryObject<Block> BUSHY_MAPLE_LEAVES = REGISTRY.register("bushy_maple_leaves", () -> new BushyMapleLeavesBlock());
+	public static final RegistryObject<Block> BAOBAB_LEAVES = REGISTRY.register("baobab_leaves", () -> new BaobabLeavesBlock());
+	public static final RegistryObject<Block> BUSHY_BAOBAB_LEAVES = REGISTRY.register("bushy_baobab_leaves", () -> new BushyBaobabLeavesBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

@@ -4,6 +4,7 @@
  */
 package net.unusual.blockfactorysbiomes.init;
 
+import net.unusual.blockfactorysbiomes.client.model.Modelsquirrel;
 import net.unusual.blockfactorysbiomes.client.model.Modelfirefly;
 import net.unusual.blockfactorysbiomes.client.model.Modelcrab;
 
@@ -16,6 +17,7 @@ import net.minecraftforge.api.distmarker.Dist;
 public class BfBiomesModModels {
 	@SubscribeEvent
 	public static void registerLayerDefinitions(EntityRenderersEvent.RegisterLayerDefinitions event) {
+		event.registerLayerDefinition(Modelsquirrel.LAYER_LOCATION, Modelsquirrel::createBodyLayer);
 		event.registerLayerDefinition(Modelfirefly.LAYER_LOCATION, Modelfirefly::createBodyLayer);
 		event.registerLayerDefinition(Modelcrab.LAYER_LOCATION, Modelcrab::createBodyLayer);
 	}
