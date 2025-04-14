@@ -1,0 +1,82 @@
+{
+  "type": "minecraft:simple_random_selector",
+  "config": {
+    "features": [
+      {
+        "feature": {
+          "type": "bf_biomes:structure_feature",
+          "config": {
+            "structure": "bf_biomes:maple_tree1",
+            "ignored_blocks": "minecraft:structure_void",
+            "offset": [
+              -6,
+              0,
+              -6
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "bf_biomes:structure_feature",
+          "config": {
+            "structure": "bf_biomes:maple_tree2",
+            "ignored_blocks": "minecraft:structure_void",
+            "offset": [
+              -6,
+              0,
+              -6
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "bf_biomes:structure_feature",
+          "config": {
+            "structure": "bf_biomes:maple_tree3",
+            "ignored_blocks": "minecraft:structure_void",
+            "offset": [
+              -6,
+              0,
+              -6
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "bf_biomes:structure_feature",
+          "config": {
+            "structure": "bf_biomes:maple_tree4",
+            "ignored_blocks": "minecraft:structure_void",
+            "offset": [
+              -6,
+              0,
+              -6
+            ]
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "bf_biomes:structure_feature",
+          "config": {
+            "structure": "bf_biomes:maple_tree5",
+            "ignored_blocks": "minecraft:structure_void",
+            "offset": [
+              -6,
+              0,
+              -6
+            ]
+          }
+        },
+        "placement": []
+      }
+    ]
+  }
+}

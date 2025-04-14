@@ -1,9 +1,9 @@
 
 package net.unusual.blockfactorysbiomes.block;
 
-import net.unusual.blockfactorysbiomes.procedures.CoconutSaplingOnTickUpdateProcedure;
-import net.unusual.blockfactorysbiomes.procedures.CoconutSaplingOnBoneMealSuccessProcedure;
-import net.unusual.blockfactorysbiomes.procedures.CoconutSaplingBoneMealSuccessConditionProcedure;
+import net.unusual.blockfactorysbiomes.procedures.BaobabSaplingOnTickUpdateProcedure;
+import net.unusual.blockfactorysbiomes.procedures.BaobabSaplingOnBoneMealSuccesProcedure;
+import net.unusual.blockfactorysbiomes.procedures.BaobabSaplingBoneMealSuccesConditionProcedure;
 
 import net.minecraft.world.level.material.PushReaction;
 import net.minecraft.world.level.material.MapColor;
@@ -43,7 +43,7 @@ public class BaobabSaplingBlock extends FlowerBlock implements BonemealableBlock
 
 	@Override
 	public void randomTick(BlockState blockstate, ServerLevel world, BlockPos pos, RandomSource random) {
-		CoconutSaplingOnTickUpdateProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
+		BaobabSaplingOnTickUpdateProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
 	}
 
 	@Override
@@ -53,11 +53,11 @@ public class BaobabSaplingBlock extends FlowerBlock implements BonemealableBlock
 
 	@Override
 	public boolean isBonemealSuccess(Level world, RandomSource random, BlockPos pos, BlockState blockstate) {
-		return CoconutSaplingBoneMealSuccessConditionProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
+		return BaobabSaplingBoneMealSuccesConditionProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
 	}
 
 	@Override
 	public void performBonemeal(ServerLevel world, RandomSource random, BlockPos pos, BlockState blockstate) {
-		CoconutSaplingOnBoneMealSuccessProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
+		BaobabSaplingOnBoneMealSuccesProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
 	}
 }

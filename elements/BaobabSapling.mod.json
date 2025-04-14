@@ -81,10 +81,10 @@
     "canBePlacedOn": [],
     "isBonemealable": true,
     "bonemealSuccessCondition": {
-      "name": "CoconutSaplingBoneMealSuccessCondition"
+      "name": "BaobabSaplingBoneMealSuccesCondition"
     },
     "onBonemealSuccess": {
-      "name": "CoconutSaplingOnBoneMealSuccess"
+      "name": "BaobabSaplingOnBoneMealSucces"
     },
     "frequencyOnChunks": 5,
     "generateFeature": false,
@@ -93,7 +93,7 @@
     "patchSize": 64,
     "generateAtAnyHeight": false,
     "onTickUpdate": {
-      "name": "CoconutSaplingOnTickUpdate"
+      "name": "BaobabSaplingOnTickUpdate"
     }
   }
 }
