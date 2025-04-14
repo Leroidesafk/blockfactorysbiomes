@@ -1,8 +1,6 @@
 {
   "replace": false,
   "values": [
-    "bf_biomes:baobab_leaves",
-    "bf_biomes:maple_leaves",
     "bf_biomes:starfish",
     "bf_biomes:pink_lion_paw_seashel",
     "bf_biomes:blue_lion_paw_seashell",

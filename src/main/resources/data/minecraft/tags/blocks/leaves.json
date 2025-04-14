@@ -1,8 +1,6 @@
 {
   "replace": false,
   "values": [
-    "bf_biomes:baobab_leaves",
-    "bf_biomes:maple_leaves",
     "bf_biomes:bushy_coconut_leaves",
     "bf_biomes:coconut_leaves"
   ]

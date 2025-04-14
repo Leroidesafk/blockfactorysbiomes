@@ -1,37 +1,13 @@
 
 package net.unusual.blockfactorysbiomes.entity;
 
-import net.unusual.blockfactorysbiomes.procedures.SquirrelOnEntityTickUpdateProcedure;
-import net.unusual.blockfactorysbiomes.init.BfBiomesModEntities;
-
-import net.minecraftforge.registries.ForgeRegistries;
-import net.minecraftforge.network.PlayMessages;
-import net.minecraftforge.network.NetworkHooks;
-
-import net.minecraft.world.level.block.state.BlockState;
-import net.minecraft.world.level.Level;
-import net.minecraft.world.entity.monster.Monster;
-import net.minecraft.world.entity.ai.goal.RandomStrollGoal;
-import net.minecraft.world.entity.ai.goal.RandomLookAroundGoal;
-import net.minecraft.world.entity.ai.goal.LeapAtTargetGoal;
-import net.minecraft.world.entity.ai.goal.FloatGoal;
+import net.minecraft.world.entity.ai.attributes.Attribute;
 import net.minecraft.world.entity.ai.attributes.Attributes;
-import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
-import net.minecraft.world.entity.MobType;
-import net.minecraft.world.entity.Mob;
-import net.minecraft.world.entity.EntityType;
-import net.minecraft.world.damagesource.DamageSource;
-import net.minecraft.sounds.SoundEvent;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.network.syncher.SynchedEntityData;
-import net.minecraft.network.syncher.EntityDataSerializers;
+import net.minecraft.nbt.Tag;
 import net.minecraft.network.syncher.EntityDataAccessor;
-import net.minecraft.network.protocol.game.ClientGamePacketListener;
-import net.minecraft.network.protocol.Packet;
-import net.minecraft.nbt.CompoundTag;
-import net.minecraft.core.BlockPos;
 
 public class SquirrelEntity extends Monster {
+
 	public static final EntityDataAccessor<Integer> DATA_climb_cooldown = SynchedEntityData.defineId(SquirrelEntity.class, EntityDataSerializers.INT);
 	public static final EntityDataAccessor<Integer> DATA_x_target = SynchedEntityData.defineId(SquirrelEntity.class, EntityDataSerializers.INT);
 	public static final EntityDataAccessor<Integer> DATA_y_target = SynchedEntityData.defineId(SquirrelEntity.class, EntityDataSerializers.INT);
@@ -47,6 +23,7 @@ public class SquirrelEntity extends Monster {
 		setMaxUpStep(0.6f);
 		xpReward = 0;
 		setNoAi(false);
+
 	}
 
 	@Override
@@ -67,10 +44,12 @@ public class SquirrelEntity extends Monster {
 	@Override
 	protected void registerGoals() {
 		super.registerGoals();
+
 		this.goalSelector.addGoal(1, new RandomStrollGoal(this, 1));
 		this.goalSelector.addGoal(2, new RandomLookAroundGoal(this));
 		this.goalSelector.addGoal(3, new FloatGoal(this));
 		this.goalSelector.addGoal(4, new LeapAtTargetGoal(this, (float) 0.5));
+
 	}
 
 	@Override
@@ -126,10 +105,11 @@ public class SquirrelEntity extends Monster {
 	@Override
 	public void baseTick() {
 		super.baseTick();
-		SquirrelOnEntityTickUpdateProcedure.execute(this.level(), this);
+		SquirrelOnEntityTickUpdateProcedure.execute();
 	}
 
 	public static void init() {
+
 	}
 
 	public static AttributeSupplier.Builder createAttributes() {
@@ -139,6 +119,8 @@ public class SquirrelEntity extends Monster {
 		builder = builder.add(Attributes.ARMOR, 0);
 		builder = builder.add(Attributes.ATTACK_DAMAGE, 3);
 		builder = builder.add(Attributes.FOLLOW_RANGE, 16);
+
 		return builder;
 	}
+
 }

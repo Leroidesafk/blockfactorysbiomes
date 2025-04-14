@@ -166,8 +166,8 @@ public class BfBiomesModBlocks {
 	public static final RegistryObject<Block> FALLEN_BAOBAB_LOG = REGISTRY.register("fallen_baobab_log", () -> new FallenBaobabLogBlock());
 	public static final RegistryObject<Block> FALLEN_OVERGROWN_BAOBAB_LOG = REGISTRY.register("fallen_overgrown_baobab_log", () -> new FallenOvergrownBaobabLogBlock());
 	public static final RegistryObject<Block> BAOBAB_LOG_PILE = REGISTRY.register("baobab_log_pile", () -> new BaobabLogPileBlock());
-	public static final RegistryObject<Block> MAPLE_LEAVES = REGISTRY.register("maple_leaves", () -> new MapleLeavesBlock());
 	public static final RegistryObject<Block> BUSHY_MAPLE_LEAVES = REGISTRY.register("bushy_maple_leaves", () -> new BushyMapleLeavesBlock());
+	public static final RegistryObject<Block> MAPLE_LEAVES = REGISTRY.register("maple_leaves", () -> new MapleLeavesBlock());
 	public static final RegistryObject<Block> BAOBAB_LEAVES = REGISTRY.register("baobab_leaves", () -> new BaobabLeavesBlock());
 	public static final RegistryObject<Block> BUSHY_BAOBAB_LEAVES = REGISTRY.register("bushy_baobab_leaves", () -> new BushyBaobabLeavesBlock());
 	// Start of user code block custom blocks

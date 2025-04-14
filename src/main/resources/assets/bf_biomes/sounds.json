@@ -127,6 +127,32 @@
       }
     ]
   },
+  "squirrel_hurt": {
+    "subtitle": "subtitles.squirrel_hurt",
+    "sounds": [
+      {
+        "name": "bf_biomes:squirrel_hurt_2",
+        "stream": false
+      },
+      {
+        "name": "bf_biomes:squirrel_hurt_1",
+        "stream": false
+      }
+    ]
+  },
+  "squirrel_ambient": {
+    "subtitle": "subtitles.squirrel_ambient",
+    "sounds": [
+      {
+        "name": "bf_biomes:squirrel_ambient_2",
+        "stream": false
+      },
+      {
+        "name": "bf_biomes:squirrel_ambient_1",
+        "stream": false
+      }
+    ]
+  },
   "squirrel_running": {
     "subtitle": "subtitles.squirrel_running",
     "sounds": [
@@ -172,32 +198,6 @@
       },
       {
         "name": "bf_biomes:squirrel_running_11",
-        "stream": false
-      }
-    ]
-  },
-  "squirrel_hurt": {
-    "subtitle": "subtitles.squirrel_hurt",
-    "sounds": [
-      {
-        "name": "bf_biomes:squirrel_hurt_2",
-        "stream": false
-      },
-      {
-        "name": "bf_biomes:squirrel_hurt_1",
-        "stream": false
-      }
-    ]
-  },
-  "squirrel_ambient": {
-    "subtitle": "subtitles.squirrel_ambient",
-    "sounds": [
-      {
-        "name": "bf_biomes:squirrel_ambient_2",
-        "stream": false
-      },
-      {
-        "name": "bf_biomes:squirrel_ambient_1",
         "stream": false
       }
     ]

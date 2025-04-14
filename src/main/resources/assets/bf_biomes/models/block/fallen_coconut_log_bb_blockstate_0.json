@@ -3,7 +3,7 @@
   "textures": {
     "all": "bf_biomes:block/coconut_log",
     "particle": "bf_biomes:block/coconut_log",
-    "1": "bf_biomes:block/coconut_log_pile"
+    "1": "bf_biomes:block/fallen_overgrown_maple_log"
   },
   "render_type": "cutout_mipped"
 }

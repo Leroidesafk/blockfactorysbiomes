@@ -102,11 +102,11 @@ public class BfBiomesModItems {
 	public static final RegistryObject<Item> FALLEN_BAOBAB_LOG = block(BfBiomesModBlocks.FALLEN_BAOBAB_LOG);
 	public static final RegistryObject<Item> FALLEN_OVERGROWN_BAOBAB_LOG = block(BfBiomesModBlocks.FALLEN_OVERGROWN_BAOBAB_LOG);
 	public static final RegistryObject<Item> BAOBAB_LOG_PILE = block(BfBiomesModBlocks.BAOBAB_LOG_PILE);
-	public static final RegistryObject<Item> MAPLE_LEAVES = block(BfBiomesModBlocks.MAPLE_LEAVES);
 	public static final RegistryObject<Item> BUSHY_MAPLE_LEAVES = block(BfBiomesModBlocks.BUSHY_MAPLE_LEAVES);
+	public static final RegistryObject<Item> SQUIRREL_SPAWN_EGG = REGISTRY.register("squirrel_spawn_egg", () -> new ForgeSpawnEggItem(BfBiomesModEntities.SQUIRREL, -6723269, -2835818, new Item.Properties()));
+	public static final RegistryObject<Item> MAPLE_LEAVES = block(BfBiomesModBlocks.MAPLE_LEAVES);
 	public static final RegistryObject<Item> BAOBAB_LEAVES = block(BfBiomesModBlocks.BAOBAB_LEAVES);
 	public static final RegistryObject<Item> BUSHY_BAOBAB_LEAVES = block(BfBiomesModBlocks.BUSHY_BAOBAB_LEAVES);
-	public static final RegistryObject<Item> SQUIRREL_SPAWN_EGG = REGISTRY.register("squirrel_spawn_egg", () -> new ForgeSpawnEggItem(BfBiomesModEntities.SQUIRREL, -6723269, -2835818, new Item.Properties()));
 
 	// Start of user code block custom items
 	// End of user code block custom items
