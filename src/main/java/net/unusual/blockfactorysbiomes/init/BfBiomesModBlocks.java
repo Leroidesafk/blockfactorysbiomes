@@ -16,6 +16,7 @@ import net.unusual.blockfactorysbiomes.block.StrippedBaobabWoodBlock;
 import net.unusual.blockfactorysbiomes.block.StrippedBaobabLogBlock;
 import net.unusual.blockfactorysbiomes.block.StarfishBlock;
 import net.unusual.blockfactorysbiomes.block.RoundShellBlock;
+import net.unusual.blockfactorysbiomes.block.RedAutumnGrassBlock;
 import net.unusual.blockfactorysbiomes.block.PinkLionPawSeashelBlock;
 import net.unusual.blockfactorysbiomes.block.MapleWoodBlock;
 import net.unusual.blockfactorysbiomes.block.MapleTrunkBlock;
@@ -170,6 +171,7 @@ public class BfBiomesModBlocks {
 	public static final RegistryObject<Block> MAPLE_LEAVES = REGISTRY.register("maple_leaves", () -> new MapleLeavesBlock());
 	public static final RegistryObject<Block> BAOBAB_LEAVES = REGISTRY.register("baobab_leaves", () -> new BaobabLeavesBlock());
 	public static final RegistryObject<Block> BUSHY_BAOBAB_LEAVES = REGISTRY.register("bushy_baobab_leaves", () -> new BushyBaobabLeavesBlock());
+	public static final RegistryObject<Block> RED_AUTUMN_GRASS = REGISTRY.register("red_autumn_grass", () -> new RedAutumnGrassBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

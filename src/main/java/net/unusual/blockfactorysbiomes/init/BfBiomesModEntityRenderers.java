@@ -6,7 +6,9 @@ package net.unusual.blockfactorysbiomes.init;
 
 import net.unusual.blockfactorysbiomes.client.renderer.SquirrelRenderer;
 import net.unusual.blockfactorysbiomes.client.renderer.FireflyRenderer;
+import net.unusual.blockfactorysbiomes.client.renderer.DeerRenderer;
 import net.unusual.blockfactorysbiomes.client.renderer.CrabRenderer;
+import net.unusual.blockfactorysbiomes.client.renderer.ButterflyRenderer;
 
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -24,5 +26,7 @@ public class BfBiomesModEntityRenderers {
 		event.registerEntityRenderer(BfBiomesModEntities.COCONUT_PROJECTILE.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(BfBiomesModEntities.FIREFLY.get(), FireflyRenderer::new);
 		event.registerEntityRenderer(BfBiomesModEntities.SQUIRREL.get(), SquirrelRenderer::new);
+		event.registerEntityRenderer(BfBiomesModEntities.DEER.get(), DeerRenderer::new);
+		event.registerEntityRenderer(BfBiomesModEntities.BUTTERFLY.get(), ButterflyRenderer::new);
 	}
 }

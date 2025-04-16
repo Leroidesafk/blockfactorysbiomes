@@ -7,6 +7,7 @@ import net.unusual.blockfactorysbiomes.world.features.StructureFeature;
 import net.unusual.blockfactorysbiomes.init.BfBiomesModTabs;
 import net.unusual.blockfactorysbiomes.init.BfBiomesModSounds;
 import net.unusual.blockfactorysbiomes.init.BfBiomesModItems;
+import net.unusual.blockfactorysbiomes.init.BfBiomesModFeatures;
 import net.unusual.blockfactorysbiomes.init.BfBiomesModEntities;
 import net.unusual.blockfactorysbiomes.init.BfBiomesModBlocks;
 
@@ -50,7 +51,7 @@ public class BfBiomesMod {
 		BfBiomesModEntities.REGISTRY.register(bus);
 
 		BfBiomesModTabs.REGISTRY.register(bus);
-
+		BfBiomesModFeatures.REGISTRY.register(bus);
 		StructureFeature.REGISTRY.register(bus);
 
 		// Start of user code block mod init

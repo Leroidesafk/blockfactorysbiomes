@@ -6,6 +6,7 @@ package net.unusual.blockfactorysbiomes.init;
 
 import net.unusual.blockfactorysbiomes.item.RawCrabMeatItem;
 import net.unusual.blockfactorysbiomes.item.OpenedCoconutItem;
+import net.unusual.blockfactorysbiomes.item.MapleSyrupItem;
 import net.unusual.blockfactorysbiomes.item.CookedCrabMeatItem;
 import net.unusual.blockfactorysbiomes.item.CoconutItemItem;
 import net.unusual.blockfactorysbiomes.BfBiomesMod;
@@ -107,6 +108,10 @@ public class BfBiomesModItems {
 	public static final RegistryObject<Item> MAPLE_LEAVES = block(BfBiomesModBlocks.MAPLE_LEAVES);
 	public static final RegistryObject<Item> BAOBAB_LEAVES = block(BfBiomesModBlocks.BAOBAB_LEAVES);
 	public static final RegistryObject<Item> BUSHY_BAOBAB_LEAVES = block(BfBiomesModBlocks.BUSHY_BAOBAB_LEAVES);
+	public static final RegistryObject<Item> RED_AUTUMN_GRASS = block(BfBiomesModBlocks.RED_AUTUMN_GRASS);
+	public static final RegistryObject<Item> DEER_SPAWN_EGG = REGISTRY.register("deer_spawn_egg", () -> new ForgeSpawnEggItem(BfBiomesModEntities.DEER, -5209270, -1456490, new Item.Properties()));
+	public static final RegistryObject<Item> BUTTERFLY_SPAWN_EGG = REGISTRY.register("butterfly_spawn_egg", () -> new ForgeSpawnEggItem(BfBiomesModEntities.BUTTERFLY, -2526191, -14805231, new Item.Properties()));
+	public static final RegistryObject<Item> MAPLE_SYRUP = REGISTRY.register("maple_syrup", () -> new MapleSyrupItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

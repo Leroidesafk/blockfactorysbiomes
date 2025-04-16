@@ -1,0 +1,188 @@
+{
+  "_fv": 60,
+  "_type": "livingentity",
+  "definition": {
+    "mobName": "Butterfly",
+    "mobLabel": "",
+    "mobModelName": "Modelbutterfly",
+    "mobModelTexture": "butterfly.png",
+    "transparentModelCondition": {
+      "fixedValue": false
+    },
+    "isShakingCondition": {
+      "fixedValue": false
+    },
+    "solidBoundingBox": {
+      "fixedValue": false
+    },
+    "visualScale": {
+      "fixedValue": 1.0,
+      "name": "CrabModelVisualScale"
+    },
+    "boundingBoxScale": {
+      "fixedValue": 1.0
+    },
+    "modelLayers": [
+      {
+        "model": "Default",
+        "texture": "butterfly_blue.png",
+        "glow": false,
+        "condition": {
+          "name": "ButterflyDisplayCondition"
+        }
+      },
+      {
+        "model": "Default",
+        "texture": "butterfly_green.png",
+        "glow": false,
+        "condition": {
+          "name": "ButterflyDisplayCondition2"
+        }
+      },
+      {
+        "model": "Default",
+        "texture": "butterfly_pink.png",
+        "glow": false,
+        "condition": {
+          "name": "ButterflyDisplayCondition3"
+        }
+      }
+    ],
+    "modelWidth": 0.4,
+    "modelHeight": 0.4,
+    "modelShadowSize": 0.0,
+    "mountedYOffset": 0.0,
+    "hasSpawnEgg": true,
+    "spawnEggBaseColor": {
+      "value": -2526191,
+      "falpha": 0.0
+    },
+    "spawnEggDotColor": {
+      "value": -14805231,
+      "falpha": 0.0
+    },
+    "creativeTab": {
+      "value": "CUSTOM:BlockFactorysBiomesTab"
+    },
+    "isBoss": false,
+    "bossBarColor": "PINK",
+    "bossBarType": "PROGRESS",
+    "equipmentMainHand": {
+      "value": ""
+    },
+    "equipmentOffHand": {
+      "value": ""
+    },
+    "equipmentHelmet": {
+      "value": ""
+    },
+    "equipmentBody": {
+      "value": ""
+    },
+    "equipmentLeggings": {
+      "value": ""
+    },
+    "equipmentBoots": {
+      "value": ""
+    },
+    "mobBehaviourType": "Creature",
+    "mobCreatureType": "UNDEFINED",
+    "attackStrength": 3,
+    "attackKnockback": 0.0,
+    "knockbackResistance": 0.0,
+    "movementSpeed": 0.3,
+    "stepHeight": 0.6,
+    "armorBaseValue": 0.0,
+    "trackingRange": 64,
+    "followRange": 16,
+    "health": 2,
+    "xpAmount": 0,
+    "waterMob": false,
+    "breatheUnderwater": {
+      "fixedValue": false
+    },
+    "pushedByFluids": {
+      "fixedValue": true
+    },
+    "flyingMob": true,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "disableCollisions": false,
+    "ridable": false,
+    "canControlForward": false,
+    "canControlStrafe": false,
+    "immuneToFire": false,
+    "immuneToArrows": false,
+    "immuneToFallDamage": true,
+    "immuneToCactus": false,
+    "immuneToDrowning": false,
+    "immuneToLightning": false,
+    "immuneToPotions": false,
+    "immuneToPlayer": false,
+    "immuneToExplosion": false,
+    "immuneToTrident": false,
+    "immuneToAnvil": false,
+    "immuneToWither": false,
+    "immuneToDragonBreath": false,
+    "mobDrop": {
+      "value": ""
+    },
+    "livingSound": {
+      "value": ""
+    },
+    "hurtSound": {
+      "value": "entity.endermite.hurt"
+    },
+    "deathSound": {
+      "value": "entity.endermite.hurt"
+    },
+    "stepSound": {
+      "value": ""
+    },
+    "entityDataEntries": [
+      {
+        "min": -2147483648,
+        "max": 2147483647,
+        "name": "color",
+        "type": "integer",
+        "value": 0
+      }
+    ],
+    "onMobTickUpdate": {
+      "name": "FireflyOnEntityTickUpdate"
+    },
+    "onInitialSpawn": {
+      "name": "ButterflyOnInitialEntitySpawn"
+    },
+    "hasAI": true,
+    "aiBase": "(none)",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"find_and_move_to_air\"><field name=\"condition\">null,null</field><next><block type=\"follow_parent\"><field name=\"speed\">0.8</field><field name=\"condition\">null,null</field><next><block type=\"fly\"><field name=\"speed\">0.8</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"swim_in_water\"><field name=\"condition\">null,null</field><next><block type=\"leap_at_target\"><field name=\"speed\">0.5</field><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>",
+    "breedable": true,
+    "tameable": false,
+    "breedTriggerItems": [
+      {
+        "value": "Blocks.RED_FLOWER"
+      }
+    ],
+    "ranged": false,
+    "rangedAttackItem": {
+      "value": ""
+    },
+    "rangedItemType": "Default item",
+    "rangedAttackInterval": 20,
+    "rangedAttackRadius": 10.0,
+    "spawnThisMob": true,
+    "doesDespawnWhenIdle": true,
+    "spawningProbability": 15,
+    "mobSpawningType": "creature",
+    "minNumberOfMobsPerGroup": 4,
+    "maxNumberOfMobsPerGroup": 5,
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:MapleForest"
+      }
+    ],
+    "spawnInDungeons": false
+  }
+}

@@ -14,7 +14,7 @@ import net.minecraft.core.BlockPos;
 
 public class BaobabLeavesBlock extends LeavesBlock {
 	public BaobabLeavesBlock() {
-		super(BlockBehaviour.Properties.of().ignitedByLava().sound(SoundType.GRASS).strength(0.2f).requiresCorrectToolForDrops().noOcclusion());
+		super(BlockBehaviour.Properties.of().ignitedByLava().sound(SoundType.GRASS).strength(0.2f).noOcclusion());
 	}
 
 	@Override

@@ -1,6 +1,6 @@
 {
   "type": "forge:add_features",
-  "biomes": "#minecraft:is_beach",
+  "biomes": "bf_biomes:maple_forest",
   "features": "bf_biomes:maple_grass",
   "step": "vegetal_decoration"
 }

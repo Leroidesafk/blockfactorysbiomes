@@ -1,0 +1,22 @@
+{
+  "_fv": 60,
+  "_type": "blockstates",
+  "definition": {
+    "block": "RedAutumnGrass",
+    "blockstateList": [
+      {
+        "texture": "dirt",
+        "textureTop": "red_autumn_grass_side_2",
+        "textureLeft": "red_autumn_grass_top_2",
+        "textureFront": "red_autumn_grass_top_2",
+        "textureRight": "red_autumn_grass_top_2",
+        "textureBack": "red_autumn_grass_top_2",
+        "particleTexture": "",
+        "renderType": 0,
+        "customModelName": "Normal",
+        "luminance": 0,
+        "boundingBoxes": []
+      }
+    ]
+  }
+}

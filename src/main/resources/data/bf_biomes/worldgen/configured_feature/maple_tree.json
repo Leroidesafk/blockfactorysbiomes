@@ -1,5 +1,5 @@
 {
-  "type": "minecraft:simple_random_selector",
+  "type": "bf_biomes:maple_tree",
   "config": {
     "features": [
       {

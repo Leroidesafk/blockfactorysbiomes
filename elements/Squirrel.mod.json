@@ -37,7 +37,7 @@
       "falpha": 0.0
     },
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:BlockFactorysBiomesTab"
     },
     "isBoss": false,
     "bossBarColor": "PINK",
@@ -62,11 +62,11 @@
     },
     "mobBehaviourType": "Mob",
     "mobCreatureType": "UNDEFINED",
-    "attackStrength": 3,
+    "attackStrength": 1,
     "attackKnockback": 0.0,
     "knockbackResistance": 0.0,
     "movementSpeed": 0.3,
-    "stepHeight": 0.6,
+    "stepHeight": 1.2000000000000002,
     "armorBaseValue": 0.0,
     "trackingRange": 64,
     "followRange": 16,
@@ -148,17 +148,37 @@
         "name": "is_climbing",
         "type": "logic",
         "value": false
+      },
+      {
+        "name": "can_start_climbing",
+        "type": "logic",
+        "value": false
+      },
+      {
+        "name": "climb_direction",
+        "type": "string",
+        "value": ""
       }
     ],
+    "whenMobIsHurt": {
+      "name": "SquirrelEntityIsHurt"
+    },
     "onMobTickUpdate": {
       "name": "SquirrelOnEntityTickUpdate"
     },
     "hasAI": true,
     "aiBase": "(none)",
-    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"wander\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"swim_in_water\"><field name=\"condition\">null,null</field><next><block type=\"leap_at_target\"><field name=\"speed\">0.5</field><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></xml>",
-    "breedable": false,
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"309\" y=\"12\"><next><block type=\"breed\"><field name=\"speed\">1</field><field name=\"condition\">SquirrelDoNotLook,SquirrelDoNotLook</field><next><block type=\"attack_on_collide\"><field name=\"speed\">1.2</field><field name=\"longmemory\">FALSE</field><field name=\"condition\">SquirrelDoNotLook,SquirrelDoNotLook</field><next><block type=\"wander\"><field name=\"speed\">1</field><field name=\"condition\">SquirrelDoNotLook,SquirrelDoNotLook</field><next><block type=\"look_around\"><field name=\"condition\">SquirrelDoNotLook,SquirrelDoNotLook</field><next><block type=\"swim_in_water\"><field name=\"condition\">null,null</field><next><block type=\"leap_at_target\"><field name=\"speed\">0.5</field><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>",
+    "breedable": true,
     "tameable": false,
-    "breedTriggerItems": [],
+    "breedTriggerItems": [
+      {
+        "value": "Items.SPIDER_EYE"
+      },
+      {
+        "value": "Items.PITCHER_POD"
+      }
+    ],
     "ranged": false,
     "rangedAttackItem": {
       "value": ""
@@ -166,13 +186,17 @@
     "rangedItemType": "Default item",
     "rangedAttackInterval": 20,
     "rangedAttackRadius": 10.0,
-    "spawnThisMob": false,
+    "spawnThisMob": true,
     "doesDespawnWhenIdle": true,
-    "spawningProbability": 20,
-    "mobSpawningType": "monster",
-    "minNumberOfMobsPerGroup": 4,
+    "spawningProbability": 13,
+    "mobSpawningType": "creature",
+    "minNumberOfMobsPerGroup": 2,
     "maxNumberOfMobsPerGroup": 4,
-    "restrictionBiomes": [],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:MapleForest"
+      }
+    ],
     "spawnInDungeons": false
   }
 }

@@ -2,6 +2,10 @@
   "feature": "bf_biomes:tall_maple_grass",
   "placement": [
     {
+      "type": "minecraft:count",
+      "count": 3
+    },
+    {
       "type": "minecraft:in_square"
     },
     {

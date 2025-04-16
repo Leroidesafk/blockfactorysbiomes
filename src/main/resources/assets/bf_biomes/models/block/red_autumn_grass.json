@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "bf_biomes:block/dirt",
+    "up": "bf_biomes:block/red_autumn_grass_top",
+    "north": "bf_biomes:block/red_autumn_grass_side",
+    "east": "bf_biomes:block/red_autumn_grass_side",
+    "south": "bf_biomes:block/red_autumn_grass_side",
+    "west": "bf_biomes:block/red_autumn_grass_side",
+    "particle": "bf_biomes:block/dirt"
+  },
+  "render_type": "solid"
+}

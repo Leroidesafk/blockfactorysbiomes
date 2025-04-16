@@ -14,7 +14,7 @@ import net.minecraft.core.BlockPos;
 
 public class MapleLeavesBlock extends LeavesBlock {
 	public MapleLeavesBlock() {
-		super(BlockBehaviour.Properties.of().ignitedByLava().sound(SoundType.GRASS).strength(0.2f).requiresCorrectToolForDrops().noOcclusion());
+		super(BlockBehaviour.Properties.of().ignitedByLava().sound(SoundType.GRASS).strength(0.2f).noOcclusion());
 	}
 
 	@Override

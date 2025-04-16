@@ -1,7 +1,6 @@
 
 package net.unusual.blockfactorysbiomes.entity;
 
-import net.unusual.blockfactorysbiomes.procedures.FireflyOnEntityTickUpdateProcedure;
 import net.unusual.blockfactorysbiomes.procedures.FireflyNaturalEntitySpawningConditionProcedure;
 import net.unusual.blockfactorysbiomes.init.BfBiomesModEntities;
 
@@ -128,12 +127,6 @@ public class FireflyEntity extends Animal {
 		if (damagesource.is(DamageTypes.FALL))
 			return false;
 		return super.hurt(damagesource, amount);
-	}
-
-	@Override
-	public void baseTick() {
-		super.baseTick();
-		FireflyOnEntityTickUpdateProcedure.execute(this);
 	}
 
 	@Override
