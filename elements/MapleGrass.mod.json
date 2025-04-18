@@ -13,7 +13,7 @@
     "plantType": "normal",
     "suspiciousStewEffect": "SPEED",
     "suspiciousStewDuration": 100,
-    "growapableSpawnType": "Desert",
+    "growapableSpawnType": "Plains",
     "growapableMaxHeight": 3,
     "customBoundingBox": true,
     "disableOffset": false,
@@ -86,11 +86,11 @@
     "onBonemealSuccess": {
       "name": "DeadGrassOnBoneMealSuccess"
     },
-    "frequencyOnChunks": 3,
+    "frequencyOnChunks": 6,
     "generateFeature": true,
     "restrictionBiomes": [
       {
-        "value": "#minecraft:is_beach"
+        "value": "CUSTOM:MapleForest"
       }
     ],
     "generationType": "Grass",

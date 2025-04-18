@@ -1,8 +1,6 @@
 {
   "type": "forge:add_features",
-  "biomes": {
-    "type": "forge:any"
-  },
+  "biomes": "bf_biomes:maple_forest",
   "features": "bf_biomes:maple_tree",
   "step": "surface_structures"
 }

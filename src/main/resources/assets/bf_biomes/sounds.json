@@ -201,5 +201,46 @@
         "stream": false
       }
     ]
+  },
+  "deer_walk": {
+    "subtitle": "subtitles.deer_walk",
+    "sounds": [
+      {
+        "name": "bf_biomes:deer_walk_step1",
+        "stream": false
+      },
+      {
+        "name": "bf_biomes:deer_walk_step2",
+        "stream": false
+      },
+      {
+        "name": "bf_biomes:deer_walk_step3",
+        "stream": false
+      },
+      {
+        "name": "bf_biomes:deer_walk_step4",
+        "stream": false
+      },
+      {
+        "name": "bf_biomes:deer_walk_step5",
+        "stream": false
+      },
+      {
+        "name": "bf_biomes:deer_walk_step6",
+        "stream": false
+      },
+      {
+        "name": "bf_biomes:deer_walk_step7",
+        "stream": false
+      },
+      {
+        "name": "bf_biomes:deer_walk_step8",
+        "stream": false
+      },
+      {
+        "name": "bf_biomes:deer_walk_step9",
+        "stream": false
+      }
+    ]
   }
 }

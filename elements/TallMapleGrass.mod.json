@@ -80,11 +80,11 @@
     "speedFactor": 1.0,
     "canBePlacedOn": [],
     "isBonemealable": false,
-    "frequencyOnChunks": 1,
+    "frequencyOnChunks": 3,
     "generateFeature": true,
     "restrictionBiomes": [
       {
-        "value": "#minecraft:is_beach"
+        "value": "CUSTOM:MapleForest"
       }
     ],
     "generationType": "Grass",

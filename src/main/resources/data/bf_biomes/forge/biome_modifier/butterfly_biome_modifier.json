@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "bf_biomes:maple_forest",
+  "spawners": {
+    "type": "bf_biomes:butterfly",
+    "weight": 15,
+    "minCount": 4,
+    "maxCount": 5
+  }
+}

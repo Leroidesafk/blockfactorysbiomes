@@ -1,0 +1,7 @@
+{
+  "parent": "bf_biomes:custom/insect_catcher",
+  "textures": {
+    "0": "bf_biomes:block/insect_catcher",
+    "particle": "bf_biomes:item/bug_net"
+  }
+}

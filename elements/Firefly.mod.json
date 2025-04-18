@@ -152,13 +152,16 @@
     "spawningCondition": {
       "name": "FireflyNaturalEntitySpawningCondition"
     },
-    "spawningProbability": 8,
-    "mobSpawningType": "monster",
+    "spawningProbability": 15,
+    "mobSpawningType": "creature",
     "minNumberOfMobsPerGroup": 4,
     "maxNumberOfMobsPerGroup": 5,
     "restrictionBiomes": [
       {
-        "value": "#minecraft:is_forest"
+        "value": "mangrove_swamp"
+      },
+      {
+        "value": "swamp"
       }
     ],
     "spawnInDungeons": false

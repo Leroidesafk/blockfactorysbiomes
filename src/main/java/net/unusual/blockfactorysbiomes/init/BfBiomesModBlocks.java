@@ -16,6 +16,8 @@ import net.unusual.blockfactorysbiomes.block.StrippedBaobabWoodBlock;
 import net.unusual.blockfactorysbiomes.block.StrippedBaobabLogBlock;
 import net.unusual.blockfactorysbiomes.block.StarfishBlock;
 import net.unusual.blockfactorysbiomes.block.RoundShellBlock;
+import net.unusual.blockfactorysbiomes.block.RedAutumnGrassBlock;
+import net.unusual.blockfactorysbiomes.block.PricklyCactusBlock;
 import net.unusual.blockfactorysbiomes.block.PinkLionPawSeashelBlock;
 import net.unusual.blockfactorysbiomes.block.MapleWoodBlock;
 import net.unusual.blockfactorysbiomes.block.MapleTrunkBlock;
@@ -36,12 +38,14 @@ import net.unusual.blockfactorysbiomes.block.MapleButtonBlock;
 import net.unusual.blockfactorysbiomes.block.MapleBushBlock;
 import net.unusual.blockfactorysbiomes.block.LongShellBlock;
 import net.unusual.blockfactorysbiomes.block.HangingCoconutLeavesBlock;
+import net.unusual.blockfactorysbiomes.block.FloweringUrchinCactusBlock;
 import net.unusual.blockfactorysbiomes.block.FallenOvergrownMapleLogBlock;
 import net.unusual.blockfactorysbiomes.block.FallenOvergrownCoconutLogBlock;
 import net.unusual.blockfactorysbiomes.block.FallenOvergrownBaobabLogBlock;
 import net.unusual.blockfactorysbiomes.block.FallenMapleLogBlock;
 import net.unusual.blockfactorysbiomes.block.FallenCoconutLogBlock;
 import net.unusual.blockfactorysbiomes.block.FallenBaobabLogBlock;
+import net.unusual.blockfactorysbiomes.block.DrySoilBlock;
 import net.unusual.blockfactorysbiomes.block.DripingMapleLogBlock;
 import net.unusual.blockfactorysbiomes.block.DriedGrassBlock;
 import net.unusual.blockfactorysbiomes.block.DeadGrassBlock;
@@ -170,6 +174,10 @@ public class BfBiomesModBlocks {
 	public static final RegistryObject<Block> MAPLE_LEAVES = REGISTRY.register("maple_leaves", () -> new MapleLeavesBlock());
 	public static final RegistryObject<Block> BAOBAB_LEAVES = REGISTRY.register("baobab_leaves", () -> new BaobabLeavesBlock());
 	public static final RegistryObject<Block> BUSHY_BAOBAB_LEAVES = REGISTRY.register("bushy_baobab_leaves", () -> new BushyBaobabLeavesBlock());
+	public static final RegistryObject<Block> RED_AUTUMN_GRASS = REGISTRY.register("red_autumn_grass", () -> new RedAutumnGrassBlock());
+	public static final RegistryObject<Block> DRY_SOIL = REGISTRY.register("dry_soil", () -> new DrySoilBlock());
+	public static final RegistryObject<Block> PRICKLY_CACTUS = REGISTRY.register("prickly_cactus", () -> new PricklyCactusBlock());
+	public static final RegistryObject<Block> FLOWERING_URCHIN_CACTUS = REGISTRY.register("flowering_urchin_cactus", () -> new FloweringUrchinCactusBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

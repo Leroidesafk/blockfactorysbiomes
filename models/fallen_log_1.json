@@ -1,5 +1,6 @@
 {
 	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
 	"texture_size": [64, 64],
 	"textures": {
 		"1": "bf_biomes:block/fallen_overgrown_coconut_log"

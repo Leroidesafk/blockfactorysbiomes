@@ -22,4 +22,5 @@ public class BfBiomesModSounds {
 	public static final RegistryObject<SoundEvent> SQUIRREL_HURT = REGISTRY.register("squirrel_hurt", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("bf_biomes", "squirrel_hurt")));
 	public static final RegistryObject<SoundEvent> SQUIRREL_AMBIENT = REGISTRY.register("squirrel_ambient", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("bf_biomes", "squirrel_ambient")));
 	public static final RegistryObject<SoundEvent> SQUIRREL_RUNNING = REGISTRY.register("squirrel_running", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("bf_biomes", "squirrel_running")));
+	public static final RegistryObject<SoundEvent> DEER_WALK = REGISTRY.register("deer_walk", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("bf_biomes", "deer_walk")));
 }

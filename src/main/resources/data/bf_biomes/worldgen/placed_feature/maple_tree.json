@@ -3,7 +3,13 @@
   "placement": [
     {
       "type": "minecraft:count",
-      "count": 1
+      "count": {
+        "type": "uniform",
+        "value": {
+          "min_inclusive": 1,
+          "max_inclusive": 4
+        }
+      }
     },
     {
       "type": "minecraft:in_square"
@@ -31,7 +37,7 @@
           },
           {
             "type": "minecraft:matching_blocks",
-            "blocks": "#minecraft:dirt",
+            "blocks": "#bf_biomes:maple_grass",
             "offset": [
               0,
               -1,

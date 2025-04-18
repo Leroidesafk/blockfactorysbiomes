@@ -6,7 +6,7 @@
     "texture": "coconut_sapling",
     "textureBottom": "",
     "customModelName": "Cross model",
-    "itemTexture": "",
+    "itemTexture": "coconut_sapling",
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,

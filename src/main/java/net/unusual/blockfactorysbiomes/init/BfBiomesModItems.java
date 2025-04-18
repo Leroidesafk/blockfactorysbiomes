@@ -5,9 +5,16 @@
 package net.unusual.blockfactorysbiomes.init;
 
 import net.unusual.blockfactorysbiomes.item.RawCrabMeatItem;
+import net.unusual.blockfactorysbiomes.item.PinkButterflyItem;
+import net.unusual.blockfactorysbiomes.item.OrangeButterflyItem;
 import net.unusual.blockfactorysbiomes.item.OpenedCoconutItem;
+import net.unusual.blockfactorysbiomes.item.MapleSyrupItem;
+import net.unusual.blockfactorysbiomes.item.GreenButterflyItem;
+import net.unusual.blockfactorysbiomes.item.FireFlyItemItem;
 import net.unusual.blockfactorysbiomes.item.CookedCrabMeatItem;
 import net.unusual.blockfactorysbiomes.item.CoconutItemItem;
+import net.unusual.blockfactorysbiomes.item.BugNetItem;
+import net.unusual.blockfactorysbiomes.item.BlueButterflyItem;
 import net.unusual.blockfactorysbiomes.BfBiomesMod;
 
 import net.minecraftforge.registries.RegistryObject;
@@ -107,6 +114,19 @@ public class BfBiomesModItems {
 	public static final RegistryObject<Item> MAPLE_LEAVES = block(BfBiomesModBlocks.MAPLE_LEAVES);
 	public static final RegistryObject<Item> BAOBAB_LEAVES = block(BfBiomesModBlocks.BAOBAB_LEAVES);
 	public static final RegistryObject<Item> BUSHY_BAOBAB_LEAVES = block(BfBiomesModBlocks.BUSHY_BAOBAB_LEAVES);
+	public static final RegistryObject<Item> RED_AUTUMN_GRASS = block(BfBiomesModBlocks.RED_AUTUMN_GRASS);
+	public static final RegistryObject<Item> DEER_SPAWN_EGG = REGISTRY.register("deer_spawn_egg", () -> new ForgeSpawnEggItem(BfBiomesModEntities.DEER, -5209270, -1456490, new Item.Properties()));
+	public static final RegistryObject<Item> BUTTERFLY_SPAWN_EGG = REGISTRY.register("butterfly_spawn_egg", () -> new ForgeSpawnEggItem(BfBiomesModEntities.BUTTERFLY, -2526191, -14805231, new Item.Properties()));
+	public static final RegistryObject<Item> MAPLE_SYRUP = REGISTRY.register("maple_syrup", () -> new MapleSyrupItem());
+	public static final RegistryObject<Item> DRY_SOIL = block(BfBiomesModBlocks.DRY_SOIL);
+	public static final RegistryObject<Item> BUG_NET = REGISTRY.register("bug_net", () -> new BugNetItem());
+	public static final RegistryObject<Item> BLUE_BUTTERFLY = REGISTRY.register("blue_butterfly", () -> new BlueButterflyItem());
+	public static final RegistryObject<Item> GREEN_BUTTERFLY = REGISTRY.register("green_butterfly", () -> new GreenButterflyItem());
+	public static final RegistryObject<Item> PINK_BUTTERFLY = REGISTRY.register("pink_butterfly", () -> new PinkButterflyItem());
+	public static final RegistryObject<Item> ORANGE_BUTTERFLY = REGISTRY.register("orange_butterfly", () -> new OrangeButterflyItem());
+	public static final RegistryObject<Item> FIRE_FLY_ITEM = REGISTRY.register("fire_fly_item", () -> new FireFlyItemItem());
+	public static final RegistryObject<Item> PRICKLY_CACTUS = block(BfBiomesModBlocks.PRICKLY_CACTUS);
+	public static final RegistryObject<Item> FLOWERING_URCHIN_CACTUS = block(BfBiomesModBlocks.FLOWERING_URCHIN_CACTUS);
 
 	// Start of user code block custom items
 	// End of user code block custom items
