@@ -1,17 +1,7 @@
 
 package net.unusual.blockfactorysbiomes.block;
 
-import net.minecraftforge.common.PlantType;
-
-import net.minecraft.world.level.material.PushReaction;
-import net.minecraft.world.level.material.MapColor;
-import net.minecraft.world.level.block.state.BlockState;
-import net.minecraft.world.level.block.state.BlockBehaviour;
-import net.minecraft.world.level.block.SoundType;
-import net.minecraft.world.level.block.DoublePlantBlock;
-import net.minecraft.world.level.BlockGetter;
-import net.minecraft.core.Direction;
-import net.minecraft.core.BlockPos;
+import net.minecraft.world.level.block.state.BlockBehaviour.Properties;
 
 public class TallMapleGrassBlock extends DoublePlantBlock {
 	public TallMapleGrassBlock() {

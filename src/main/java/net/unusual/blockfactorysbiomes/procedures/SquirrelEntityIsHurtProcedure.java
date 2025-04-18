@@ -1,8 +1,6 @@
 package net.unusual.blockfactorysbiomes.procedures;
 
-import net.unusual.blockfactorysbiomes.entity.SquirrelEntity;
-
-import net.minecraft.world.entity.Entity;
+import net.minecraftforge.eventbus.api.Event;
 
 public class SquirrelEntityIsHurtProcedure {
 	public static void execute(Entity entity) {

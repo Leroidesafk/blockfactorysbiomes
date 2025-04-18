@@ -174,10 +174,10 @@ public class BfBiomesModBlocks {
 	public static final RegistryObject<Block> MAPLE_LEAVES = REGISTRY.register("maple_leaves", () -> new MapleLeavesBlock());
 	public static final RegistryObject<Block> BAOBAB_LEAVES = REGISTRY.register("baobab_leaves", () -> new BaobabLeavesBlock());
 	public static final RegistryObject<Block> BUSHY_BAOBAB_LEAVES = REGISTRY.register("bushy_baobab_leaves", () -> new BushyBaobabLeavesBlock());
-	public static final RegistryObject<Block> RED_AUTUMN_GRASS = REGISTRY.register("red_autumn_grass", () -> new RedAutumnGrassBlock());
-	public static final RegistryObject<Block> DRY_SOIL = REGISTRY.register("dry_soil", () -> new DrySoilBlock());
 	public static final RegistryObject<Block> PRICKLY_CACTUS = REGISTRY.register("prickly_cactus", () -> new PricklyCactusBlock());
+	public static final RegistryObject<Block> DRY_SOIL = REGISTRY.register("dry_soil", () -> new DrySoilBlock());
 	public static final RegistryObject<Block> FLOWERING_URCHIN_CACTUS = REGISTRY.register("flowering_urchin_cactus", () -> new FloweringUrchinCactusBlock());
+	public static final RegistryObject<Block> RED_AUTUMN_GRASS = REGISTRY.register("red_autumn_grass", () -> new RedAutumnGrassBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

@@ -1,8 +1,6 @@
 package net.unusual.blockfactorysbiomes.procedures;
 
-import net.unusual.blockfactorysbiomes.entity.ButterflyEntity;
-
-import net.minecraft.world.entity.Entity;
+import net.minecraftforge.eventbus.api.Event;
 
 public class ButterflyDisplayCondition3Procedure {
 	public static boolean execute(Entity entity) {

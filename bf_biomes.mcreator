@@ -54,24 +54,24 @@
     {
       "name": "CoconutPlanks",
       "type": "block",
-      "sortid": 20,
+      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "registry_name": "coconut_planks",
       "metadata": {
         "files": [
-          "src/main/java/net/unusual/blockfactorysbiomes/block/CoconutPlanksBlock.java",
-          "src/main/resources/assets/bf_biomes/models/block/coconut_planks.json",
-          "src/main/resources/data/bf_biomes/loot_tables/blocks/coconut_planks.json",
+          "src/main/resources/assets/bf_biomes/models/item/coconut_planks.json",
           "src/main/resources/assets/bf_biomes/blockstates/coconut_planks.json",
-          "src/main/resources/assets/bf_biomes/models/item/coconut_planks.json"
+          "src/main/resources/data/bf_biomes/loot_tables/blocks/coconut_planks.json",
+          "src/main/java/net/unusual/blockfactorysbiomes/block/CoconutPlanksBlock.java",
+          "src/main/resources/assets/bf_biomes/models/block/coconut_planks.json"
         ]
       }
     },
     {
       "name": "CoconutLeaves",
       "type": "block",
-      "sortid": 16,
+      "sortid": 17,
       "compiles": true,
       "locked_code": true,
       "registry_name": "coconut_leaves",
@@ -88,76 +88,76 @@
     {
       "name": "CoconutStairs",
       "type": "block",
-      "sortid": 21,
+      "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "registry_name": "coconut_stairs",
       "metadata": {
         "files": [
           "src/main/resources/assets/bf_biomes/models/block/coconut_stairs_inner.json",
-          "src/main/resources/assets/bf_biomes/models/item/coconut_stairs.json",
-          "src/main/resources/assets/bf_biomes/blockstates/coconut_stairs.json",
-          "src/main/java/net/unusual/blockfactorysbiomes/block/CoconutStairsBlock.java",
           "src/main/resources/data/bf_biomes/loot_tables/blocks/coconut_stairs.json",
           "src/main/resources/assets/bf_biomes/models/block/coconut_stairs.json",
-          "src/main/resources/assets/bf_biomes/models/block/coconut_stairs_outer.json"
+          "src/main/java/net/unusual/blockfactorysbiomes/block/CoconutStairsBlock.java",
+          "src/main/resources/assets/bf_biomes/models/block/coconut_stairs_outer.json",
+          "src/main/resources/assets/bf_biomes/models/item/coconut_stairs.json",
+          "src/main/resources/assets/bf_biomes/blockstates/coconut_stairs.json"
         ]
       }
     },
     {
       "name": "CoconutSlab",
       "type": "block",
-      "sortid": 22,
+      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "registry_name": "coconut_slab",
       "metadata": {
         "files": [
-          "src/main/java/net/unusual/blockfactorysbiomes/block/CoconutSlabBlock.java",
-          "src/main/resources/assets/bf_biomes/models/item/coconut_slab.json",
-          "src/main/resources/data/bf_biomes/loot_tables/blocks/coconut_slab.json",
           "src/main/resources/assets/bf_biomes/blockstates/coconut_slab.json",
-          "src/main/resources/assets/bf_biomes/models/block/coconut_slab_full.json",
+          "src/main/resources/assets/bf_biomes/models/block/coconut_slab_top.json",
+          "src/main/java/net/unusual/blockfactorysbiomes/block/CoconutSlabBlock.java",
           "src/main/resources/assets/bf_biomes/models/block/coconut_slab.json",
-          "src/main/resources/assets/bf_biomes/models/block/coconut_slab_top.json"
+          "src/main/resources/data/bf_biomes/loot_tables/blocks/coconut_slab.json",
+          "src/main/resources/assets/bf_biomes/models/block/coconut_slab_full.json",
+          "src/main/resources/assets/bf_biomes/models/item/coconut_slab.json"
         ]
       }
     },
     {
       "name": "CoconutFence",
       "type": "block",
-      "sortid": 23,
+      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "registry_name": "coconut_fence",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bf_biomes/models/block/coconut_fence_post.json",
-          "src/main/resources/assets/bf_biomes/models/item/coconut_fence.json",
-          "src/main/resources/data/bf_biomes/loot_tables/blocks/coconut_fence.json",
           "src/main/resources/assets/bf_biomes/models/block/coconut_fence_inventory.json",
           "src/main/java/net/unusual/blockfactorysbiomes/block/CoconutFenceBlock.java",
+          "src/main/resources/assets/bf_biomes/models/block/coconut_fence_post.json",
           "src/main/resources/assets/bf_biomes/models/block/coconut_fence.json",
-          "src/main/resources/assets/bf_biomes/blockstates/coconut_fence.json"
+          "src/main/resources/assets/bf_biomes/models/item/coconut_fence.json",
+          "src/main/resources/assets/bf_biomes/blockstates/coconut_fence.json",
+          "src/main/resources/data/bf_biomes/loot_tables/blocks/coconut_fence.json"
         ]
       }
     },
     {
       "name": "CoconutFenceGate",
       "type": "block",
-      "sortid": 24,
+      "sortid": 25,
       "compiles": true,
       "locked_code": false,
       "registry_name": "coconut_fence_gate",
       "metadata": {
         "files": [
-          "src/main/resources/data/bf_biomes/loot_tables/blocks/coconut_fence_gate.json",
-          "src/main/resources/assets/bf_biomes/models/item/coconut_fence_gate.json",
-          "src/main/resources/assets/bf_biomes/models/block/coconut_fence_gate_wall.json",
           "src/main/resources/assets/bf_biomes/models/block/coconut_fence_gate.json",
-          "src/main/resources/assets/bf_biomes/blockstates/coconut_fence_gate.json",
           "src/main/resources/assets/bf_biomes/models/block/coconut_fence_gate_wall_open.json",
           "src/main/resources/assets/bf_biomes/models/block/coconut_fence_gate_open.json",
+          "src/main/resources/assets/bf_biomes/models/block/coconut_fence_gate_wall.json",
+          "src/main/resources/assets/bf_biomes/models/item/coconut_fence_gate.json",
+          "src/main/resources/data/bf_biomes/loot_tables/blocks/coconut_fence_gate.json",
+          "src/main/resources/assets/bf_biomes/blockstates/coconut_fence_gate.json",
           "src/main/java/net/unusual/blockfactorysbiomes/block/CoconutFenceGateBlock.java"
         ]
       }
@@ -165,7 +165,7 @@
     {
       "name": "CoconutPressurePlate",
       "type": "block",
-      "sortid": 25,
+      "sortid": 26,
       "compiles": true,
       "locked_code": false,
       "registry_name": "coconut_pressure_plate",
@@ -173,36 +173,36 @@
         "files": [
           "src/main/resources/data/bf_biomes/loot_tables/blocks/coconut_pressure_plate.json",
           "src/main/resources/assets/bf_biomes/models/item/coconut_pressure_plate.json",
-          "src/main/resources/assets/bf_biomes/models/block/coconut_pressure_plate_down.json",
-          "src/main/resources/assets/bf_biomes/models/block/coconut_pressure_plate.json",
+          "src/main/java/net/unusual/blockfactorysbiomes/block/CoconutPressurePlateBlock.java",
           "src/main/resources/assets/bf_biomes/blockstates/coconut_pressure_plate.json",
-          "src/main/java/net/unusual/blockfactorysbiomes/block/CoconutPressurePlateBlock.java"
+          "src/main/resources/assets/bf_biomes/models/block/coconut_pressure_plate.json",
+          "src/main/resources/assets/bf_biomes/models/block/coconut_pressure_plate_down.json"
         ]
       }
     },
     {
       "name": "CoconutButton",
       "type": "block",
-      "sortid": 26,
+      "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "registry_name": "coconut_button",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bf_biomes/models/block/coconut_button_inventory.json",
-          "src/main/resources/assets/bf_biomes/models/block/coconut_button.json",
-          "src/main/java/net/unusual/blockfactorysbiomes/block/CoconutButtonBlock.java",
-          "src/main/resources/assets/bf_biomes/models/block/coconut_button_pressed.json",
           "src/main/resources/assets/bf_biomes/models/item/coconut_button.json",
           "src/main/resources/assets/bf_biomes/blockstates/coconut_button.json",
-          "src/main/resources/data/bf_biomes/loot_tables/blocks/coconut_button.json"
+          "src/main/resources/assets/bf_biomes/models/block/coconut_button_inventory.json",
+          "src/main/java/net/unusual/blockfactorysbiomes/block/CoconutButtonBlock.java",
+          "src/main/resources/assets/bf_biomes/models/block/coconut_button_pressed.json",
+          "src/main/resources/data/bf_biomes/loot_tables/blocks/coconut_button.json",
+          "src/main/resources/assets/bf_biomes/models/block/coconut_button.json"
         ]
       }
     },
     {
       "name": "CoconutWoodRecipe",
       "type": "recipe",
-      "sortid": 90,
+      "sortid": 37,
       "compiles": true,
       "locked_code": false,
       "registry_name": "coconut_wood_recipe",
@@ -215,7 +215,7 @@
     {
       "name": "CoconutPlanksLogRecipe",
       "type": "recipe",
-      "sortid": 91,
+      "sortid": 38,
       "compiles": true,
       "locked_code": false,
       "registry_name": "coconut_planks_log_recipe",
@@ -228,7 +228,7 @@
     {
       "name": "CoconutPlanksWoodRecipe",
       "type": "recipe",
-      "sortid": 92,
+      "sortid": 39,
       "compiles": true,
       "locked_code": false,
       "registry_name": "coconut_planks_wood_recipe",
@@ -241,7 +241,7 @@
     {
       "name": "CoconutStairsRecipe",
       "type": "recipe",
-      "sortid": 93,
+      "sortid": 40,
       "compiles": true,
       "locked_code": false,
       "registry_name": "coconut_stairs_recipe",
@@ -254,7 +254,7 @@
     {
       "name": "CoconutSlabRecipe",
       "type": "recipe",
-      "sortid": 94,
+      "sortid": 41,
       "compiles": true,
       "locked_code": false,
       "registry_name": "coconut_slab_recipe",
@@ -267,7 +267,7 @@
     {
       "name": "CoconutFenceRecipe",
       "type": "recipe",
-      "sortid": 95,
+      "sortid": 42,
       "compiles": true,
       "locked_code": false,
       "registry_name": "coconut_fence_recipe",
@@ -280,7 +280,7 @@
     {
       "name": "CoconutFenceGateRecipe",
       "type": "recipe",
-      "sortid": 96,
+      "sortid": 43,
       "compiles": true,
       "locked_code": false,
       "registry_name": "coconut_fence_gate_recipe",
@@ -293,7 +293,7 @@
     {
       "name": "CoconutPressurePlateRecipe",
       "type": "recipe",
-      "sortid": 97,
+      "sortid": 44,
       "compiles": true,
       "locked_code": false,
       "registry_name": "coconut_pressure_plate_recipe",
@@ -306,7 +306,7 @@
     {
       "name": "CoconutButtonRecipe",
       "type": "recipe",
-      "sortid": 98,
+      "sortid": 45,
       "compiles": true,
       "locked_code": false,
       "registry_name": "coconut_button_recipe",
@@ -319,7 +319,7 @@
     {
       "name": "CoconutStickRecipe",
       "type": "recipe",
-      "sortid": 99,
+      "sortid": 46,
       "compiles": true,
       "locked_code": false,
       "registry_name": "coconut_stick_recipe",
@@ -338,25 +338,25 @@
       "registry_name": "coconut_door",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bf_biomes/blockstates/coconut_door.json",
-          "src/main/resources/assets/bf_biomes/models/block/coconut_door_bottom_right.json",
-          "src/main/resources/assets/bf_biomes/models/block/coconut_door_bottom_left.json",
-          "src/main/resources/assets/bf_biomes/models/block/coconut_door_top_right_open.json",
           "src/main/java/net/unusual/blockfactorysbiomes/block/CoconutDoorBlock.java",
           "src/main/resources/data/bf_biomes/loot_tables/blocks/coconut_door.json",
           "src/main/resources/assets/bf_biomes/models/item/coconut_door.json",
-          "src/main/resources/assets/bf_biomes/models/block/coconut_door_top_left_open.json",
-          "src/main/resources/assets/bf_biomes/models/block/coconut_door_top_right.json",
-          "src/main/resources/assets/bf_biomes/models/block/coconut_door_bottom_right_open.json",
           "src/main/resources/assets/bf_biomes/models/block/coconut_door_bottom_left_open.json",
-          "src/main/resources/assets/bf_biomes/models/block/coconut_door_top_left.json"
+          "src/main/resources/assets/bf_biomes/blockstates/coconut_door.json",
+          "src/main/resources/assets/bf_biomes/models/block/coconut_door_bottom_right_open.json",
+          "src/main/resources/assets/bf_biomes/models/block/coconut_door_bottom_left.json",
+          "src/main/resources/assets/bf_biomes/models/block/coconut_door_top_left.json",
+          "src/main/resources/assets/bf_biomes/models/block/coconut_door_top_left_open.json",
+          "src/main/resources/assets/bf_biomes/models/block/coconut_door_bottom_right.json",
+          "src/main/resources/assets/bf_biomes/models/block/coconut_door_top_right.json",
+          "src/main/resources/assets/bf_biomes/models/block/coconut_door_top_right_open.json"
         ]
       }
     },
     {
       "name": "BlockFactorysBiomesTab",
       "type": "tab",
-      "sortid": 100,
+      "sortid": 47,
       "compiles": true,
       "locked_code": false,
       "registry_name": "block_factorys_biomes_tab",
@@ -538,7 +538,7 @@
     {
       "name": "BushyCoconutLeaves",
       "type": "block",
-      "sortid": 17,
+      "sortid": 18,
       "compiles": true,
       "locked_code": true,
       "registry_name": "bushy_coconut_leaves",
@@ -555,7 +555,7 @@
     {
       "name": "OpenedCoconutRecipe",
       "type": "recipe",
-      "sortid": 107,
+      "sortid": 54,
       "compiles": true,
       "locked_code": false,
       "registry_name": "opened_coconut_recipe",
@@ -568,7 +568,7 @@
     {
       "name": "CoconutLoot",
       "type": "loottable",
-      "sortid": 108,
+      "sortid": 55,
       "compiles": true,
       "locked_code": false,
       "registry_name": "coconut_loot",
@@ -613,17 +613,17 @@
     {
       "name": "HangingCoconutLeaves",
       "type": "block",
-      "sortid": 18,
+      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hanging_coconut_leaves",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bf_biomes/models/item/hanging_coconut_leaves.json",
-          "src/main/java/net/unusual/blockfactorysbiomes/block/HangingCoconutLeavesBlock.java",
-          "src/main/resources/assets/bf_biomes/models/block/hanging_coconut_leaves.json",
           "src/main/resources/assets/bf_biomes/blockstates/hanging_coconut_leaves.json",
-          "src/main/resources/data/bf_biomes/loot_tables/blocks/hanging_coconut_leaves.json"
+          "src/main/resources/assets/bf_biomes/models/block/hanging_coconut_leaves.json",
+          "src/main/resources/data/bf_biomes/loot_tables/blocks/hanging_coconut_leaves.json",
+          "src/main/resources/assets/bf_biomes/models/item/hanging_coconut_leaves.json",
+          "src/main/java/net/unusual/blockfactorysbiomes/block/HangingCoconutLeavesBlock.java"
         ]
       }
     },
@@ -636,11 +636,11 @@
       "registry_name": "long_shell",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bf_biomes/blockstates/long_shell.json",
           "src/main/java/net/unusual/blockfactorysbiomes/block/LongShellBlock.java",
-          "src/main/resources/data/bf_biomes/loot_tables/blocks/long_shell.json",
           "src/main/resources/assets/bf_biomes/models/block/long_shell.json",
-          "src/main/resources/assets/bf_biomes/models/item/long_shell.json"
+          "src/main/resources/assets/bf_biomes/models/item/long_shell.json",
+          "src/main/resources/data/bf_biomes/loot_tables/blocks/long_shell.json",
+          "src/main/resources/assets/bf_biomes/blockstates/long_shell.json"
         ]
       }
     },
@@ -653,11 +653,11 @@
       "registry_name": "round_shell",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bf_biomes/models/item/round_shell.json",
-          "src/main/resources/assets/bf_biomes/models/block/round_shell.json",
-          "src/main/resources/assets/bf_biomes/blockstates/round_shell.json",
           "src/main/java/net/unusual/blockfactorysbiomes/block/RoundShellBlock.java",
-          "src/main/resources/data/bf_biomes/loot_tables/blocks/round_shell.json"
+          "src/main/resources/data/bf_biomes/loot_tables/blocks/round_shell.json",
+          "src/main/resources/assets/bf_biomes/blockstates/round_shell.json",
+          "src/main/resources/assets/bf_biomes/models/item/round_shell.json",
+          "src/main/resources/assets/bf_biomes/models/block/round_shell.json"
         ]
       }
     },
@@ -671,9 +671,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/bf_biomes/models/item/zigag_shell.json",
-          "src/main/resources/assets/bf_biomes/models/block/zigag_shell.json",
           "src/main/java/net/unusual/blockfactorysbiomes/block/ZigagShellBlock.java",
           "src/main/resources/data/bf_biomes/loot_tables/blocks/zigag_shell.json",
+          "src/main/resources/assets/bf_biomes/models/block/zigag_shell.json",
           "src/main/resources/assets/bf_biomes/blockstates/zigag_shell.json"
         ]
       }
@@ -705,10 +705,10 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/bf_biomes/models/item/pink_lion_paw_seashel.json",
+          "src/main/resources/assets/bf_biomes/models/block/pink_lion_paw_seashel.json",
           "src/main/resources/data/bf_biomes/loot_tables/blocks/pink_lion_paw_seashel.json",
           "src/main/resources/assets/bf_biomes/blockstates/pink_lion_paw_seashel.json",
-          "src/main/java/net/unusual/blockfactorysbiomes/block/PinkLionPawSeashelBlock.java",
-          "src/main/resources/assets/bf_biomes/models/block/pink_lion_paw_seashel.json"
+          "src/main/java/net/unusual/blockfactorysbiomes/block/PinkLionPawSeashelBlock.java"
         ]
       }
     },
@@ -732,7 +732,7 @@
     {
       "name": "FallenCoconutLogBB",
       "type": "blockstates",
-      "sortid": 110,
+      "sortid": 57,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fallen_coconut_log_bb",
@@ -794,7 +794,7 @@
     {
       "name": "FallenOvergrownCoconutLogBB",
       "type": "blockstates",
-      "sortid": 112,
+      "sortid": 59,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fallen_overgrown_coconut_log_bb",
@@ -814,28 +814,28 @@
       "registry_name": "starfish",
       "metadata": {
         "files": [
+          "src/main/resources/data/bf_biomes/loot_tables/blocks/starfish.json",
+          "src/main/resources/assets/bf_biomes/blockstates/starfish.json",
           "src/main/resources/assets/bf_biomes/models/item/starfish.json",
           "src/main/resources/assets/bf_biomes/models/block/starfish.json",
-          "src/main/java/net/unusual/blockfactorysbiomes/block/StarfishBlock.java",
-          "src/main/resources/assets/bf_biomes/blockstates/starfish.json",
-          "src/main/resources/data/bf_biomes/loot_tables/blocks/starfish.json"
+          "src/main/java/net/unusual/blockfactorysbiomes/block/StarfishBlock.java"
         ]
       }
     },
     {
       "name": "CoconutBush",
       "type": "block",
-      "sortid": 19,
+      "sortid": 20,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "registry_name": "coconut_bush",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bf_biomes/models/block/coconut_bush.json",
-          "src/main/resources/data/bf_biomes/loot_tables/blocks/coconut_bush.json",
+          "src/main/resources/assets/bf_biomes/models/item/coconut_bush.json",
           "src/main/resources/assets/bf_biomes/blockstates/coconut_bush.json",
           "src/main/java/net/unusual/blockfactorysbiomes/block/CoconutBushBlock.java",
-          "src/main/resources/assets/bf_biomes/models/item/coconut_bush.json"
+          "src/main/resources/assets/bf_biomes/models/block/coconut_bush.json",
+          "src/main/resources/data/bf_biomes/loot_tables/blocks/coconut_bush.json"
         ]
       }
     },
@@ -1040,13 +1040,13 @@
       "registry_name": "dried_grass",
       "metadata": {
         "files": [
+          "src/main/resources/assets/bf_biomes/blockstates/dried_grass.json",
+          "src/main/resources/data/bf_biomes/worldgen/configured_feature/dried_grass.json",
           "src/main/resources/assets/bf_biomes/models/item/dried_grass.json",
           "src/main/java/net/unusual/blockfactorysbiomes/block/DriedGrassBlock.java",
           "src/main/resources/data/bf_biomes/forge/biome_modifier/dried_grass_biome_modifier.json",
           "src/main/resources/data/bf_biomes/worldgen/placed_feature/dried_grass.json",
-          "src/main/resources/assets/bf_biomes/models/block/dried_grass.json",
-          "src/main/resources/assets/bf_biomes/blockstates/dried_grass.json",
-          "src/main/resources/data/bf_biomes/worldgen/configured_feature/dried_grass.json"
+          "src/main/resources/assets/bf_biomes/models/block/dried_grass.json"
         ]
       }
     },
@@ -1206,15 +1206,15 @@
     {
       "name": "CoconutTree",
       "type": "feature",
-      "sortid": 122,
+      "sortid": 69,
       "compiles": true,
       "locked_code": false,
       "registry_name": "coconut_tree",
       "metadata": {
         "files": [
           "src/main/resources/data/bf_biomes/forge/biome_modifier/coconut_tree_biome_modifier.json",
-          "src/main/resources/data/bf_biomes/worldgen/configured_feature/coconut_tree.json",
-          "src/main/resources/data/bf_biomes/worldgen/placed_feature/coconut_tree.json"
+          "src/main/resources/data/bf_biomes/worldgen/placed_feature/coconut_tree.json",
+          "src/main/resources/data/bf_biomes/worldgen/configured_feature/coconut_tree.json"
         ],
         "has_nbt_structure": true
       }
@@ -1252,6 +1252,19 @@
       }
     },
     {
+      "name": "CoconutLeavesLoot",
+      "type": "loottable",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coconut_leaves_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bf_biomes/loot_tables/blocks/coconut_leaves.json"
+        ]
+      }
+    },
+    {
       "name": "CoconutSapling",
       "type": "plant",
       "sortid": 4,
@@ -1260,11 +1273,11 @@
       "registry_name": "coconut_sapling",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bf_biomes/models/block/coconut_sapling.json",
-          "src/main/resources/assets/bf_biomes/blockstates/coconut_sapling.json",
           "src/main/resources/data/bf_biomes/loot_tables/blocks/coconut_sapling.json",
+          "src/main/resources/assets/bf_biomes/blockstates/coconut_sapling.json",
+          "src/main/java/net/unusual/blockfactorysbiomes/block/CoconutSaplingBlock.java",
           "src/main/resources/assets/bf_biomes/models/item/coconut_sapling.json",
-          "src/main/java/net/unusual/blockfactorysbiomes/block/CoconutSaplingBlock.java"
+          "src/main/resources/assets/bf_biomes/models/block/coconut_sapling.json"
         ]
       }
     },
@@ -1365,7 +1378,7 @@
     {
       "name": "CoconutBushes",
       "type": "feature",
-      "sortid": 128,
+      "sortid": 76,
       "compiles": true,
       "locked_code": false,
       "registry_name": "coconut_bushes",
@@ -1381,7 +1394,7 @@
     {
       "name": "ShellPlacement",
       "type": "feature",
-      "sortid": 129,
+      "sortid": 77,
       "compiles": true,
       "locked_code": false,
       "registry_name": "shell_placement",
@@ -1396,7 +1409,7 @@
     {
       "name": "StarfishPlacement",
       "type": "feature",
-      "sortid": 130,
+      "sortid": 78,
       "compiles": true,
       "locked_code": false,
       "registry_name": "starfish_placement",
@@ -1482,9 +1495,35 @@
       }
     },
     {
+      "name": "BushyCoconutLeavesLoot",
+      "type": "loottable",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bushy_coconut_leaves_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bf_biomes/loot_tables/blocks/bushy_coconut_leaves.json"
+        ]
+      }
+    },
+    {
+      "name": "CoconutBushLoot",
+      "type": "loottable",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coconut_bush_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bf_biomes/loot_tables/blocks/coconut_bush.json"
+        ]
+      }
+    },
+    {
       "name": "LongShellLoot",
       "type": "loottable",
-      "sortid": 132,
+      "sortid": 82,
       "compiles": true,
       "locked_code": false,
       "registry_name": "long_shell_loot",
@@ -1497,7 +1536,7 @@
     {
       "name": "RoundShellLoot",
       "type": "loottable",
-      "sortid": 133,
+      "sortid": 83,
       "compiles": true,
       "locked_code": false,
       "registry_name": "round_shell_loot",
@@ -1510,7 +1549,7 @@
     {
       "name": "ZigagShellLoot",
       "type": "loottable",
-      "sortid": 134,
+      "sortid": 84,
       "compiles": true,
       "locked_code": false,
       "registry_name": "zigag_shell_loot",
@@ -1523,7 +1562,7 @@
     {
       "name": "CoconutPlanksWoodRecipe2",
       "type": "recipe",
-      "sortid": 135,
+      "sortid": 85,
       "compiles": true,
       "locked_code": false,
       "registry_name": "coconut_planks_wood_recipe_2",
@@ -1536,7 +1575,7 @@
     {
       "name": "CoconutPlanksLogRecipe2",
       "type": "recipe",
-      "sortid": 136,
+      "sortid": 86,
       "compiles": true,
       "locked_code": false,
       "registry_name": "coconut_planks_log_recipe_2",
@@ -1555,8 +1594,8 @@
       "registry_name": "raw_crab_meat",
       "metadata": {
         "files": [
-          "src/main/java/net/unusual/blockfactorysbiomes/item/RawCrabMeatItem.java",
-          "src/main/resources/assets/bf_biomes/models/item/raw_crab_meat.json"
+          "src/main/resources/assets/bf_biomes/models/item/raw_crab_meat.json",
+          "src/main/java/net/unusual/blockfactorysbiomes/item/RawCrabMeatItem.java"
         ]
       }
     },
@@ -1577,7 +1616,7 @@
     {
       "name": "CrabLoot",
       "type": "loottable",
-      "sortid": 137,
+      "sortid": 89,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crab_loot",
@@ -1590,7 +1629,7 @@
     {
       "name": "CookedCrabMeatRecipe",
       "type": "recipe",
-      "sortid": 138,
+      "sortid": 90,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cooked_crab_meat_recipe",
@@ -1603,101 +1642,101 @@
     {
       "name": "MapleTrunk",
       "type": "block",
-      "sortid": 44,
+      "sortid": 91,
       "compiles": true,
       "locked_code": false,
       "registry_name": "maple_trunk",
       "metadata": {
         "files": [
-          "src/main/resources/data/bf_biomes/loot_tables/blocks/maple_trunk.json",
           "src/main/java/net/unusual/blockfactorysbiomes/block/MapleTrunkBlock.java",
           "src/main/resources/assets/bf_biomes/models/item/maple_trunk.json",
-          "src/main/resources/assets/bf_biomes/blockstates/maple_trunk.json",
-          "src/main/resources/assets/bf_biomes/models/block/maple_trunk.json"
+          "src/main/resources/assets/bf_biomes/models/block/maple_trunk.json",
+          "src/main/resources/data/bf_biomes/loot_tables/blocks/maple_trunk.json",
+          "src/main/resources/assets/bf_biomes/blockstates/maple_trunk.json"
         ]
       }
     },
     {
       "name": "MapleWood",
       "type": "block",
-      "sortid": 45,
+      "sortid": 92,
       "compiles": true,
       "locked_code": false,
       "registry_name": "maple_wood",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bf_biomes/models/item/maple_wood.json",
-          "src/main/resources/assets/bf_biomes/models/block/maple_wood.json",
           "src/main/resources/data/bf_biomes/loot_tables/blocks/maple_wood.json",
-          "src/main/java/net/unusual/blockfactorysbiomes/block/MapleWoodBlock.java",
-          "src/main/resources/assets/bf_biomes/blockstates/maple_wood.json"
+          "src/main/resources/assets/bf_biomes/models/item/maple_wood.json",
+          "src/main/resources/assets/bf_biomes/blockstates/maple_wood.json",
+          "src/main/resources/assets/bf_biomes/models/block/maple_wood.json",
+          "src/main/java/net/unusual/blockfactorysbiomes/block/MapleWoodBlock.java"
         ]
       }
     },
     {
       "name": "MapleLog",
       "type": "block",
-      "sortid": 46,
+      "sortid": 93,
       "compiles": true,
       "locked_code": false,
       "registry_name": "maple_log",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bf_biomes/models/item/maple_log.json",
-          "src/main/resources/assets/bf_biomes/blockstates/maple_log.json",
-          "src/main/java/net/unusual/blockfactorysbiomes/block/MapleLogBlock.java",
           "src/main/resources/assets/bf_biomes/models/block/maple_log.json",
-          "src/main/resources/data/bf_biomes/loot_tables/blocks/maple_log.json"
+          "src/main/resources/data/bf_biomes/loot_tables/blocks/maple_log.json",
+          "src/main/java/net/unusual/blockfactorysbiomes/block/MapleLogBlock.java",
+          "src/main/resources/assets/bf_biomes/blockstates/maple_log.json",
+          "src/main/resources/assets/bf_biomes/models/item/maple_log.json"
         ]
       }
     },
     {
       "name": "StrippedMapleWood",
       "type": "block",
-      "sortid": 51,
+      "sortid": 94,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stripped_maple_wood",
       "metadata": {
         "files": [
-          "src/main/java/net/unusual/blockfactorysbiomes/block/StrippedMapleWoodBlock.java",
-          "src/main/resources/assets/bf_biomes/blockstates/stripped_maple_wood.json",
-          "src/main/resources/assets/bf_biomes/models/item/stripped_maple_wood.json",
+          "src/main/resources/data/bf_biomes/loot_tables/blocks/stripped_maple_wood.json",
           "src/main/resources/assets/bf_biomes/models/block/stripped_maple_wood.json",
-          "src/main/resources/data/bf_biomes/loot_tables/blocks/stripped_maple_wood.json"
+          "src/main/resources/assets/bf_biomes/models/item/stripped_maple_wood.json",
+          "src/main/java/net/unusual/blockfactorysbiomes/block/StrippedMapleWoodBlock.java",
+          "src/main/resources/assets/bf_biomes/blockstates/stripped_maple_wood.json"
         ]
       }
     },
     {
       "name": "StrippedMapleLog",
       "type": "block",
-      "sortid": 52,
+      "sortid": 95,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stripped_maple_log",
       "metadata": {
         "files": [
+          "src/main/resources/data/bf_biomes/loot_tables/blocks/stripped_maple_log.json",
           "src/main/resources/assets/bf_biomes/models/item/stripped_maple_log.json",
-          "src/main/resources/assets/bf_biomes/blockstates/stripped_maple_log.json",
           "src/main/resources/assets/bf_biomes/models/block/stripped_maple_log.json",
           "src/main/java/net/unusual/blockfactorysbiomes/block/StrippedMapleLogBlock.java",
-          "src/main/resources/data/bf_biomes/loot_tables/blocks/stripped_maple_log.json"
+          "src/main/resources/assets/bf_biomes/blockstates/stripped_maple_log.json"
         ]
       }
     },
     {
       "name": "MaplePlanks",
       "type": "block",
-      "sortid": 53,
+      "sortid": 96,
       "compiles": true,
       "locked_code": false,
       "registry_name": "maple_planks",
       "metadata": {
         "files": [
-          "src/main/resources/data/bf_biomes/loot_tables/blocks/maple_planks.json",
           "src/main/resources/assets/bf_biomes/models/block/maple_planks.json",
-          "src/main/resources/assets/bf_biomes/models/item/maple_planks.json",
+          "src/main/resources/data/bf_biomes/loot_tables/blocks/maple_planks.json",
           "src/main/resources/assets/bf_biomes/blockstates/maple_planks.json",
+          "src/main/resources/assets/bf_biomes/models/item/maple_planks.json",
           "src/main/java/net/unusual/blockfactorysbiomes/block/MaplePlanksBlock.java"
         ]
       }
@@ -1705,56 +1744,56 @@
     {
       "name": "MapleStairs",
       "type": "block",
-      "sortid": 54,
+      "sortid": 97,
       "compiles": true,
       "locked_code": false,
       "registry_name": "maple_stairs",
       "metadata": {
         "files": [
-          "src/main/java/net/unusual/blockfactorysbiomes/block/MapleStairsBlock.java",
           "src/main/resources/assets/bf_biomes/models/block/maple_stairs_inner.json",
-          "src/main/resources/data/bf_biomes/loot_tables/blocks/maple_stairs.json",
-          "src/main/resources/assets/bf_biomes/blockstates/maple_stairs.json",
           "src/main/resources/assets/bf_biomes/models/block/maple_stairs.json",
-          "src/main/resources/assets/bf_biomes/models/item/maple_stairs.json",
-          "src/main/resources/assets/bf_biomes/models/block/maple_stairs_outer.json"
+          "src/main/resources/assets/bf_biomes/blockstates/maple_stairs.json",
+          "src/main/java/net/unusual/blockfactorysbiomes/block/MapleStairsBlock.java",
+          "src/main/resources/data/bf_biomes/loot_tables/blocks/maple_stairs.json",
+          "src/main/resources/assets/bf_biomes/models/block/maple_stairs_outer.json",
+          "src/main/resources/assets/bf_biomes/models/item/maple_stairs.json"
         ]
       }
     },
     {
       "name": "MapleSlab",
       "type": "block",
-      "sortid": 55,
+      "sortid": 98,
       "compiles": true,
       "locked_code": false,
       "registry_name": "maple_slab",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bf_biomes/models/item/maple_slab.json",
-          "src/main/resources/assets/bf_biomes/blockstates/maple_slab.json",
-          "src/main/resources/data/bf_biomes/loot_tables/blocks/maple_slab.json",
-          "src/main/java/net/unusual/blockfactorysbiomes/block/MapleSlabBlock.java",
+          "src/main/resources/assets/bf_biomes/models/block/maple_slab.json",
           "src/main/resources/assets/bf_biomes/models/block/maple_slab_top.json",
-          "src/main/resources/assets/bf_biomes/models/block/maple_slab_full.json",
-          "src/main/resources/assets/bf_biomes/models/block/maple_slab.json"
+          "src/main/resources/assets/bf_biomes/blockstates/maple_slab.json",
+          "src/main/java/net/unusual/blockfactorysbiomes/block/MapleSlabBlock.java",
+          "src/main/resources/data/bf_biomes/loot_tables/blocks/maple_slab.json",
+          "src/main/resources/assets/bf_biomes/models/item/maple_slab.json",
+          "src/main/resources/assets/bf_biomes/models/block/maple_slab_full.json"
         ]
       }
     },
     {
       "name": "MapleFence",
       "type": "block",
-      "sortid": 56,
+      "sortid": 99,
       "compiles": true,
       "locked_code": false,
       "registry_name": "maple_fence",
       "metadata": {
         "files": [
           "src/main/resources/assets/bf_biomes/models/block/maple_fence.json",
+          "src/main/resources/assets/bf_biomes/models/block/maple_fence_post.json",
           "src/main/resources/assets/bf_biomes/blockstates/maple_fence.json",
           "src/main/java/net/unusual/blockfactorysbiomes/block/MapleFenceBlock.java",
           "src/main/resources/data/bf_biomes/loot_tables/blocks/maple_fence.json",
           "src/main/resources/assets/bf_biomes/models/block/maple_fence_inventory.json",
-          "src/main/resources/assets/bf_biomes/models/block/maple_fence_post.json",
           "src/main/resources/assets/bf_biomes/models/item/maple_fence.json"
         ]
       }
@@ -1762,64 +1801,64 @@
     {
       "name": "MapleFenceGate",
       "type": "block",
-      "sortid": 57,
+      "sortid": 100,
       "compiles": true,
       "locked_code": false,
       "registry_name": "maple_fence_gate",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bf_biomes/blockstates/maple_fence_gate.json",
-          "src/main/resources/assets/bf_biomes/models/block/maple_fence_gate.json",
-          "src/main/resources/assets/bf_biomes/models/item/maple_fence_gate.json",
           "src/main/resources/assets/bf_biomes/models/block/maple_fence_gate_wall.json",
+          "src/main/resources/assets/bf_biomes/models/block/maple_fence_gate.json",
           "src/main/java/net/unusual/blockfactorysbiomes/block/MapleFenceGateBlock.java",
-          "src/main/resources/assets/bf_biomes/models/block/maple_fence_gate_open.json",
           "src/main/resources/data/bf_biomes/loot_tables/blocks/maple_fence_gate.json",
-          "src/main/resources/assets/bf_biomes/models/block/maple_fence_gate_wall_open.json"
+          "src/main/resources/assets/bf_biomes/models/item/maple_fence_gate.json",
+          "src/main/resources/assets/bf_biomes/blockstates/maple_fence_gate.json",
+          "src/main/resources/assets/bf_biomes/models/block/maple_fence_gate_wall_open.json",
+          "src/main/resources/assets/bf_biomes/models/block/maple_fence_gate_open.json"
         ]
       }
     },
     {
       "name": "MaplePressurePlate",
       "type": "block",
-      "sortid": 58,
+      "sortid": 101,
       "compiles": true,
       "locked_code": false,
       "registry_name": "maple_pressure_plate",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bf_biomes/models/block/maple_pressure_plate.json",
-          "src/main/resources/assets/bf_biomes/models/item/maple_pressure_plate.json",
-          "src/main/resources/assets/bf_biomes/models/block/maple_pressure_plate_down.json",
-          "src/main/java/net/unusual/blockfactorysbiomes/block/MaplePressurePlateBlock.java",
+          "src/main/resources/assets/bf_biomes/blockstates/maple_pressure_plate.json",
           "src/main/resources/data/bf_biomes/loot_tables/blocks/maple_pressure_plate.json",
-          "src/main/resources/assets/bf_biomes/blockstates/maple_pressure_plate.json"
+          "src/main/resources/assets/bf_biomes/models/item/maple_pressure_plate.json",
+          "src/main/resources/assets/bf_biomes/models/block/maple_pressure_plate.json",
+          "src/main/java/net/unusual/blockfactorysbiomes/block/MaplePressurePlateBlock.java",
+          "src/main/resources/assets/bf_biomes/models/block/maple_pressure_plate_down.json"
         ]
       }
     },
     {
       "name": "MapleButton",
       "type": "block",
-      "sortid": 59,
+      "sortid": 102,
       "compiles": true,
       "locked_code": false,
       "registry_name": "maple_button",
       "metadata": {
         "files": [
-          "src/main/java/net/unusual/blockfactorysbiomes/block/MapleButtonBlock.java",
           "src/main/resources/assets/bf_biomes/models/block/maple_button.json",
-          "src/main/resources/assets/bf_biomes/models/block/maple_button_pressed.json",
-          "src/main/resources/assets/bf_biomes/models/item/maple_button.json",
-          "src/main/resources/assets/bf_biomes/models/block/maple_button_inventory.json",
+          "src/main/resources/assets/bf_biomes/blockstates/maple_button.json",
           "src/main/resources/data/bf_biomes/loot_tables/blocks/maple_button.json",
-          "src/main/resources/assets/bf_biomes/blockstates/maple_button.json"
+          "src/main/resources/assets/bf_biomes/models/item/maple_button.json",
+          "src/main/resources/assets/bf_biomes/models/block/maple_button_pressed.json",
+          "src/main/java/net/unusual/blockfactorysbiomes/block/MapleButtonBlock.java",
+          "src/main/resources/assets/bf_biomes/models/block/maple_button_inventory.json"
         ]
       }
     },
     {
       "name": "MapleWoodRecipe",
       "type": "recipe",
-      "sortid": 139,
+      "sortid": 103,
       "compiles": true,
       "locked_code": false,
       "registry_name": "maple_wood_recipe",
@@ -1832,7 +1871,7 @@
     {
       "name": "MaplePlanksLogRecipe",
       "type": "recipe",
-      "sortid": 140,
+      "sortid": 104,
       "compiles": true,
       "locked_code": false,
       "registry_name": "maple_planks_log_recipe",
@@ -1845,7 +1884,7 @@
     {
       "name": "MaplePlanksWoodRecipe",
       "type": "recipe",
-      "sortid": 141,
+      "sortid": 105,
       "compiles": true,
       "locked_code": false,
       "registry_name": "maple_planks_wood_recipe",
@@ -1858,7 +1897,7 @@
     {
       "name": "MapleStairsRecipe",
       "type": "recipe",
-      "sortid": 142,
+      "sortid": 106,
       "compiles": true,
       "locked_code": false,
       "registry_name": "maple_stairs_recipe",
@@ -1871,7 +1910,7 @@
     {
       "name": "MapleSlabRecipe",
       "type": "recipe",
-      "sortid": 143,
+      "sortid": 107,
       "compiles": true,
       "locked_code": false,
       "registry_name": "maple_slab_recipe",
@@ -1884,7 +1923,7 @@
     {
       "name": "MapleFenceRecipe",
       "type": "recipe",
-      "sortid": 144,
+      "sortid": 108,
       "compiles": true,
       "locked_code": false,
       "registry_name": "maple_fence_recipe",
@@ -1897,7 +1936,7 @@
     {
       "name": "MapleFenceGateRecipe",
       "type": "recipe",
-      "sortid": 145,
+      "sortid": 109,
       "compiles": true,
       "locked_code": false,
       "registry_name": "maple_fence_gate_recipe",
@@ -1910,7 +1949,7 @@
     {
       "name": "MaplePressurePlateRecipe",
       "type": "recipe",
-      "sortid": 146,
+      "sortid": 110,
       "compiles": true,
       "locked_code": false,
       "registry_name": "maple_pressure_plate_recipe",
@@ -1923,7 +1962,7 @@
     {
       "name": "MapleButtonRecipe",
       "type": "recipe",
-      "sortid": 147,
+      "sortid": 111,
       "compiles": true,
       "locked_code": false,
       "registry_name": "maple_button_recipe",
@@ -1936,7 +1975,7 @@
     {
       "name": "MaplePlanksWoodRecipe2",
       "type": "recipe",
-      "sortid": 148,
+      "sortid": 113,
       "compiles": true,
       "locked_code": false,
       "registry_name": "maple_planks_wood_recipe_2",
@@ -1949,7 +1988,7 @@
     {
       "name": "MaplePlanksLogRecipe2",
       "type": "recipe",
-      "sortid": 149,
+      "sortid": 114,
       "compiles": true,
       "locked_code": false,
       "registry_name": "maple_planks_log_recipe_2",
@@ -1962,115 +2001,115 @@
     {
       "name": "MapleDoor",
       "type": "block",
-      "sortid": 60,
+      "sortid": 115,
       "compiles": true,
       "locked_code": false,
       "registry_name": "maple_door",
       "metadata": {
         "files": [
-          "src/main/java/net/unusual/blockfactorysbiomes/block/MapleDoorBlock.java",
-          "src/main/resources/assets/bf_biomes/models/block/maple_door_top_left.json",
-          "src/main/resources/assets/bf_biomes/models/block/maple_door_top_right_open.json",
-          "src/main/resources/assets/bf_biomes/models/block/maple_door_top_left_open.json",
-          "src/main/resources/assets/bf_biomes/models/block/maple_door_bottom_left_open.json",
-          "src/main/resources/assets/bf_biomes/models/block/maple_door_bottom_right.json",
-          "src/main/resources/assets/bf_biomes/models/block/maple_door_bottom_right_open.json",
           "src/main/resources/assets/bf_biomes/models/item/maple_door.json",
-          "src/main/resources/assets/bf_biomes/blockstates/maple_door.json",
           "src/main/resources/assets/bf_biomes/models/block/maple_door_top_right.json",
+          "src/main/java/net/unusual/blockfactorysbiomes/block/MapleDoorBlock.java",
           "src/main/resources/data/bf_biomes/loot_tables/blocks/maple_door.json",
-          "src/main/resources/assets/bf_biomes/models/block/maple_door_bottom_left.json"
+          "src/main/resources/assets/bf_biomes/blockstates/maple_door.json",
+          "src/main/resources/assets/bf_biomes/models/block/maple_door_bottom_right_open.json",
+          "src/main/resources/assets/bf_biomes/models/block/maple_door_bottom_left.json",
+          "src/main/resources/assets/bf_biomes/models/block/maple_door_bottom_left_open.json",
+          "src/main/resources/assets/bf_biomes/models/block/maple_door_top_left.json",
+          "src/main/resources/assets/bf_biomes/models/block/maple_door_top_left_open.json",
+          "src/main/resources/assets/bf_biomes/models/block/maple_door_top_right_open.json",
+          "src/main/resources/assets/bf_biomes/models/block/maple_door_bottom_right.json"
         ]
       }
     },
     {
       "name": "CoconutTrapdoor",
       "type": "block",
-      "sortid": 28,
+      "sortid": 116,
       "compiles": true,
       "locked_code": false,
       "registry_name": "coconut_trapdoor",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bf_biomes/models/block/coconut_trapdoor_open.json",
+          "src/main/resources/assets/bf_biomes/models/block/coconut_trapdoor.json",
           "src/main/java/net/unusual/blockfactorysbiomes/block/CoconutTrapdoorBlock.java",
           "src/main/resources/assets/bf_biomes/models/block/coconut_trapdoor_top.json",
-          "src/main/resources/data/bf_biomes/loot_tables/blocks/coconut_trapdoor.json",
           "src/main/resources/assets/bf_biomes/models/item/coconut_trapdoor.json",
           "src/main/resources/assets/bf_biomes/blockstates/coconut_trapdoor.json",
-          "src/main/resources/assets/bf_biomes/models/block/coconut_trapdoor.json"
+          "src/main/resources/data/bf_biomes/loot_tables/blocks/coconut_trapdoor.json",
+          "src/main/resources/assets/bf_biomes/models/block/coconut_trapdoor_open.json"
         ]
       }
     },
     {
       "name": "MapleTrapdoor",
       "type": "block",
-      "sortid": 61,
+      "sortid": 117,
       "compiles": true,
       "locked_code": false,
       "registry_name": "maple_trapdoor",
       "metadata": {
         "files": [
-          "src/main/resources/data/bf_biomes/loot_tables/blocks/maple_trapdoor.json",
-          "src/main/resources/assets/bf_biomes/models/block/maple_trapdoor_open.json",
           "src/main/resources/assets/bf_biomes/models/block/maple_trapdoor_top.json",
+          "src/main/resources/assets/bf_biomes/models/block/maple_trapdoor.json",
+          "src/main/resources/data/bf_biomes/loot_tables/blocks/maple_trapdoor.json",
           "src/main/java/net/unusual/blockfactorysbiomes/block/MapleTrapdoorBlock.java",
-          "src/main/resources/assets/bf_biomes/models/item/maple_trapdoor.json",
           "src/main/resources/assets/bf_biomes/blockstates/maple_trapdoor.json",
-          "src/main/resources/assets/bf_biomes/models/block/maple_trapdoor.json"
+          "src/main/resources/assets/bf_biomes/models/block/maple_trapdoor_open.json",
+          "src/main/resources/assets/bf_biomes/models/item/maple_trapdoor.json"
         ]
       }
     },
     {
       "name": "MapleGrass",
       "type": "plant",
-      "sortid": 41,
+      "sortid": 118,
       "compiles": true,
       "locked_code": false,
       "registry_name": "maple_grass",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bf_biomes/models/item/maple_grass.json",
-          "src/main/java/net/unusual/blockfactorysbiomes/block/MapleGrassBlock.java",
           "src/main/resources/data/bf_biomes/worldgen/configured_feature/maple_grass.json",
-          "src/main/resources/assets/bf_biomes/models/block/maple_grass.json",
+          "src/main/resources/assets/bf_biomes/models/item/maple_grass.json",
           "src/main/resources/data/bf_biomes/forge/biome_modifier/maple_grass_biome_modifier.json",
+          "src/main/java/net/unusual/blockfactorysbiomes/block/MapleGrassBlock.java",
           "src/main/resources/data/bf_biomes/worldgen/placed_feature/maple_grass.json",
-          "src/main/resources/assets/bf_biomes/blockstates/maple_grass.json"
+          "src/main/resources/assets/bf_biomes/blockstates/maple_grass.json",
+          "src/main/resources/assets/bf_biomes/models/block/maple_grass.json"
         ]
       }
     },
     {
       "name": "TallMapleGrass",
       "type": "plant",
-      "sortid": 42,
+      "sortid": 119,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tall_maple_grass",
       "metadata": {
         "files": [
-          "src/main/java/net/unusual/blockfactorysbiomes/block/TallMapleGrassBlock.java",
-          "src/main/resources/data/bf_biomes/worldgen/placed_feature/tall_maple_grass.json",
-          "src/main/resources/assets/bf_biomes/models/block/tall_maple_grass_bottom.json",
           "src/main/resources/data/bf_biomes/forge/biome_modifier/tall_maple_grass_biome_modifier.json",
           "src/main/resources/assets/bf_biomes/models/item/tall_maple_grass.json",
           "src/main/resources/assets/bf_biomes/blockstates/tall_maple_grass.json",
           "src/main/resources/data/bf_biomes/worldgen/configured_feature/tall_maple_grass.json",
-          "src/main/resources/assets/bf_biomes/models/block/tall_maple_grass.json"
+          "src/main/resources/assets/bf_biomes/models/block/tall_maple_grass.json",
+          "src/main/resources/data/bf_biomes/worldgen/placed_feature/tall_maple_grass.json",
+          "src/main/resources/assets/bf_biomes/models/block/tall_maple_grass_bottom.json",
+          "src/main/java/net/unusual/blockfactorysbiomes/block/TallMapleGrassBlock.java"
         ]
       }
     },
     {
       "name": "MapleBush",
       "type": "block",
-      "sortid": 50,
+      "sortid": 120,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "registry_name": "maple_bush",
       "metadata": {
         "files": [
-          "src/main/java/net/unusual/blockfactorysbiomes/block/MapleBushBlock.java",
           "src/main/resources/assets/bf_biomes/blockstates/maple_bush.json",
+          "src/main/java/net/unusual/blockfactorysbiomes/block/MapleBushBlock.java",
           "src/main/resources/data/bf_biomes/loot_tables/blocks/maple_bush.json",
           "src/main/resources/assets/bf_biomes/models/block/maple_bush.json",
           "src/main/resources/assets/bf_biomes/models/item/maple_bush.json"
@@ -2087,34 +2126,34 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/bf_biomes/models/block/maple_sapling.json",
-          "src/main/java/net/unusual/blockfactorysbiomes/block/MapleSaplingBlock.java",
-          "src/main/resources/assets/bf_biomes/blockstates/maple_sapling.json",
           "src/main/resources/data/bf_biomes/loot_tables/blocks/maple_sapling.json",
-          "src/main/resources/assets/bf_biomes/models/item/maple_sapling.json"
+          "src/main/resources/assets/bf_biomes/models/item/maple_sapling.json",
+          "src/main/resources/assets/bf_biomes/blockstates/maple_sapling.json",
+          "src/main/java/net/unusual/blockfactorysbiomes/block/MapleSaplingBlock.java"
         ]
       }
     },
     {
       "name": "FallenMapleLog",
       "type": "block",
-      "sortid": 65,
+      "sortid": 122,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fallen_maple_log",
       "metadata": {
         "files": [
-          "src/main/resources/data/bf_biomes/loot_tables/blocks/fallen_maple_log.json",
           "src/main/java/net/unusual/blockfactorysbiomes/block/FallenMapleLogBlock.java",
           "src/main/resources/assets/bf_biomes/models/item/fallen_maple_log.json",
-          "src/main/resources/assets/bf_biomes/models/block/fallen_maple_log.json",
-          "src/main/resources/assets/bf_biomes/blockstates/fallen_maple_log.json"
+          "src/main/resources/data/bf_biomes/loot_tables/blocks/fallen_maple_log.json",
+          "src/main/resources/assets/bf_biomes/blockstates/fallen_maple_log.json",
+          "src/main/resources/assets/bf_biomes/models/block/fallen_maple_log.json"
         ]
       }
     },
     {
       "name": "FallenMapleLogBB",
       "type": "blockstates",
-      "sortid": 150,
+      "sortid": 123,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fallen_maple_log_bb",
@@ -2128,24 +2167,24 @@
     {
       "name": "FallenOvergrownMapleLog",
       "type": "block",
-      "sortid": 66,
+      "sortid": 124,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fallen_overgrown_maple_log",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bf_biomes/models/block/fallen_overgrown_maple_log.json",
-          "src/main/resources/assets/bf_biomes/models/item/fallen_overgrown_maple_log.json",
-          "src/main/resources/data/bf_biomes/loot_tables/blocks/fallen_overgrown_maple_log.json",
+          "src/main/java/net/unusual/blockfactorysbiomes/block/FallenOvergrownMapleLogBlock.java",
           "src/main/resources/assets/bf_biomes/blockstates/fallen_overgrown_maple_log.json",
-          "src/main/java/net/unusual/blockfactorysbiomes/block/FallenOvergrownMapleLogBlock.java"
+          "src/main/resources/assets/bf_biomes/models/block/fallen_overgrown_maple_log.json",
+          "src/main/resources/data/bf_biomes/loot_tables/blocks/fallen_overgrown_maple_log.json",
+          "src/main/resources/assets/bf_biomes/models/item/fallen_overgrown_maple_log.json"
         ]
       }
     },
     {
       "name": "FallenOvergrownMapleLogBB",
       "type": "blockstates",
-      "sortid": 151,
+      "sortid": 125,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fallen_overgrown_maple_log_bb",
@@ -2159,15 +2198,15 @@
     {
       "name": "MapleLogPile",
       "type": "block",
-      "sortid": 67,
+      "sortid": 126,
       "compiles": true,
       "locked_code": false,
       "registry_name": "maple_log_pile",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bf_biomes/blockstates/maple_log_pile.json",
-          "src/main/resources/data/bf_biomes/loot_tables/blocks/maple_log_pile.json",
           "src/main/java/net/unusual/blockfactorysbiomes/block/MapleLogPileBlock.java",
+          "src/main/resources/data/bf_biomes/loot_tables/blocks/maple_log_pile.json",
+          "src/main/resources/assets/bf_biomes/blockstates/maple_log_pile.json",
           "src/main/resources/assets/bf_biomes/models/item/maple_log_pile.json",
           "src/main/resources/assets/bf_biomes/models/block/maple_log_pile.json"
         ]
@@ -2176,14 +2215,14 @@
     {
       "name": "CoconutLogPile",
       "type": "block",
-      "sortid": 68,
+      "sortid": 127,
       "compiles": true,
       "locked_code": false,
       "registry_name": "coconut_log_pile",
       "metadata": {
         "files": [
-          "src/main/resources/data/bf_biomes/loot_tables/blocks/coconut_log_pile.json",
           "src/main/java/net/unusual/blockfactorysbiomes/block/CoconutLogPileBlock.java",
+          "src/main/resources/data/bf_biomes/loot_tables/blocks/coconut_log_pile.json",
           "src/main/resources/assets/bf_biomes/models/item/coconut_log_pile.json",
           "src/main/resources/assets/bf_biomes/blockstates/coconut_log_pile.json",
           "src/main/resources/assets/bf_biomes/models/block/coconut_log_pile.json"
@@ -2193,16 +2232,16 @@
     {
       "name": "BaobabTrunk",
       "type": "block",
-      "sortid": 74,
+      "sortid": 128,
       "compiles": true,
       "locked_code": false,
       "registry_name": "baobab_trunk",
       "metadata": {
         "files": [
-          "src/main/resources/data/bf_biomes/loot_tables/blocks/baobab_trunk.json",
-          "src/main/resources/assets/bf_biomes/blockstates/baobab_trunk.json",
           "src/main/resources/assets/bf_biomes/models/block/baobab_trunk.json",
+          "src/main/resources/assets/bf_biomes/blockstates/baobab_trunk.json",
           "src/main/java/net/unusual/blockfactorysbiomes/block/BaobabTrunkBlock.java",
+          "src/main/resources/data/bf_biomes/loot_tables/blocks/baobab_trunk.json",
           "src/main/resources/assets/bf_biomes/models/item/baobab_trunk.json"
         ]
       }
@@ -2210,50 +2249,50 @@
     {
       "name": "BaobabWood",
       "type": "block",
-      "sortid": 70,
+      "sortid": 129,
       "compiles": true,
       "locked_code": false,
       "registry_name": "baobab_wood",
       "metadata": {
         "files": [
-          "src/main/resources/data/bf_biomes/loot_tables/blocks/baobab_wood.json",
-          "src/main/java/net/unusual/blockfactorysbiomes/block/BaobabWoodBlock.java",
+          "src/main/resources/assets/bf_biomes/blockstates/baobab_wood.json",
           "src/main/resources/assets/bf_biomes/models/item/baobab_wood.json",
-          "src/main/resources/assets/bf_biomes/models/block/baobab_wood.json",
-          "src/main/resources/assets/bf_biomes/blockstates/baobab_wood.json"
+          "src/main/java/net/unusual/blockfactorysbiomes/block/BaobabWoodBlock.java",
+          "src/main/resources/data/bf_biomes/loot_tables/blocks/baobab_wood.json",
+          "src/main/resources/assets/bf_biomes/models/block/baobab_wood.json"
         ]
       }
     },
     {
       "name": "BaobabLog",
       "type": "block",
-      "sortid": 71,
+      "sortid": 130,
       "compiles": true,
       "locked_code": false,
       "registry_name": "baobab_log",
       "metadata": {
         "files": [
+          "src/main/java/net/unusual/blockfactorysbiomes/block/BaobabLogBlock.java",
           "src/main/resources/assets/bf_biomes/models/block/baobab_log.json",
           "src/main/resources/data/bf_biomes/loot_tables/blocks/baobab_log.json",
-          "src/main/java/net/unusual/blockfactorysbiomes/block/BaobabLogBlock.java",
-          "src/main/resources/assets/bf_biomes/blockstates/baobab_log.json",
-          "src/main/resources/assets/bf_biomes/models/item/baobab_log.json"
+          "src/main/resources/assets/bf_biomes/models/item/baobab_log.json",
+          "src/main/resources/assets/bf_biomes/blockstates/baobab_log.json"
         ]
       }
     },
     {
       "name": "StrippedBaobabWood",
       "type": "block",
-      "sortid": 72,
+      "sortid": 131,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stripped_baobab_wood",
       "metadata": {
         "files": [
-          "src/main/java/net/unusual/blockfactorysbiomes/block/StrippedBaobabWoodBlock.java",
-          "src/main/resources/assets/bf_biomes/models/block/stripped_baobab_wood.json",
-          "src/main/resources/data/bf_biomes/loot_tables/blocks/stripped_baobab_wood.json",
           "src/main/resources/assets/bf_biomes/models/item/stripped_baobab_wood.json",
+          "src/main/resources/data/bf_biomes/loot_tables/blocks/stripped_baobab_wood.json",
+          "src/main/resources/assets/bf_biomes/models/block/stripped_baobab_wood.json",
+          "src/main/java/net/unusual/blockfactorysbiomes/block/StrippedBaobabWoodBlock.java",
           "src/main/resources/assets/bf_biomes/blockstates/stripped_baobab_wood.json"
         ]
       }
@@ -2261,15 +2300,15 @@
     {
       "name": "StrippedBaobabLog",
       "type": "block",
-      "sortid": 73,
+      "sortid": 132,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stripped_baobab_log",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bf_biomes/blockstates/stripped_baobab_log.json",
-          "src/main/java/net/unusual/blockfactorysbiomes/block/StrippedBaobabLogBlock.java",
           "src/main/resources/assets/bf_biomes/models/block/stripped_baobab_log.json",
+          "src/main/java/net/unusual/blockfactorysbiomes/block/StrippedBaobabLogBlock.java",
+          "src/main/resources/assets/bf_biomes/blockstates/stripped_baobab_log.json",
           "src/main/resources/data/bf_biomes/loot_tables/blocks/stripped_baobab_log.json",
           "src/main/resources/assets/bf_biomes/models/item/stripped_baobab_log.json"
         ]
@@ -2278,138 +2317,138 @@
     {
       "name": "BaobabPlanks",
       "type": "block",
-      "sortid": 81,
+      "sortid": 133,
       "compiles": true,
       "locked_code": false,
       "registry_name": "baobab_planks",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bf_biomes/models/block/baobab_planks.json",
+          "src/main/resources/assets/bf_biomes/blockstates/baobab_planks.json",
           "src/main/resources/data/bf_biomes/loot_tables/blocks/baobab_planks.json",
-          "src/main/java/net/unusual/blockfactorysbiomes/block/BaobabPlanksBlock.java",
           "src/main/resources/assets/bf_biomes/models/item/baobab_planks.json",
-          "src/main/resources/assets/bf_biomes/blockstates/baobab_planks.json"
+          "src/main/resources/assets/bf_biomes/models/block/baobab_planks.json",
+          "src/main/java/net/unusual/blockfactorysbiomes/block/BaobabPlanksBlock.java"
         ]
       }
     },
     {
       "name": "BaobabStairs",
       "type": "block",
-      "sortid": 82,
+      "sortid": 134,
       "compiles": true,
       "locked_code": false,
       "registry_name": "baobab_stairs",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bf_biomes/models/block/baobab_stairs_inner.json",
-          "src/main/java/net/unusual/blockfactorysbiomes/block/BaobabStairsBlock.java",
-          "src/main/resources/data/bf_biomes/loot_tables/blocks/baobab_stairs.json",
-          "src/main/resources/assets/bf_biomes/models/block/baobab_stairs.json",
-          "src/main/resources/assets/bf_biomes/models/item/baobab_stairs.json",
           "src/main/resources/assets/bf_biomes/models/block/baobab_stairs_outer.json",
-          "src/main/resources/assets/bf_biomes/blockstates/baobab_stairs.json"
+          "src/main/resources/assets/bf_biomes/blockstates/baobab_stairs.json",
+          "src/main/java/net/unusual/blockfactorysbiomes/block/BaobabStairsBlock.java",
+          "src/main/resources/assets/bf_biomes/models/block/baobab_stairs_inner.json",
+          "src/main/resources/data/bf_biomes/loot_tables/blocks/baobab_stairs.json",
+          "src/main/resources/assets/bf_biomes/models/item/baobab_stairs.json",
+          "src/main/resources/assets/bf_biomes/models/block/baobab_stairs.json"
         ]
       }
     },
     {
       "name": "BaobabSlab",
       "type": "block",
-      "sortid": 83,
+      "sortid": 135,
       "compiles": true,
       "locked_code": false,
       "registry_name": "baobab_slab",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bf_biomes/blockstates/baobab_slab.json",
-          "src/main/java/net/unusual/blockfactorysbiomes/block/BaobabSlabBlock.java",
-          "src/main/resources/assets/bf_biomes/models/item/baobab_slab.json",
           "src/main/resources/data/bf_biomes/loot_tables/blocks/baobab_slab.json",
           "src/main/resources/assets/bf_biomes/models/block/baobab_slab_full.json",
+          "src/main/resources/assets/bf_biomes/models/item/baobab_slab.json",
+          "src/main/java/net/unusual/blockfactorysbiomes/block/BaobabSlabBlock.java",
+          "src/main/resources/assets/bf_biomes/models/block/baobab_slab.json",
           "src/main/resources/assets/bf_biomes/models/block/baobab_slab_top.json",
-          "src/main/resources/assets/bf_biomes/models/block/baobab_slab.json"
+          "src/main/resources/assets/bf_biomes/blockstates/baobab_slab.json"
         ]
       }
     },
     {
       "name": "BaobabFence",
       "type": "block",
-      "sortid": 84,
+      "sortid": 136,
       "compiles": true,
       "locked_code": false,
       "registry_name": "baobab_fence",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bf_biomes/blockstates/baobab_fence.json",
+          "src/main/resources/assets/bf_biomes/models/block/baobab_fence_inventory.json",
+          "src/main/resources/assets/bf_biomes/models/item/baobab_fence.json",
+          "src/main/java/net/unusual/blockfactorysbiomes/block/BaobabFenceBlock.java",
+          "src/main/resources/data/bf_biomes/loot_tables/blocks/baobab_fence.json",
           "src/main/resources/assets/bf_biomes/models/block/baobab_fence.json",
           "src/main/resources/assets/bf_biomes/models/block/baobab_fence_post.json",
-          "src/main/resources/assets/bf_biomes/models/block/baobab_fence_inventory.json",
-          "src/main/resources/data/bf_biomes/loot_tables/blocks/baobab_fence.json",
-          "src/main/resources/assets/bf_biomes/models/item/baobab_fence.json",
-          "src/main/java/net/unusual/blockfactorysbiomes/block/BaobabFenceBlock.java"
+          "src/main/resources/assets/bf_biomes/blockstates/baobab_fence.json"
         ]
       }
     },
     {
       "name": "BaobabFenceGate",
       "type": "block",
-      "sortid": 85,
+      "sortid": 137,
       "compiles": true,
       "locked_code": false,
       "registry_name": "baobab_fence_gate",
       "metadata": {
         "files": [
           "src/main/resources/assets/bf_biomes/models/item/baobab_fence_gate.json",
-          "src/main/resources/assets/bf_biomes/models/block/baobab_fence_gate.json",
-          "src/main/resources/assets/bf_biomes/blockstates/baobab_fence_gate.json",
+          "src/main/resources/assets/bf_biomes/models/block/baobab_fence_gate_wall_open.json",
           "src/main/resources/assets/bf_biomes/models/block/baobab_fence_gate_open.json",
-          "src/main/resources/data/bf_biomes/loot_tables/blocks/baobab_fence_gate.json",
-          "src/main/resources/assets/bf_biomes/models/block/baobab_fence_gate_wall.json",
+          "src/main/resources/assets/bf_biomes/blockstates/baobab_fence_gate.json",
           "src/main/java/net/unusual/blockfactorysbiomes/block/BaobabFenceGateBlock.java",
-          "src/main/resources/assets/bf_biomes/models/block/baobab_fence_gate_wall_open.json"
+          "src/main/resources/assets/bf_biomes/models/block/baobab_fence_gate_wall.json",
+          "src/main/resources/assets/bf_biomes/models/block/baobab_fence_gate.json",
+          "src/main/resources/data/bf_biomes/loot_tables/blocks/baobab_fence_gate.json"
         ]
       }
     },
     {
       "name": "BaobabPressurePlate",
       "type": "block",
-      "sortid": 86,
+      "sortid": 138,
       "compiles": true,
       "locked_code": false,
       "registry_name": "baobab_pressure_plate",
       "metadata": {
         "files": [
           "src/main/resources/assets/bf_biomes/blockstates/baobab_pressure_plate.json",
-          "src/main/resources/assets/bf_biomes/models/block/baobab_pressure_plate.json",
+          "src/main/java/net/unusual/blockfactorysbiomes/block/BaobabPressurePlateBlock.java",
           "src/main/resources/assets/bf_biomes/models/item/baobab_pressure_plate.json",
           "src/main/resources/data/bf_biomes/loot_tables/blocks/baobab_pressure_plate.json",
-          "src/main/resources/assets/bf_biomes/models/block/baobab_pressure_plate_down.json",
-          "src/main/java/net/unusual/blockfactorysbiomes/block/BaobabPressurePlateBlock.java"
+          "src/main/resources/assets/bf_biomes/models/block/baobab_pressure_plate.json",
+          "src/main/resources/assets/bf_biomes/models/block/baobab_pressure_plate_down.json"
         ]
       }
     },
     {
       "name": "BaobabButton",
       "type": "block",
-      "sortid": 87,
+      "sortid": 139,
       "compiles": true,
       "locked_code": false,
       "registry_name": "baobab_button",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bf_biomes/blockstates/baobab_button.json",
-          "src/main/resources/assets/bf_biomes/models/block/baobab_button_inventory.json",
-          "src/main/java/net/unusual/blockfactorysbiomes/block/BaobabButtonBlock.java",
-          "src/main/resources/assets/bf_biomes/models/block/baobab_button_pressed.json",
           "src/main/resources/data/bf_biomes/loot_tables/blocks/baobab_button.json",
+          "src/main/resources/assets/bf_biomes/blockstates/baobab_button.json",
           "src/main/resources/assets/bf_biomes/models/item/baobab_button.json",
-          "src/main/resources/assets/bf_biomes/models/block/baobab_button.json"
+          "src/main/resources/assets/bf_biomes/models/block/baobab_button_inventory.json",
+          "src/main/resources/assets/bf_biomes/models/block/baobab_button.json",
+          "src/main/resources/assets/bf_biomes/models/block/baobab_button_pressed.json",
+          "src/main/java/net/unusual/blockfactorysbiomes/block/BaobabButtonBlock.java"
         ]
       }
     },
     {
       "name": "BaobabWoodRecipe",
       "type": "recipe",
-      "sortid": 152,
+      "sortid": 140,
       "compiles": true,
       "locked_code": false,
       "registry_name": "baobab_wood_recipe",
@@ -2422,7 +2461,7 @@
     {
       "name": "BaobabPlanksLogRecipe",
       "type": "recipe",
-      "sortid": 153,
+      "sortid": 141,
       "compiles": true,
       "locked_code": false,
       "registry_name": "baobab_planks_log_recipe",
@@ -2435,7 +2474,7 @@
     {
       "name": "BaobabPlanksWoodRecipe",
       "type": "recipe",
-      "sortid": 154,
+      "sortid": 142,
       "compiles": true,
       "locked_code": false,
       "registry_name": "baobab_planks_wood_recipe",
@@ -2448,7 +2487,7 @@
     {
       "name": "BaobabStairsRecipe",
       "type": "recipe",
-      "sortid": 155,
+      "sortid": 143,
       "compiles": true,
       "locked_code": false,
       "registry_name": "baobab_stairs_recipe",
@@ -2461,7 +2500,7 @@
     {
       "name": "BaobabSlabRecipe",
       "type": "recipe",
-      "sortid": 156,
+      "sortid": 144,
       "compiles": true,
       "locked_code": false,
       "registry_name": "baobab_slab_recipe",
@@ -2474,7 +2513,7 @@
     {
       "name": "BaobabFenceRecipe",
       "type": "recipe",
-      "sortid": 157,
+      "sortid": 145,
       "compiles": true,
       "locked_code": false,
       "registry_name": "baobab_fence_recipe",
@@ -2487,7 +2526,7 @@
     {
       "name": "BaobabFenceGateRecipe",
       "type": "recipe",
-      "sortid": 158,
+      "sortid": 146,
       "compiles": true,
       "locked_code": false,
       "registry_name": "baobab_fence_gate_recipe",
@@ -2500,7 +2539,7 @@
     {
       "name": "BaobabPressureRecipe",
       "type": "recipe",
-      "sortid": 159,
+      "sortid": 147,
       "compiles": true,
       "locked_code": false,
       "registry_name": "baobab_pressure_recipe",
@@ -2513,7 +2552,7 @@
     {
       "name": "BaobabButtonRecipe",
       "type": "recipe",
-      "sortid": 160,
+      "sortid": 148,
       "compiles": true,
       "locked_code": false,
       "registry_name": "baobab_button_recipe",
@@ -2526,7 +2565,7 @@
     {
       "name": "BaobabPlanksWoodRecipe2",
       "type": "recipe",
-      "sortid": 161,
+      "sortid": 150,
       "compiles": true,
       "locked_code": false,
       "registry_name": "baobab_planks_wood_recipe_2",
@@ -2539,7 +2578,7 @@
     {
       "name": "BaobabPlanksLogRecipe2",
       "type": "recipe",
-      "sortid": 162,
+      "sortid": 151,
       "compiles": true,
       "locked_code": false,
       "registry_name": "baobab_planks_log_recipe_2",
@@ -2552,24 +2591,24 @@
     {
       "name": "DripingMapleLog",
       "type": "block",
-      "sortid": 47,
+      "sortid": 152,
       "compiles": true,
       "locked_code": false,
       "registry_name": "driping_maple_log",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bf_biomes/models/block/driping_maple_log.json",
           "src/main/java/net/unusual/blockfactorysbiomes/block/DripingMapleLogBlock.java",
-          "src/main/resources/assets/bf_biomes/blockstates/driping_maple_log.json",
+          "src/main/resources/data/bf_biomes/loot_tables/blocks/driping_maple_log.json",
+          "src/main/resources/assets/bf_biomes/models/block/driping_maple_log.json",
           "src/main/resources/assets/bf_biomes/models/item/driping_maple_log.json",
-          "src/main/resources/data/bf_biomes/loot_tables/blocks/driping_maple_log.json"
+          "src/main/resources/assets/bf_biomes/blockstates/driping_maple_log.json"
         ]
       }
     },
     {
       "name": "DipingPlanksLogRecipe",
       "type": "recipe",
-      "sortid": 163,
+      "sortid": 153,
       "compiles": true,
       "locked_code": false,
       "registry_name": "diping_planks_log_recipe",
@@ -2582,50 +2621,50 @@
     {
       "name": "BaobabDoor",
       "type": "block",
-      "sortid": 88,
+      "sortid": 154,
       "compiles": true,
       "locked_code": false,
       "registry_name": "baobab_door",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bf_biomes/models/block/baobab_door_bottom_left.json",
-          "src/main/resources/assets/bf_biomes/models/item/baobab_door.json",
-          "src/main/java/net/unusual/blockfactorysbiomes/block/BaobabDoorBlock.java",
           "src/main/resources/assets/bf_biomes/models/block/baobab_door_bottom_right.json",
-          "src/main/resources/assets/bf_biomes/models/block/baobab_door_bottom_right_open.json",
-          "src/main/resources/assets/bf_biomes/models/block/baobab_door_top_left_open.json",
           "src/main/resources/assets/bf_biomes/models/block/baobab_door_bottom_left_open.json",
-          "src/main/resources/data/bf_biomes/loot_tables/blocks/baobab_door.json",
+          "src/main/resources/assets/bf_biomes/models/block/baobab_door_top_left_open.json",
+          "src/main/java/net/unusual/blockfactorysbiomes/block/BaobabDoorBlock.java",
           "src/main/resources/assets/bf_biomes/blockstates/baobab_door.json",
+          "src/main/resources/assets/bf_biomes/models/block/baobab_door_bottom_left.json",
           "src/main/resources/assets/bf_biomes/models/block/baobab_door_top_left.json",
-          "src/main/resources/assets/bf_biomes/models/block/baobab_door_top_right_open.json",
-          "src/main/resources/assets/bf_biomes/models/block/baobab_door_top_right.json"
+          "src/main/resources/assets/bf_biomes/models/block/baobab_door_top_right.json",
+          "src/main/resources/assets/bf_biomes/models/item/baobab_door.json",
+          "src/main/resources/data/bf_biomes/loot_tables/blocks/baobab_door.json",
+          "src/main/resources/assets/bf_biomes/models/block/baobab_door_bottom_right_open.json",
+          "src/main/resources/assets/bf_biomes/models/block/baobab_door_top_right_open.json"
         ]
       }
     },
     {
       "name": "BaobabTrapdoor",
       "type": "block",
-      "sortid": 89,
+      "sortid": 155,
       "compiles": true,
       "locked_code": false,
       "registry_name": "baobab_trapdoor",
       "metadata": {
         "files": [
-          "src/main/java/net/unusual/blockfactorysbiomes/block/BaobabTrapdoorBlock.java",
-          "src/main/resources/assets/bf_biomes/blockstates/baobab_trapdoor.json",
           "src/main/resources/data/bf_biomes/loot_tables/blocks/baobab_trapdoor.json",
-          "src/main/resources/assets/bf_biomes/models/block/baobab_trapdoor_open.json",
-          "src/main/resources/assets/bf_biomes/models/block/baobab_trapdoor_top.json",
+          "src/main/resources/assets/bf_biomes/blockstates/baobab_trapdoor.json",
           "src/main/resources/assets/bf_biomes/models/item/baobab_trapdoor.json",
-          "src/main/resources/assets/bf_biomes/models/block/baobab_trapdoor.json"
+          "src/main/resources/assets/bf_biomes/models/block/baobab_trapdoor_top.json",
+          "src/main/resources/assets/bf_biomes/models/block/baobab_trapdoor.json",
+          "src/main/java/net/unusual/blockfactorysbiomes/block/BaobabTrapdoorBlock.java",
+          "src/main/resources/assets/bf_biomes/models/block/baobab_trapdoor_open.json"
         ]
       }
     },
     {
       "name": "CoconutDoorRecipe",
       "type": "recipe",
-      "sortid": 164,
+      "sortid": 156,
       "compiles": true,
       "locked_code": false,
       "registry_name": "coconut_door_recipe",
@@ -2638,7 +2677,7 @@
     {
       "name": "CoconutTrapdoorRecipe",
       "type": "recipe",
-      "sortid": 165,
+      "sortid": 157,
       "compiles": true,
       "locked_code": false,
       "registry_name": "coconut_trapdoor_recipe",
@@ -2651,7 +2690,7 @@
     {
       "name": "MapleDoorRecipe",
       "type": "recipe",
-      "sortid": 166,
+      "sortid": 158,
       "compiles": true,
       "locked_code": false,
       "registry_name": "maple_door_recipe",
@@ -2664,7 +2703,7 @@
     {
       "name": "MapleTrapdoorRecipe",
       "type": "recipe",
-      "sortid": 167,
+      "sortid": 159,
       "compiles": true,
       "locked_code": false,
       "registry_name": "maple_trapdoor_recipe",
@@ -2677,7 +2716,7 @@
     {
       "name": "BaobabDoorRecipe",
       "type": "recipe",
-      "sortid": 168,
+      "sortid": 160,
       "compiles": true,
       "locked_code": false,
       "registry_name": "baobab_door_recipe",
@@ -2690,7 +2729,7 @@
     {
       "name": "BaobabTrapdoorRecipe",
       "type": "recipe",
-      "sortid": 169,
+      "sortid": 161,
       "compiles": true,
       "locked_code": false,
       "registry_name": "baobab_trapdoor_recipe",
@@ -2703,17 +2742,17 @@
     {
       "name": "BaobabBush",
       "type": "block",
-      "sortid": 80,
+      "sortid": 162,
       "compiles": true,
       "locked_code": false,
       "registry_name": "baobab_bush",
       "metadata": {
         "files": [
-          "src/main/resources/data/bf_biomes/loot_tables/blocks/baobab_bush.json",
-          "src/main/resources/assets/bf_biomes/models/item/baobab_bush.json",
           "src/main/resources/assets/bf_biomes/blockstates/baobab_bush.json",
-          "src/main/resources/assets/bf_biomes/models/block/baobab_bush.json",
-          "src/main/java/net/unusual/blockfactorysbiomes/block/BaobabBushBlock.java"
+          "src/main/java/net/unusual/blockfactorysbiomes/block/BaobabBushBlock.java",
+          "src/main/resources/assets/bf_biomes/models/item/baobab_bush.json",
+          "src/main/resources/data/bf_biomes/loot_tables/blocks/baobab_bush.json",
+          "src/main/resources/assets/bf_biomes/models/block/baobab_bush.json"
         ]
       }
     },
@@ -2737,24 +2776,24 @@
     {
       "name": "FallenBaobabLog",
       "type": "block",
-      "sortid": 75,
+      "sortid": 164,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fallen_baobab_log",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bf_biomes/blockstates/fallen_baobab_log.json",
-          "src/main/resources/assets/bf_biomes/models/item/fallen_baobab_log.json",
-          "src/main/resources/assets/bf_biomes/models/block/fallen_baobab_log.json",
+          "src/main/java/net/unusual/blockfactorysbiomes/block/FallenBaobabLogBlock.java",
           "src/main/resources/data/bf_biomes/loot_tables/blocks/fallen_baobab_log.json",
-          "src/main/java/net/unusual/blockfactorysbiomes/block/FallenBaobabLogBlock.java"
+          "src/main/resources/assets/bf_biomes/blockstates/fallen_baobab_log.json",
+          "src/main/resources/assets/bf_biomes/models/block/fallen_baobab_log.json",
+          "src/main/resources/assets/bf_biomes/models/item/fallen_baobab_log.json"
         ]
       }
     },
     {
       "name": "FallenBaobabLogBB",
       "type": "blockstates",
-      "sortid": 170,
+      "sortid": 165,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fallen_baobab_log_bb",
@@ -2768,24 +2807,24 @@
     {
       "name": "FallenOvergrownBaobabLog",
       "type": "block",
-      "sortid": 76,
+      "sortid": 166,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fallen_overgrown_baobab_log",
       "metadata": {
         "files": [
-          "src/main/java/net/unusual/blockfactorysbiomes/block/FallenOvergrownBaobabLogBlock.java",
+          "src/main/resources/assets/bf_biomes/blockstates/fallen_overgrown_baobab_log.json",
           "src/main/resources/data/bf_biomes/loot_tables/blocks/fallen_overgrown_baobab_log.json",
-          "src/main/resources/assets/bf_biomes/models/block/fallen_overgrown_baobab_log.json",
+          "src/main/java/net/unusual/blockfactorysbiomes/block/FallenOvergrownBaobabLogBlock.java",
           "src/main/resources/assets/bf_biomes/models/item/fallen_overgrown_baobab_log.json",
-          "src/main/resources/assets/bf_biomes/blockstates/fallen_overgrown_baobab_log.json"
+          "src/main/resources/assets/bf_biomes/models/block/fallen_overgrown_baobab_log.json"
         ]
       }
     },
     {
       "name": "FallenOvergrownBaobabLogBB",
       "type": "blockstates",
-      "sortid": 171,
+      "sortid": 167,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fallen_overgrown_baobab_log_bb",
@@ -2799,34 +2838,60 @@
     {
       "name": "BaobabLogPile",
       "type": "block",
-      "sortid": 77,
+      "sortid": 168,
       "compiles": true,
       "locked_code": false,
       "registry_name": "baobab_log_pile",
       "metadata": {
         "files": [
+          "src/main/resources/data/bf_biomes/loot_tables/blocks/baobab_log_pile.json",
           "src/main/resources/assets/bf_biomes/blockstates/baobab_log_pile.json",
-          "src/main/resources/assets/bf_biomes/models/block/baobab_log_pile.json",
           "src/main/java/net/unusual/blockfactorysbiomes/block/BaobabLogPileBlock.java",
-          "src/main/resources/assets/bf_biomes/models/item/baobab_log_pile.json",
-          "src/main/resources/data/bf_biomes/loot_tables/blocks/baobab_log_pile.json"
+          "src/main/resources/assets/bf_biomes/models/block/baobab_log_pile.json",
+          "src/main/resources/assets/bf_biomes/models/item/baobab_log_pile.json"
+        ]
+      }
+    },
+    {
+      "name": "MapleLeavesLoot",
+      "type": "loottable",
+      "sortid": 176,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maple_leaves_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bf_biomes/loot_tables/blocks/maple_leaves.json"
         ]
       }
     },
     {
       "name": "BaobabTree",
       "type": "feature",
-      "sortid": 172,
+      "sortid": 180,
       "compiles": true,
       "locked_code": false,
       "registry_name": "baobab_tree",
       "metadata": {
         "files": [
-          "src/main/resources/data/bf_biomes/forge/biome_modifier/baobab_tree_biome_modifier.json",
           "src/main/resources/data/bf_biomes/worldgen/configured_feature/baobab_tree.json",
+          "src/main/resources/data/bf_biomes/forge/biome_modifier/baobab_tree_biome_modifier.json",
           "src/main/resources/data/bf_biomes/worldgen/placed_feature/baobab_tree.json"
         ],
         "has_nbt_structure": true
+      }
+    },
+    {
+      "name": "BushyMapleLeavesLoot",
+      "type": "loottable",
+      "sortid": 177,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bushy_maple_leaves_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bf_biomes/loot_tables/blocks/bushy_maple_leaves.json"
+        ]
       }
     },
     {
@@ -2864,7 +2929,7 @@
     {
       "name": "MapleTree",
       "type": "feature",
-      "sortid": 174,
+      "sortid": 172,
       "compiles": true,
       "locked_code": false,
       "registry_name": "maple_tree",
@@ -2872,7 +2937,6 @@
         "files": [
           "src/main/resources/data/bf_biomes/forge/biome_modifier/maple_tree_biome_modifier.json",
           "src/main/resources/data/bf_biomes/worldgen/configured_feature/maple_tree.json",
-          "src/main/java/net/unusual/blockfactorysbiomes/world/features/MapleTreeFeature.java",
           "src/main/resources/data/bf_biomes/worldgen/placed_feature/maple_tree.json"
         ],
         "has_nbt_structure": true
@@ -2937,6 +3001,19 @@
             "name": "world",
             "type": "world"
           }
+        ]
+      }
+    },
+    {
+      "name": "BushyBaobabLeavesLoot",
+      "type": "loottable",
+      "sortid": 179,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bushy_baobab_leaves_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bf_biomes/loot_tables/blocks/bushy_baobab_leaves.json"
         ]
       }
     },
@@ -3037,7 +3114,7 @@
     {
       "name": "BushyMapleLeaves",
       "type": "block",
-      "sortid": 49,
+      "sortid": 53,
       "compiles": true,
       "locked_code": true,
       "registry_name": "bushy_maple_leaves",
@@ -3070,7 +3147,7 @@
     {
       "name": "MapleLeaves",
       "type": "block",
-      "sortid": 48,
+      "sortid": 52,
       "compiles": true,
       "locked_code": true,
       "registry_name": "maple_leaves",
@@ -3127,7 +3204,7 @@
     {
       "name": "BushyBaobabLeaves",
       "type": "block",
-      "sortid": 79,
+      "sortid": 74,
       "compiles": true,
       "locked_code": true,
       "registry_name": "bushy_baobab_leaves",
@@ -3142,42 +3219,175 @@
       }
     },
     {
-      "name": "SquirrelDoNotLook",
-      "type": "procedure",
-      "sortid": 181,
+      "name": "GreenButterfly",
+      "type": "item",
+      "sortid": 208,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "squirrel_do_not_look",
+      "registry_name": "green_butterfly",
       "metadata": {
-        "return_type": "logic",
         "files": [
-          "src/main/java/net/unusual/blockfactorysbiomes/procedures/SquirrelDoNotLookProcedure.java"
+          "src/main/java/net/unusual/blockfactorysbiomes/item/GreenButterflyItem.java",
+          "src/main/resources/assets/bf_biomes/models/item/green_butterfly.json"
+        ]
+      }
+    },
+    {
+      "name": "BlueButterfly",
+      "type": "item",
+      "sortid": 207,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_butterfly",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bf_biomes/models/item/blue_butterfly.json",
+          "src/main/java/net/unusual/blockfactorysbiomes/item/BlueButterflyItem.java"
+        ]
+      }
+    },
+    {
+      "name": "OrangeButterfly",
+      "type": "item",
+      "sortid": 210,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_butterfly",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bf_biomes/models/item/orange_butterfly.json",
+          "src/main/java/net/unusual/blockfactorysbiomes/item/OrangeButterflyItem.java"
+        ]
+      }
+    },
+    {
+      "name": "PricklyCactus",
+      "type": "plant",
+      "sortid": 212,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "prickly_cactus",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bf_biomes/models/block/prickly_cactus.json",
+          "src/main/java/net/unusual/blockfactorysbiomes/block/PricklyCactusBlock.java",
+          "src/main/resources/assets/bf_biomes/models/item/prickly_cactus.json",
+          "src/main/resources/assets/bf_biomes/blockstates/prickly_cactus.json"
+        ]
+      }
+    },
+    {
+      "name": "PinkButterfly",
+      "type": "item",
+      "sortid": 209,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pink_butterfly",
+      "metadata": {
+        "files": [
+          "src/main/java/net/unusual/blockfactorysbiomes/item/PinkButterflyItem.java",
+          "src/main/resources/assets/bf_biomes/models/item/pink_butterfly.json"
+        ]
+      }
+    },
+    {
+      "name": "BugNet",
+      "type": "tool",
+      "sortid": 205,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "bug_net",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bf_biomes/models/item/bug_net.json",
+          "src/main/java/net/unusual/blockfactorysbiomes/item/BugNetItem.java"
+        ]
+      }
+    },
+    {
+      "name": "DrySoil",
+      "type": "block",
+      "sortid": 204,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dry_soil",
+      "metadata": {
+        "files": [
+          "src/main/java/net/unusual/blockfactorysbiomes/block/DrySoilBlock.java",
+          "src/main/resources/data/bf_biomes/loot_tables/blocks/dry_soil.json",
+          "src/main/resources/assets/bf_biomes/models/block/dry_soil.json",
+          "src/main/resources/assets/bf_biomes/models/item/dry_soil.json",
+          "src/main/resources/assets/bf_biomes/blockstates/dry_soil.json"
+        ]
+      }
+    },
+    {
+      "name": "FloweringUrchinCactus",
+      "type": "plant",
+      "sortid": 213,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flowering_urchin_cactus",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bf_biomes/models/block/flowering_urchin_cactus.json",
+          "src/main/resources/assets/bf_biomes/blockstates/flowering_urchin_cactus.json",
+          "src/main/java/net/unusual/blockfactorysbiomes/block/FloweringUrchinCactusBlock.java",
+          "src/main/resources/assets/bf_biomes/models/item/flowering_urchin_cactus.json"
+        ]
+      }
+    },
+    {
+      "name": "FireFlyItem",
+      "type": "item",
+      "sortid": 211,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_fly_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/unusual/blockfactorysbiomes/item/FireFlyItemItem.java",
+          "src/main/resources/assets/bf_biomes/models/item/fire_fly_item.json"
+        ]
+      }
+    },
+    {
+      "name": "BugNetLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 206,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bug_net_living_entity_is_hit_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/unusual/blockfactorysbiomes/procedures/BugNetLivingEntityIsHitWithToolProcedure.java"
         ],
         "dependencies": [
           {
             "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
             "type": "entity"
           }
         ]
       }
     },
     {
-      "name": "SquirrelEntityIsHurt",
-      "type": "procedure",
-      "sortid": 182,
+      "name": "MapleBushes",
+      "type": "feature",
+      "sortid": 193,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "squirrel_entity_is_hurt",
+      "registry_name": "maple_bushes",
       "metadata": {
         "files": [
-          "src/main/java/net/unusual/blockfactorysbiomes/procedures/SquirrelEntityIsHurtProcedure.java"
+          "src/main/resources/data/bf_biomes/worldgen/configured_feature/maple_bushes.json",
+          "src/main/resources/data/bf_biomes/forge/biome_modifier/maple_bushes_biome_modifier.json",
+          "src/main/resources/data/bf_biomes/worldgen/placed_feature/maple_bushes.json"
         ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
+        "has_nbt_structure": true
       }
     },
     {
@@ -3190,6 +3400,77 @@
       "metadata": {
         "files": [
           "src/main/resources/data/bf_biomes/worldgen/biome/maple_forest.json"
+        ]
+      }
+    },
+    {
+      "name": "MapleGrassPatern",
+      "type": "feature",
+      "sortid": 197,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maple_grass_patern",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bf_biomes/worldgen/placed_feature/maple_grass_patern.json",
+          "src/main/resources/data/bf_biomes/forge/biome_modifier/maple_grass_patern_biome_modifier.json",
+          "src/main/resources/data/bf_biomes/worldgen/configured_feature/maple_grass_patern.json"
+        ]
+      }
+    },
+    {
+      "name": "BaobabLeavesLoot",
+      "type": "loottable",
+      "sortid": 190,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "baobab_leaves_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bf_biomes/loot_tables/blocks/baobab_leaves.json"
+        ]
+      }
+    },
+    {
+      "name": "BaobabBushLoot",
+      "type": "loottable",
+      "sortid": 192,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "baobab_bush_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bf_biomes/loot_tables/blocks/baobab_bush.json"
+        ]
+      }
+    },
+    {
+      "name": "Deer",
+      "type": "livingentity",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "deer",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bf_biomes/models/item/deer_spawn_egg.json",
+          "src/main/java/net/unusual/blockfactorysbiomes/client/renderer/DeerRenderer.java",
+          "src/main/java/net/unusual/blockfactorysbiomes/entity/DeerEntity.java",
+          "src/main/resources/data/bf_biomes/forge/biome_modifier/deer_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "MapleSyrup",
+      "type": "item",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maple_syrup",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bf_biomes/models/item/maple_syrup.json",
+          "src/main/java/net/unusual/blockfactorysbiomes/item/MapleSyrupItem.java"
         ]
       }
     },
@@ -3211,136 +3492,23 @@
       }
     },
     {
-      "name": "CoconutLeavesLoot",
-      "type": "loottable",
-      "sortid": 184,
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "coconut_leaves_loot",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/bf_biomes/loot_tables/blocks/coconut_leaves.json"
-        ]
-      }
-    },
-    {
-      "name": "BushyCoconutLeavesLoot",
-      "type": "loottable",
-      "sortid": 185,
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "bushy_coconut_leaves_loot",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/bf_biomes/loot_tables/blocks/bushy_coconut_leaves.json"
-        ]
-      }
-    },
-    {
-      "name": "CoconutBushLoot",
-      "type": "loottable",
-      "sortid": 186,
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "coconut_bush_loot",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/bf_biomes/loot_tables/blocks/coconut_bush.json"
-        ]
-      }
-    },
-    {
-      "name": "MapleLeavesLoot",
-      "type": "loottable",
-      "sortid": 187,
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "maple_leaves_loot",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/bf_biomes/loot_tables/blocks/maple_leaves.json"
-        ]
-      }
-    },
-    {
-      "name": "BushyMapleLeavesLoot",
-      "type": "loottable",
-      "sortid": 188,
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "bushy_maple_leaves_loot",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/bf_biomes/loot_tables/blocks/bushy_maple_leaves.json"
-        ]
-      }
-    },
-    {
-      "name": "MapleBushLoot",
-      "type": "loottable",
-      "sortid": 189,
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "maple_bush_loot",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/bf_biomes/loot_tables/blocks/maple_bush.json"
-        ]
-      }
-    },
-    {
-      "name": "BaobabLeavesLoot",
-      "type": "loottable",
-      "sortid": 190,
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "baobab_leaves_loot",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/bf_biomes/loot_tables/blocks/baobab_leaves.json"
-        ]
-      }
-    },
-    {
-      "name": "BushyBaobabLeavesLoot",
-      "type": "loottable",
-      "sortid": 191,
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "bushy_baobab_leaves_loot",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/bf_biomes/loot_tables/blocks/bushy_baobab_leaves.json"
-        ]
-      }
-    },
-    {
-      "name": "BaobabBushLoot",
-      "type": "loottable",
-      "sortid": 192,
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "baobab_bush_loot",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/bf_biomes/loot_tables/blocks/baobab_bush.json"
-        ]
-      }
-    },
-    {
-      "name": "MapleBushes",
-      "type": "feature",
-      "sortid": 193,
+      "name": "ButterflyDisplayCondition",
+      "type": "procedure",
+      "sortid": 199,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "maple_bushes",
+      "registry_name": "butterfly_display_condition",
       "metadata": {
+        "return_type": "logic",
         "files": [
-          "src/main/resources/data/bf_biomes/forge/biome_modifier/maple_bushes_biome_modifier.json",
-          "src/main/resources/data/bf_biomes/worldgen/configured_feature/maple_bushes.json",
-          "src/main/resources/data/bf_biomes/worldgen/placed_feature/maple_bushes.json"
+          "src/main/java/net/unusual/blockfactorysbiomes/procedures/ButterflyDisplayConditionProcedure.java"
         ],
-        "has_nbt_structure": true
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
       }
     },
     {
@@ -3375,78 +3543,15 @@
       }
     },
     {
-      "name": "MapleTreeAdditionalGenerationCondition",
-      "type": "procedure",
-      "sortid": 196,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "maple_tree_additional_generation_condition",
-      "metadata": {
-        "return_type": "logic",
-        "files": [
-          "src/main/java/net/unusual/blockfactorysbiomes/procedures/MapleTreeAdditionalGenerationConditionProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
-      "name": "MapleGrassPatern",
-      "type": "feature",
-      "sortid": 197,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "maple_grass_patern",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/bf_biomes/worldgen/placed_feature/maple_grass_patern.json",
-          "src/main/resources/data/bf_biomes/forge/biome_modifier/maple_grass_patern_biome_modifier.json",
-          "src/main/resources/data/bf_biomes/worldgen/configured_feature/maple_grass_patern.json"
-        ]
-      }
-    },
-    {
-      "name": "RedAutumnGrassBlockstate",
-      "type": "blockstates",
-      "sortid": 198,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "red_autumn_grass_blockstate",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/bf_biomes/models/block/red_autumn_grass_blockstate_blockstate_0.json"
-        ]
-      }
-    },
-    {
-      "name": "Deer",
-      "type": "livingentity",
-      "sortid": 63,
+      "name": "MapleBushLoot",
+      "type": "loottable",
+      "sortid": 189,
       "compiles": true,
       "locked_code": true,
-      "registry_name": "deer",
+      "registry_name": "maple_bush_loot",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bf_biomes/models/item/deer_spawn_egg.json",
-          "src/main/java/net/unusual/blockfactorysbiomes/client/renderer/DeerRenderer.java",
-          "src/main/java/net/unusual/blockfactorysbiomes/entity/DeerEntity.java",
-          "src/main/resources/data/bf_biomes/forge/biome_modifier/deer_biome_modifier.json"
+          "src/main/resources/data/bf_biomes/loot_tables/blocks/maple_bush.json"
         ]
       }
     },
@@ -3467,16 +3572,16 @@
       }
     },
     {
-      "name": "ButterflyDisplayCondition",
+      "name": "SquirrelDoNotLook",
       "type": "procedure",
-      "sortid": 199,
+      "sortid": 181,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "butterfly_display_condition",
+      "registry_name": "squirrel_do_not_look",
       "metadata": {
         "return_type": "logic",
         "files": [
-          "src/main/java/net/unusual/blockfactorysbiomes/procedures/ButterflyDisplayConditionProcedure.java"
+          "src/main/java/net/unusual/blockfactorysbiomes/procedures/SquirrelDoNotLookProcedure.java"
         ],
         "dependencies": [
           {
@@ -3527,6 +3632,53 @@
       }
     },
     {
+      "name": "MapleSyrupWood",
+      "type": "feature",
+      "sortid": 203,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maple_syrup_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bf_biomes/forge/biome_modifier/maple_syrup_wood_biome_modifier.json",
+          "src/main/resources/data/bf_biomes/worldgen/placed_feature/maple_syrup_wood.json",
+          "src/main/resources/data/bf_biomes/worldgen/configured_feature/maple_syrup_wood.json"
+        ]
+      }
+    },
+    {
+      "name": "MapleTreeAdditionalGenerationCondition",
+      "type": "procedure",
+      "sortid": 196,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maple_tree_additional_generation_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/unusual/blockfactorysbiomes/procedures/MapleTreeAdditionalGenerationConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
       "name": "ButterflyOnInitialEntitySpawn",
       "type": "procedure",
       "sortid": 202,
@@ -3562,187 +3714,34 @@
       }
     },
     {
-      "name": "MapleSyrup",
-      "type": "item",
-      "sortid": 39,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "maple_syrup",
-      "metadata": {
-        "files": [
-          "src/main/java/net/unusual/blockfactorysbiomes/item/MapleSyrupItem.java",
-          "src/main/resources/assets/bf_biomes/models/item/maple_syrup.json"
-        ]
-      }
-    },
-    {
-      "name": "MapleSyrupWood",
-      "type": "feature",
-      "sortid": 203,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "maple_syrup_wood",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/bf_biomes/worldgen/configured_feature/maple_syrup_wood.json",
-          "src/main/resources/data/bf_biomes/worldgen/placed_feature/maple_syrup_wood.json",
-          "src/main/resources/data/bf_biomes/forge/biome_modifier/maple_syrup_wood_biome_modifier.json"
-        ]
-      }
-    },
-    {
-      "name": "DrySoil",
-      "type": "block",
-      "sortid": 204,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "dry_soil",
-      "metadata": {
-        "files": [
-          "src/main/java/net/unusual/blockfactorysbiomes/block/DrySoilBlock.java",
-          "src/main/resources/data/bf_biomes/loot_tables/blocks/dry_soil.json",
-          "src/main/resources/assets/bf_biomes/models/block/dry_soil.json",
-          "src/main/resources/assets/bf_biomes/models/item/dry_soil.json",
-          "src/main/resources/assets/bf_biomes/blockstates/dry_soil.json"
-        ]
-      }
-    },
-    {
-      "name": "BugNet",
-      "type": "tool",
-      "sortid": 205,
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "bug_net",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/bf_biomes/models/item/bug_net.json",
-          "src/main/java/net/unusual/blockfactorysbiomes/item/BugNetItem.java"
-        ]
-      }
-    },
-    {
-      "name": "BugNetLivingEntityIsHitWithTool",
+      "name": "SquirrelEntityIsHurt",
       "type": "procedure",
-      "sortid": 206,
+      "sortid": 182,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "bug_net_living_entity_is_hit_with_tool",
+      "registry_name": "squirrel_entity_is_hurt",
       "metadata": {
         "files": [
-          "src/main/java/net/unusual/blockfactorysbiomes/procedures/BugNetLivingEntityIsHitWithToolProcedure.java"
+          "src/main/java/net/unusual/blockfactorysbiomes/procedures/SquirrelEntityIsHurtProcedure.java"
         ],
         "dependencies": [
           {
             "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "sourceentity",
             "type": "entity"
           }
         ]
       }
     },
     {
-      "name": "BlueButterfly",
-      "type": "item",
-      "sortid": 207,
+      "name": "RedAutumnGrassBlockstate",
+      "type": "blockstates",
+      "sortid": 198,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "blue_butterfly",
+      "registry_name": "red_autumn_grass_blockstate",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bf_biomes/models/item/blue_butterfly.json",
-          "src/main/java/net/unusual/blockfactorysbiomes/item/BlueButterflyItem.java"
-        ]
-      }
-    },
-    {
-      "name": "GreenButterfly",
-      "type": "item",
-      "sortid": 208,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "green_butterfly",
-      "metadata": {
-        "files": [
-          "src/main/java/net/unusual/blockfactorysbiomes/item/GreenButterflyItem.java",
-          "src/main/resources/assets/bf_biomes/models/item/green_butterfly.json"
-        ]
-      }
-    },
-    {
-      "name": "PinkButterfly",
-      "type": "item",
-      "sortid": 209,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "pink_butterfly",
-      "metadata": {
-        "files": [
-          "src/main/java/net/unusual/blockfactorysbiomes/item/PinkButterflyItem.java",
-          "src/main/resources/assets/bf_biomes/models/item/pink_butterfly.json"
-        ]
-      }
-    },
-    {
-      "name": "OrangeButterfly",
-      "type": "item",
-      "sortid": 210,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "orange_butterfly",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/bf_biomes/models/item/orange_butterfly.json",
-          "src/main/java/net/unusual/blockfactorysbiomes/item/OrangeButterflyItem.java"
-        ]
-      }
-    },
-    {
-      "name": "FireFlyItem",
-      "type": "item",
-      "sortid": 211,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "fire_fly_item",
-      "metadata": {
-        "files": [
-          "src/main/java/net/unusual/blockfactorysbiomes/item/FireFlyItemItem.java",
-          "src/main/resources/assets/bf_biomes/models/item/fire_fly_item.json"
-        ]
-      }
-    },
-    {
-      "name": "PricklyCactus",
-      "type": "plant",
-      "sortid": 212,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "prickly_cactus",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/bf_biomes/models/block/prickly_cactus.json",
-          "src/main/java/net/unusual/blockfactorysbiomes/block/PricklyCactusBlock.java",
-          "src/main/resources/assets/bf_biomes/models/item/prickly_cactus.json",
-          "src/main/resources/assets/bf_biomes/blockstates/prickly_cactus.json"
-        ]
-      }
-    },
-    {
-      "name": "FloweringUrchinCactus",
-      "type": "plant",
-      "sortid": 213,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "flowering_urchin_cactus",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/bf_biomes/models/block/flowering_urchin_cactus.json",
-          "src/main/resources/assets/bf_biomes/blockstates/flowering_urchin_cactus.json",
-          "src/main/java/net/unusual/blockfactorysbiomes/block/FloweringUrchinCactusBlock.java",
-          "src/main/resources/assets/bf_biomes/models/item/flowering_urchin_cactus.json"
+          "src/main/resources/assets/bf_biomes/models/block/red_autumn_grass_blockstate_blockstate_0.json"
         ]
       }
     }
@@ -3858,9 +3857,6 @@
     }
   ],
   "tag_elements": {
-    "BLOCKS:mod:maple_grass": [
-      "CUSTOM:RedAutumnGrass"
-    ],
     "BIOMES:minecraft:has_structure/stronghold": [
       "~CUSTOM:MapleForest"
     ],
@@ -3885,7 +3881,6 @@
       "CUSTOM:MapleStairs",
       "CUSTOM:BaobabStairs"
     ],
-    "BIOMES:minecraft:is_overworld": [],
     "BLOCKS:minecraft:logs": [
       "CUSTOM:CoconutWood",
       "CUSTOM:CoconutLog",
@@ -3894,9 +3889,7 @@
       "CUSTOM:MapleWood",
       "CUSTOM:MapleLog",
       "CUSTOM:StrippedMapleWood",
-      "CUSTOM:StrippedMapleLog",
-      "CUSTOM:BaobabLog",
-      "CUSTOM:StrippedBaobabLog"
+      "CUSTOM:StrippedMapleLog"
     ],
     "ITEMS:minecraft:logs": [
       "CUSTOM:CoconutWood",
@@ -3910,14 +3903,7 @@
     ],
     "BLOCKS:minecraft:leaves": [
       "CUSTOM:BushyCoconutLeaves",
-      "CUSTOM:CoconutLeaves",
-      "CUSTOM:BushyMapleLeaves",
-      "CUSTOM:MapleLeaves",
-      "CUSTOM:BaobabLeaves",
-      "CUSTOM:BushyBaobabLeaves"
-    ],
-    "BLOCKS:minecraft:dirt": [
-      "CUSTOM:RedAutumnGrass"
+      "CUSTOM:CoconutLeaves"
     ],
     "BLOCKS:minecraft:mineable/axe": [
       "~CUSTOM:BaobabLogPile",
@@ -3992,8 +3978,8 @@
       "CUSTOM:MapleFence"
     ],
     "BLOCKS:minecraft:mineable/shovel": [
-      "~CUSTOM:DrySoil",
-      "~CUSTOM:RedAutumnGrass"
+      "~CUSTOM:RedAutumnGrass",
+      "~CUSTOM:DrySoil"
     ],
     "BLOCKS:minecraft:stairs": [
       "~CUSTOM:BaobabStairs",
@@ -4004,9 +3990,6 @@
       "CUSTOM:CoconutSlab",
       "CUSTOM:MapleSlab",
       "CUSTOM:BaobabSlab"
-    ],
-    "BLOCKS:minecraft:animals_spawnable_on": [
-      "CUSTOM:RedAutumnGrass"
     ],
     "BLOCKS:minecraft:fence_gates": [
       "CUSTOM:CoconutFenceGate",

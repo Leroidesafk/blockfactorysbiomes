@@ -1,8 +1,7 @@
 
 package net.unusual.blockfactorysbiomes.item;
 
-import net.minecraft.world.item.Rarity;
-import net.minecraft.world.item.Item;
+import net.minecraft.world.entity.ai.attributes.Attributes;
 
 public class FireFlyItemItem extends Item {
 	public FireFlyItemItem() {
