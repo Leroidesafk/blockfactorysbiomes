@@ -1,6 +1,6 @@
 {
   "type": "forge:add_features",
-  "biomes": "the_void",
+  "biomes": "bf_biomes:baobab_forest",
   "features": "bf_biomes:baobab_tree",
   "step": "surface_structures"
 }

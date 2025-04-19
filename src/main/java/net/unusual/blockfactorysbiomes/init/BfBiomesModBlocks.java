@@ -43,6 +43,8 @@ import net.unusual.blockfactorysbiomes.block.FallenOvergrownMapleLogBlock;
 import net.unusual.blockfactorysbiomes.block.FallenOvergrownCoconutLogBlock;
 import net.unusual.blockfactorysbiomes.block.FallenOvergrownBaobabLogBlock;
 import net.unusual.blockfactorysbiomes.block.FallenMapleLogBlock;
+import net.unusual.blockfactorysbiomes.block.FallenMapleLeavesBlock;
+import net.unusual.blockfactorysbiomes.block.FallenMapleBranchBlock;
 import net.unusual.blockfactorysbiomes.block.FallenCoconutLogBlock;
 import net.unusual.blockfactorysbiomes.block.FallenBaobabLogBlock;
 import net.unusual.blockfactorysbiomes.block.DrySoilBlock;
@@ -178,6 +180,8 @@ public class BfBiomesModBlocks {
 	public static final RegistryObject<Block> DRY_SOIL = REGISTRY.register("dry_soil", () -> new DrySoilBlock());
 	public static final RegistryObject<Block> FLOWERING_URCHIN_CACTUS = REGISTRY.register("flowering_urchin_cactus", () -> new FloweringUrchinCactusBlock());
 	public static final RegistryObject<Block> RED_AUTUMN_GRASS = REGISTRY.register("red_autumn_grass", () -> new RedAutumnGrassBlock());
+	public static final RegistryObject<Block> FALLEN_MAPLE_LEAVES = REGISTRY.register("fallen_maple_leaves", () -> new FallenMapleLeavesBlock());
+	public static final RegistryObject<Block> FALLEN_MAPLE_BRANCH = REGISTRY.register("fallen_maple_branch", () -> new FallenMapleBranchBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

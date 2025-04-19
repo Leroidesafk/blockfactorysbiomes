@@ -1,7 +1,8 @@
 
 package net.unusual.blockfactorysbiomes.item;
 
-import net.minecraft.world.entity.ai.attributes.Attributes;
+import net.minecraft.world.item.Rarity;
+import net.minecraft.world.item.Item;
 
 public class OrangeButterflyItem extends Item {
 	public OrangeButterflyItem() {

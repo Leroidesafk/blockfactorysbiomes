@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "bf_biomes:item/baobab_fruit"
+    "layer0": "bf_biomes:block/baobab_sapling"
   }
 }

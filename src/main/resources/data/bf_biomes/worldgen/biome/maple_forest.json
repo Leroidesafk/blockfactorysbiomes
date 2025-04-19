@@ -21,7 +21,7 @@
       },
       {
         "type": "bf_biomes:deer",
-        "weight": 45,
+        "weight": 30,
         "minCount": 4,
         "maxCount": 6
       },

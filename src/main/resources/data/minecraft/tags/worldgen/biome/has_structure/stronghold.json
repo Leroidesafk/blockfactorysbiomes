@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "bf_biomes:baobab_forest",
     "bf_biomes:maple_forest"
   ]
 }

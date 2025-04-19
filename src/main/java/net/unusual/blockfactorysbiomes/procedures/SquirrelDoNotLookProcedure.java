@@ -1,6 +1,8 @@
 package net.unusual.blockfactorysbiomes.procedures;
 
-import net.minecraftforge.eventbus.api.Event;
+import net.unusual.blockfactorysbiomes.entity.SquirrelEntity;
+
+import net.minecraft.world.entity.Entity;
 
 public class SquirrelDoNotLookProcedure {
 	public static boolean execute(Entity entity) {

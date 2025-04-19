@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "bf_biomes:item/fallen_maple_leaves"
+  },
+  "render_type": "translucent"
+}

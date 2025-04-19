@@ -1,6 +1,14 @@
 package net.unusual.blockfactorysbiomes.procedures;
 
-import net.minecraftforge.eventbus.api.Event;
+import net.unusual.blockfactorysbiomes.init.BfBiomesModItems;
+import net.unusual.blockfactorysbiomes.entity.FireflyEntity;
+import net.unusual.blockfactorysbiomes.entity.ButterflyEntity;
+
+import net.minecraftforge.items.ItemHandlerHelper;
+
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.entity.Entity;
 
 public class BugNetLivingEntityIsHitWithToolProcedure {
 	public static void execute(Entity entity, Entity sourceentity) {

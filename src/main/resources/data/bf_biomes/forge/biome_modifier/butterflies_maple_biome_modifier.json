@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "bf_biomes:maple_forest",
+  "features": "bf_biomes:butterflies_maple",
+  "step": "top_layer_modification"
+}

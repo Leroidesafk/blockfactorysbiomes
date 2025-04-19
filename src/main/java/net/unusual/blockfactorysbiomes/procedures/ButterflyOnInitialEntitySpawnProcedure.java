@@ -1,6 +1,12 @@
 package net.unusual.blockfactorysbiomes.procedures;
 
-import net.minecraftforge.eventbus.api.Event;
+import net.unusual.blockfactorysbiomes.entity.ButterflyEntity;
+
+import net.minecraft.world.level.LevelAccessor;
+import net.minecraft.world.entity.Entity;
+import net.minecraft.util.RandomSource;
+import net.minecraft.util.Mth;
+import net.minecraft.core.BlockPos;
 
 public class ButterflyOnInitialEntitySpawnProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {

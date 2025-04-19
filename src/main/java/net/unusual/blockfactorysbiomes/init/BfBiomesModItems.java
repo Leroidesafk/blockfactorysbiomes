@@ -127,6 +127,8 @@ public class BfBiomesModItems {
 	public static final RegistryObject<Item> MAPLE_SYRUP = REGISTRY.register("maple_syrup", () -> new MapleSyrupItem());
 	public static final RegistryObject<Item> RED_AUTUMN_GRASS = block(BfBiomesModBlocks.RED_AUTUMN_GRASS);
 	public static final RegistryObject<Item> BUTTERFLY_SPAWN_EGG = REGISTRY.register("butterfly_spawn_egg", () -> new ForgeSpawnEggItem(BfBiomesModEntities.BUTTERFLY, -2526191, -14805231, new Item.Properties()));
+	public static final RegistryObject<Item> FALLEN_MAPLE_LEAVES = block(BfBiomesModBlocks.FALLEN_MAPLE_LEAVES);
+	public static final RegistryObject<Item> FALLEN_MAPLE_BRANCH = block(BfBiomesModBlocks.FALLEN_MAPLE_BRANCH);
 
 	// Start of user code block custom items
 	// End of user code block custom items

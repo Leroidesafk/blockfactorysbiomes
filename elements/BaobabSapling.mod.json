@@ -6,7 +6,7 @@
     "texture": "baobab_sapling",
     "textureBottom": "",
     "customModelName": "Cross model",
-    "itemTexture": "baobab_fruit",
+    "itemTexture": "",
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,

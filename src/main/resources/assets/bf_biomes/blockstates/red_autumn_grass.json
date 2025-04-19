@@ -1,7 +1,10 @@
 {
   "variants": {
-    "": {
+    "blockstate=0": {
       "model": "bf_biomes:block/red_autumn_grass"
+    },
+    "blockstate=1": {
+      "model": "bf_biomes:block/red_autumn_grass_blockstate_blockstate_0"
     }
   }
 }

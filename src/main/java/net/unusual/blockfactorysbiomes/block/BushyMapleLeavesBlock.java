@@ -1,6 +1,8 @@
 
 package net.unusual.blockfactorysbiomes.block;
 
+import net.unusual.blockfactorysbiomes.init.BfBiomesModParticleTypes;
+
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.CollisionContext;
@@ -26,6 +28,7 @@ import net.minecraft.tags.ItemTags;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.core.particles.SimpleParticleType;
 import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
@@ -40,7 +43,7 @@ public class BushyMapleLeavesBlock extends Block implements SimpleWaterloggedBlo
 	private static final int TICK_DELAY = 1;
 
 	public BushyMapleLeavesBlock() {
-		super(BlockBehaviour.Properties.of().ignitedByLava().sound(SoundType.GRASS).strength(0.2f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
+		super(BlockBehaviour.Properties.of().ignitedByLava().sound(SoundType.GRASS).strength(0.05f).noOcclusion().requiresCorrectToolForDrops().isRedstoneConductor((bs, br, bp) -> false));
 		this.registerDefaultState(this.stateDefinition.any().setValue(DISTANCE, Integer.valueOf(7)).setValue(PERSISTENT, Boolean.valueOf(false)).setValue(WATERLOGGED, Boolean.valueOf(false)));
 	}
 
@@ -116,6 +119,17 @@ public class BushyMapleLeavesBlock extends Block implements SimpleWaterloggedBlo
 				if (!blockstate.canOcclude() || !blockstate.isFaceSturdy(p_221375_, blockpos, Direction.UP)) {
 					ParticleUtils.spawnParticleBelow(p_221375_, p_221376_, p_221377_, ParticleTypes.DRIPPING_WATER);
 				}
+			}
+		}
+		super.animateTick(p_221374_, p_221375_, p_221376_, p_221377_);
+		if (p_221377_.nextInt(10) == 0) {
+			BlockPos blockpos = p_221376_.below();
+			BlockState blockstate = p_221375_.getBlockState(blockpos);
+			if (!isFaceFull(blockstate.getCollisionShape(p_221375_, blockpos), Direction.UP)) {
+				p_221375_.addParticle((SimpleParticleType) (BfBiomesModParticleTypes.MAPLE.get()),
+				p_221376_.getX() + 0.5, p_221376_.getY() - 0.5, p_221376_.getZ() + 0.5,
+				(-0.4), (-0.4), (-0.4));
+				//ParticleUtils.spawnParticleBelow(p_272837_, p_273218_, p_273360_, BfBiomesModParticleTypes.MAPLE.get());
 			}
 		}
 	}

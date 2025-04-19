@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "bf_biomes:baobab_forest",
+  "features": "bf_biomes:dry_soil_patern",
+  "step": "surface_structures"
+}

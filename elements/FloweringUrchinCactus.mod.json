@@ -91,10 +91,17 @@
     ],
     "isBonemealable": false,
     "frequencyOnChunks": 5,
-    "generateFeature": false,
-    "restrictionBiomes": [],
+    "generateFeature": true,
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:BaobabForest"
+      }
+    ],
     "generationType": "Flower",
     "patchSize": 64,
-    "generateAtAnyHeight": false
+    "generateAtAnyHeight": false,
+    "onEntityCollides": {
+      "name": "FloweringUrchinCactusMobplayerCollidesWithPlant"
+    }
   }
 }

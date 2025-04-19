@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "bf_biomes:maple_forest",
+  "features": "bf_biomes:fallen_maple_leaves_generation",
+  "step": "surface_structures"
+}

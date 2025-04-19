@@ -1,7 +1,20 @@
 {
-  "parent": "bf_biomes:custom/insect_catcher",
-  "textures": {
-    "0": "bf_biomes:block/insect_catcher",
-    "particle": "bf_biomes:item/bug_net"
+  "loader": "forge:separate_transforms",
+  "gui_light": "front",
+  "base": {
+	  "parent": "bf_biomes:custom/insect_catcher",
+	  "textures": {
+	    "0": "bf_biomes:block/insect_catcher",
+	    "particle": "bf_biomes:item/bug_net"
+	  }
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "item/handheld",
+      "textures": {
+        "layer0": "bf_biomes:item/bug_net"
+      },
+      "gui_light": "front"
+    }
   }
 }

@@ -6,6 +6,7 @@ import org.apache.logging.log4j.LogManager;
 import net.unusual.blockfactorysbiomes.world.features.StructureFeature;
 import net.unusual.blockfactorysbiomes.init.BfBiomesModTabs;
 import net.unusual.blockfactorysbiomes.init.BfBiomesModSounds;
+import net.unusual.blockfactorysbiomes.init.BfBiomesModParticleTypes;
 import net.unusual.blockfactorysbiomes.init.BfBiomesModItems;
 import net.unusual.blockfactorysbiomes.init.BfBiomesModFeatures;
 import net.unusual.blockfactorysbiomes.init.BfBiomesModEntities;
@@ -53,6 +54,8 @@ public class BfBiomesMod {
 		BfBiomesModTabs.REGISTRY.register(bus);
 		BfBiomesModFeatures.REGISTRY.register(bus);
 		StructureFeature.REGISTRY.register(bus);
+
+		BfBiomesModParticleTypes.REGISTRY.register(bus);
 
 		// Start of user code block mod init
 		// End of user code block mod init

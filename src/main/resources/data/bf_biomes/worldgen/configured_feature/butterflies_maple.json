@@ -1,0 +1,12 @@
+{
+  "type": "bf_biomes:structure_feature",
+  "config": {
+    "structure": "bf_biomes:butterflies",
+    "ignored_blocks": "minecraft:air",
+    "offset": [
+      0,
+      5,
+      0
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "fallen_maple_leaves"
+      },
+      "name": "default"
+    },
+    "baobab": {
+      "map": {
+        "0": "fallen_baobab_leaves"
+      },
+      "name": "baobab"
+    },
+    "coconut": {
+      "map": {
+        "0": "fallen_coconut_leaves"
+      },
+      "name": "coconut"
+    },
+    "maple_branch": {
+      "map": {
+        "0": "fallen_maple_branch"
+      },
+      "name": "maple_branch"
+    },
+    "baobab_branch": {
+      "map": {
+        "0": "fallen_baobab_branch"
+      },
+      "name": "baobab_branch"
+    }
+  }
+}

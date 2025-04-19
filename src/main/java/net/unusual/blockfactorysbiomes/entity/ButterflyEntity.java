@@ -1,7 +1,6 @@
 
 package net.unusual.blockfactorysbiomes.entity;
 
-import net.unusual.blockfactorysbiomes.procedures.FireflyOnEntityTickUpdateProcedure;
 import net.unusual.blockfactorysbiomes.procedures.ButterflyOnInitialEntitySpawnProcedure;
 import net.unusual.blockfactorysbiomes.init.BfBiomesModEntities;
 
@@ -160,12 +159,6 @@ public class ButterflyEntity extends Animal {
 		super.readAdditionalSaveData(compound);
 		if (compound.contains("Datacolor"))
 			this.entityData.set(DATA_color, compound.getInt("Datacolor"));
-	}
-
-	@Override
-	public void baseTick() {
-		super.baseTick();
-		FireflyOnEntityTickUpdateProcedure.execute(this);
 	}
 
 	@Override

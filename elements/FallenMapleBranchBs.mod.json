@@ -1,0 +1,48 @@
+{
+  "_fv": 60,
+  "_type": "blockstates",
+  "definition": {
+    "block": "FallenMapleBranch",
+    "blockstateList": [
+      {
+        "texture": "fallen_maple_branch",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "",
+        "renderType": 2,
+        "customModelName": "fallen_leaves_1:maple_branch",
+        "luminance": 0,
+        "boundingBoxes": []
+      },
+      {
+        "texture": "fallen_maple_branch",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "",
+        "renderType": 2,
+        "customModelName": "fallen_leaves_2:maple_branch",
+        "luminance": 0,
+        "boundingBoxes": []
+      },
+      {
+        "texture": "fallen_maple_branch",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "",
+        "renderType": 2,
+        "customModelName": "fallen_leaves_3:maple_branch",
+        "luminance": 0,
+        "boundingBoxes": []
+      }
+    ]
+  }
+}

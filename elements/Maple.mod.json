@@ -1,0 +1,24 @@
+{
+  "_fv": 60,
+  "_type": "particle",
+  "definition": {
+    "texture": "maple.png",
+    "animate": false,
+    "frameDuration": 3,
+    "width": 0.2,
+    "height": 0.2,
+    "scale": 1.2000000000000002,
+    "speedFactor": 0.19999999999999998,
+    "gravity": 0.1,
+    "maxAge": 200,
+    "maxAgeDiff": 0,
+    "angularVelocity": 0.1,
+    "angularAcceleration": -0.005,
+    "canCollide": true,
+    "alwaysShow": false,
+    "renderType": "OPAQUE",
+    "additionalExpiryCondition": {
+      "name": "MapleAdditionalParticleExpiryCondition"
+    }
+  }
+}

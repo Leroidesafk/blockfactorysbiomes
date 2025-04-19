@@ -1,0 +1,9 @@
+{
+  "parent": "bf_biomes:custom/fallen_leaves_2",
+  "textures": {
+    "all": "bf_biomes:block/fallen_maple_leaves",
+    "particle": "bf_biomes:block/fallen_maple_leaves",
+    "0": "bf_biomes:block/fallen_maple_leaves"
+  },
+  "render_type": "cutout_mipped"
+}

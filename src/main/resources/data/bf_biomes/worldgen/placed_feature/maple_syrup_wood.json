@@ -2,6 +2,10 @@
   "feature": "bf_biomes:maple_syrup_wood",
   "placement": [
     {
+      "type": "minecraft:count",
+      "count": 5
+    },
+    {
       "type": "minecraft:in_square"
     },
     {
