@@ -118,6 +118,11 @@ public class BfBiomesModTabs {
 				tabData.accept(BfBiomesModBlocks.BAOBAB_BUTTON.get().asItem());
 				tabData.accept(BfBiomesModBlocks.BAOBAB_DOOR.get().asItem());
 				tabData.accept(BfBiomesModBlocks.BAOBAB_TRAPDOOR.get().asItem());
+				tabData.accept(BfBiomesModItems.DEER_BEEF.get());
+				tabData.accept(BfBiomesModItems.COOKED_DEER_BEEF.get());
+				tabData.accept(BfBiomesModItems.OSTRICH_EGG.get());
+				tabData.accept(BfBiomesModItems.FRIED_OSTRICH_EGG.get());
+				tabData.accept(BfBiomesModItems.CRAB_SANDWICH.get());
 			})
 
 					.build());

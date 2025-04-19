@@ -2767,9 +2767,9 @@
         "files": [
           "src/main/resources/assets/bf_biomes/models/item/baobab_sapling.json",
           "src/main/resources/assets/bf_biomes/blockstates/baobab_sapling.json",
-          "src/main/java/net/unusual/blockfactorysbiomes/block/BaobabSaplingBlock.java",
           "src/main/resources/assets/bf_biomes/models/block/baobab_sapling.json",
-          "src/main/resources/data/bf_biomes/loot_tables/blocks/baobab_sapling.json"
+          "src/main/resources/data/bf_biomes/loot_tables/blocks/baobab_sapling.json",
+          "src/main/java/net/unusual/blockfactorysbiomes/block/BaobabSaplingBlock.java"
         ]
       }
     },
@@ -4013,6 +4013,160 @@
           "src/main/resources/data/bf_biomes/forge/biome_modifier/tall_grass_baobab_patern_biome_modifier.json"
         ]
       }
+    },
+    {
+      "name": "DeerBeef",
+      "type": "item",
+      "sortid": 226,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deer_beef",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bf_biomes/models/item/deer_beef.json",
+          "src/main/java/net/unusual/blockfactorysbiomes/item/DeerBeefItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CookedDeerBeef",
+      "type": "item",
+      "sortid": 227,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cooked_deer_beef",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bf_biomes/models/item/cooked_deer_beef.json",
+          "src/main/java/net/unusual/blockfactorysbiomes/item/CookedDeerBeefItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CookedDeerBeefRecipe",
+      "type": "recipe",
+      "sortid": 229,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cooked_deer_beef_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bf_biomes/recipes/cooked_deer_beef_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DeerHornRangedItemShootsProjectile",
+      "type": "procedure",
+      "sortid": 230,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deer_horn_ranged_item_shoots_projectile",
+      "metadata": {
+        "files": [
+          "src/main/java/net/unusual/blockfactorysbiomes/procedures/DeerHornRangedItemShootsProjectileProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OstrichEgg",
+      "type": "item",
+      "sortid": 231,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ostrich_egg",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bf_biomes/models/item/ostrich_egg.json",
+          "src/main/java/net/unusual/blockfactorysbiomes/item/OstrichEggItem.java"
+        ]
+      }
+    },
+    {
+      "name": "FriedOstrichEgg",
+      "type": "item",
+      "sortid": 232,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fried_ostrich_egg",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bf_biomes/models/item/fried_ostrich_egg.json",
+          "src/main/java/net/unusual/blockfactorysbiomes/item/FriedOstrichEggItem.java"
+        ]
+      }
+    },
+    {
+      "name": "FriedOstrichEggRecipe",
+      "type": "recipe",
+      "sortid": 233,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fried_ostrich_egg_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bf_biomes/recipes/fried_ostrich_egg_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DeerLoot",
+      "type": "loottable",
+      "sortid": 234,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deer_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bf_biomes/loot_tables/deer_loot.json"
+        ]
+      }
+    },
+    {
+      "name": "OstrichLoot",
+      "type": "loottable",
+      "sortid": 235,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ostrich_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bf_biomes/loot_tables/ostrich_loot.json"
+        ]
+      }
+    },
+    {
+      "name": "CrabSandwich",
+      "type": "item",
+      "sortid": 236,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crab_sandwich",
+      "metadata": {
+        "files": [
+          "src/main/java/net/unusual/blockfactorysbiomes/item/CrabSandwichItem.java",
+          "src/main/resources/assets/bf_biomes/models/item/crab_sandwich.json"
+        ]
+      }
+    },
+    {
+      "name": "CrabSandwichRecipe",
+      "type": "recipe",
+      "sortid": 237,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crab_sandwich_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bf_biomes/recipes/crab_sandwich_recipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -4308,13 +4462,15 @@
       "block.bf_biomes.maple_trunk": "Maple Trunk",
       "block.bf_biomes.stripped_coconut_log": "Stripped Coconut Log",
       "entity.bf_biomes.firefly": "Firefly",
-      "item.bf_biomes.cooked_crab_meat": "Cooked Crab Meat",
       "block.bf_biomes.flowering_urchin_cactus": "Flowering Urchin Cactus",
+      "item.bf_biomes.cooked_crab_meat": "Cooked Crab Meat",
       "block.bf_biomes.coconut_log": "Coconut Log",
+      "item.bf_biomes.crab_sandwich": "Crab Sandwich",
       "block.bf_biomes.tall_dead_grass": "Tall Dried Grass",
-      "subtitles.deer_walk": "Deer walk",
-      "subtitles.firefly_flying": "Firefly flying",
+      "item.bf_biomes.deer_beef": "Deer Beef",
       "block.bf_biomes.dead_grass": "Dead Grass",
+      "subtitles.firefly_flying": "Firefly flying",
+      "subtitles.deer_walk": "Deer walk",
       "block.bf_biomes.maple_wood": "Maple Wood",
       "block.bf_biomes.fallen_maple_log": "Fallen Maple Log",
       "block.bf_biomes.stripped_baobab_wood": "Stripped Baobab Wood",
@@ -4322,8 +4478,8 @@
       "block.bf_biomes.coconut_button": "Coconut Button",
       "block.bf_biomes.coconut_planks": "Coconut Planks",
       "item.bf_biomes.coconut_item": "Coconut",
-      "block.bf_biomes.baobab_fence_gate": "Baobab Fence Gate",
       "block.bf_biomes.maple_door": "Maple Door",
+      "block.bf_biomes.baobab_fence_gate": "Baobab Fence Gate",
       "block.bf_biomes.pink_lion_paw_seashel": "Pink Lion Paw Seashell",
       "block.bf_biomes.maple_fence": "Maple Fence",
       "item.bf_biomes.bug_net": "Insect Catcher",
@@ -4334,6 +4490,7 @@
       "block.bf_biomes.red_autumn_grass": "Red Autumn Grass",
       "block.bf_biomes.fallen_coconut_log": "Fallen Coconut Log",
       "block.bf_biomes.stripped_maple_wood": "Stripped Maple Wood",
+      "item.bf_biomes.cooked_deer_beef": "Cooked Deer Beef",
       "entity.bf_biomes.deer": "Deer",
       "block.bf_biomes.long_shell": "Long Shell",
       "item.bf_biomes.crab_spawn_egg": "Crab Spawn Egg",
@@ -4392,6 +4549,7 @@
       "item.bf_biomes.butterfly_spawn_egg": "Butterfly Spawn Egg",
       "block.bf_biomes.coconut_bush": "Coconut Bush",
       "block.bf_biomes.maple_trapdoor": "Maple Trapdoor",
+      "item.bf_biomes.fried_ostrich_egg": "Fried Ostrich Egg",
       "item.bf_biomes.firefly_spawn_egg": "Firefly Spawn Egg",
       "block.bf_biomes.baobab_log": "Baobab Log",
       "subtitles.squirrel_running": "Squirrel running",
@@ -4408,6 +4566,7 @@
       "block.bf_biomes.baobab_trunk": "Baobab Trunk",
       "block.bf_biomes.maple_stairs": "Maple Stairs",
       "block.bf_biomes.stripped_baobab_log": "Stripped Baobab Log",
+      "item.bf_biomes.ostrich_egg": "Ostrich Egg",
       "subtitles.crab_attack": "Crab attack",
       "block.bf_biomes.dried_grass": "Dried Grass",
       "block.bf_biomes.maple_log": "Maple Log",

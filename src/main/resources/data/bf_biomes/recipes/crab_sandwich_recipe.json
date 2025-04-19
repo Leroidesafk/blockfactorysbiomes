@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b",
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:bread"
+    },
+    "b": {
+      "item": "bf_biomes:cooked_crab_meat"
+    }
+  },
+  "result": {
+    "item": "bf_biomes:crab_sandwich",
+    "count": 1
+  }
+}

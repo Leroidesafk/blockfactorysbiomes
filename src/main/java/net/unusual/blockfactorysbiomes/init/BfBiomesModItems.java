@@ -6,11 +6,16 @@ package net.unusual.blockfactorysbiomes.init;
 
 import net.unusual.blockfactorysbiomes.item.RawCrabMeatItem;
 import net.unusual.blockfactorysbiomes.item.PinkButterflyItem;
+import net.unusual.blockfactorysbiomes.item.OstrichEggItem;
 import net.unusual.blockfactorysbiomes.item.OrangeButterflyItem;
 import net.unusual.blockfactorysbiomes.item.OpenedCoconutItem;
 import net.unusual.blockfactorysbiomes.item.MapleSyrupItem;
 import net.unusual.blockfactorysbiomes.item.GreenButterflyItem;
+import net.unusual.blockfactorysbiomes.item.FriedOstrichEggItem;
 import net.unusual.blockfactorysbiomes.item.FireFlyItemItem;
+import net.unusual.blockfactorysbiomes.item.DeerBeefItem;
+import net.unusual.blockfactorysbiomes.item.CrabSandwichItem;
+import net.unusual.blockfactorysbiomes.item.CookedDeerBeefItem;
 import net.unusual.blockfactorysbiomes.item.CookedCrabMeatItem;
 import net.unusual.blockfactorysbiomes.item.CoconutItemItem;
 import net.unusual.blockfactorysbiomes.item.BugNetItem;
@@ -129,6 +134,11 @@ public class BfBiomesModItems {
 	public static final RegistryObject<Item> BUTTERFLY_SPAWN_EGG = REGISTRY.register("butterfly_spawn_egg", () -> new ForgeSpawnEggItem(BfBiomesModEntities.BUTTERFLY, -2526191, -14805231, new Item.Properties()));
 	public static final RegistryObject<Item> FALLEN_MAPLE_LEAVES = block(BfBiomesModBlocks.FALLEN_MAPLE_LEAVES);
 	public static final RegistryObject<Item> FALLEN_MAPLE_BRANCH = block(BfBiomesModBlocks.FALLEN_MAPLE_BRANCH);
+	public static final RegistryObject<Item> DEER_BEEF = REGISTRY.register("deer_beef", () -> new DeerBeefItem());
+	public static final RegistryObject<Item> COOKED_DEER_BEEF = REGISTRY.register("cooked_deer_beef", () -> new CookedDeerBeefItem());
+	public static final RegistryObject<Item> OSTRICH_EGG = REGISTRY.register("ostrich_egg", () -> new OstrichEggItem());
+	public static final RegistryObject<Item> FRIED_OSTRICH_EGG = REGISTRY.register("fried_ostrich_egg", () -> new FriedOstrichEggItem());
+	public static final RegistryObject<Item> CRAB_SANDWICH = REGISTRY.register("crab_sandwich", () -> new CrabSandwichItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items
