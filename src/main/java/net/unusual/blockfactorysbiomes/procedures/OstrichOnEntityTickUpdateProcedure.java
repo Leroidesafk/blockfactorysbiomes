@@ -1,23 +1,6 @@
 package net.unusual.blockfactorysbiomes.procedures;
 
-import net.unusual.blockfactorysbiomes.init.BfBiomesModItems;
-import net.unusual.blockfactorysbiomes.entity.OstrichEntity;
-
-import net.minecraftforge.registries.ForgeRegistries;
-
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.LevelAccessor;
-import net.minecraft.world.level.Level;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.entity.item.ItemEntity;
-import net.minecraft.world.entity.LivingEntity;
-import net.minecraft.world.entity.Entity;
-import net.minecraft.world.effect.MobEffects;
-import net.minecraft.world.effect.MobEffectInstance;
-import net.minecraft.sounds.SoundSource;
-import net.minecraft.server.level.ServerLevel;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.core.BlockPos;
+import net.minecraftforge.eventbus.api.Event;
 
 public class OstrichOnEntityTickUpdateProcedure {
 	public static void execute(LevelAccessor world, Entity entity) {
@@ -27,7 +10,8 @@ public class OstrichOnEntityTickUpdateProcedure {
 			if ((entity instanceof OstrichEntity _datEntI ? _datEntI.getEntityData().get(OstrichEntity.DATA_lay_egg_animtime) : 0) > 0) {
 				if ((entity instanceof OstrichEntity _datEntI ? _datEntI.getEntityData().get(OstrichEntity.DATA_lay_egg_animtime) : 0) == 26) {
 					if (world instanceof ServerLevel _level) {
-						ItemEntity entityToSpawn = new ItemEntity(_level, (entity.getX() + entity.getLookAngle().x * (-0.6)), (entity.getY()), (entity.getZ() + entity.getLookAngle().z * (-0.6)), new ItemStack(BfBiomesModItems.OSTRICH_EGG.get()));
+						ItemEntity entityToSpawn = new ItemEntity(_level, (entity.getX() + entity.getLookAngle().x * (-0.6)), (entity.getY()), (entity.getZ() + entity.getLookAngle().z * (-0.6)),
+								new ItemStack(BfBiomesModItems.DELETED_MOD_ELEMENT.get()));
 						entityToSpawn.setPickUpDelay(10);
 						_level.addFreshEntity(entityToSpawn);
 					}

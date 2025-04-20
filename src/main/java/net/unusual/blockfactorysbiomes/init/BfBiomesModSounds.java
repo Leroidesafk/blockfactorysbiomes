@@ -23,8 +23,8 @@ public class BfBiomesModSounds {
 	public static final RegistryObject<SoundEvent> SQUIRREL_AMBIENT = REGISTRY.register("squirrel_ambient", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("bf_biomes", "squirrel_ambient")));
 	public static final RegistryObject<SoundEvent> SQUIRREL_RUNNING = REGISTRY.register("squirrel_running", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("bf_biomes", "squirrel_running")));
 	public static final RegistryObject<SoundEvent> DEER_WALK = REGISTRY.register("deer_walk", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("bf_biomes", "deer_walk")));
-	public static final RegistryObject<SoundEvent> DEER_CALL = REGISTRY.register("deer_call", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("bf_biomes", "deer_call")));
 	public static final RegistryObject<SoundEvent> OSTRICH_SQUEAK = REGISTRY.register("ostrich_squeak", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("bf_biomes", "ostrich_squeak")));
-	public static final RegistryObject<SoundEvent> OSTRICH_WALK = REGISTRY.register("ostrich_walk", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("bf_biomes", "ostrich_walk")));
+	public static final RegistryObject<SoundEvent> DEER_CALL = REGISTRY.register("deer_call", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("bf_biomes", "deer_call")));
 	public static final RegistryObject<SoundEvent> FOREST_LOOT = REGISTRY.register("forest_loot", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("bf_biomes", "forest_loot")));
+	public static final RegistryObject<SoundEvent> OSTRICH_WALK = REGISTRY.register("ostrich_walk", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("bf_biomes", "ostrich_walk")));
 }

@@ -1,8 +1,6 @@
 package net.unusual.blockfactorysbiomes.procedures;
 
-import net.unusual.blockfactorysbiomes.entity.OstrichEntity;
-
-import net.minecraft.world.entity.Entity;
+import net.minecraftforge.eventbus.api.Event;
 
 public class OstrichDisplayConditionProcedure {
 	public static boolean execute(Entity entity) {

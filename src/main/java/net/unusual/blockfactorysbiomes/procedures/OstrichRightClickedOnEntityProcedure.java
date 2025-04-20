@@ -1,13 +1,6 @@
 package net.unusual.blockfactorysbiomes.procedures;
 
-import net.unusual.blockfactorysbiomes.entity.OstrichEntity;
-
-import net.minecraft.world.item.Items;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.entity.LivingEntity;
-import net.minecraft.world.entity.Entity;
-import net.minecraft.world.InteractionHand;
+import net.minecraftforge.eventbus.api.Event;
 
 public class OstrichRightClickedOnEntityProcedure {
 	public static boolean execute(Entity entity, Entity sourceentity) {

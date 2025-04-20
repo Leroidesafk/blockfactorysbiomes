@@ -54,12 +54,12 @@ public class BfBiomesModEntities {
 			EntityType.Builder.<ButterflyEntity>of(ButterflyEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(ButterflyEntity::new)
 
 					.sized(0.4f, 0.4f));
-	public static final RegistryObject<EntityType<OstrichEggProjectileEntity>> OSTRICH_EGG_PROJECTILE = register("ostrich_egg_projectile", EntityType.Builder.<OstrichEggProjectileEntity>of(OstrichEggProjectileEntity::new, MobCategory.MISC)
-			.setCustomClientFactory(OstrichEggProjectileEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 	public static final RegistryObject<EntityType<OstrichEntity>> OSTRICH = register("ostrich",
 			EntityType.Builder.<OstrichEntity>of(OstrichEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(OstrichEntity::new)
 
 					.sized(0.9f, 1.9f));
+	public static final RegistryObject<EntityType<OstrichEggProjectileEntity>> OSTRICH_EGG_PROJECTILE = register("ostrich_egg_projectile", EntityType.Builder.<OstrichEggProjectileEntity>of(OstrichEggProjectileEntity::new, MobCategory.MISC)
+			.setCustomClientFactory(OstrichEggProjectileEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));

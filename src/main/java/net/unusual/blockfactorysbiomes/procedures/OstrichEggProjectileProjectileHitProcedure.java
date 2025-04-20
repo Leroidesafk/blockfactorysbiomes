@@ -1,31 +1,13 @@
 package net.unusual.blockfactorysbiomes.procedures;
 
-import net.unusual.blockfactorysbiomes.init.BfBiomesModItems;
-
-import net.minecraftforge.registries.ForgeRegistries;
-
-import net.minecraft.world.phys.Vec3;
-import net.minecraft.world.phys.Vec2;
-import net.minecraft.world.level.LevelAccessor;
-import net.minecraft.world.level.Level;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.entity.Entity;
-import net.minecraft.sounds.SoundSource;
-import net.minecraft.server.level.ServerLevel;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.network.chat.Component;
-import net.minecraft.core.particles.ParticleTypes;
-import net.minecraft.core.particles.ItemParticleOption;
-import net.minecraft.core.BlockPos;
-import net.minecraft.commands.CommandSourceStack;
-import net.minecraft.commands.CommandSource;
+import net.minecraftforge.eventbus.api.Event;
 
 public class OstrichEggProjectileProjectileHitProcedure {
 	public static void execute(LevelAccessor world, Entity immediatesourceentity) {
 		if (immediatesourceentity == null)
 			return;
 		ItemStack stack = ItemStack.EMPTY;
-		stack = new ItemStack(BfBiomesModItems.OSTRICH_EGG.get());
+		stack = new ItemStack(BfBiomesModItems.DELETED_MOD_ELEMENT.get());
 		if (world instanceof ServerLevel _level)
 			_level.sendParticles(new ItemParticleOption(ParticleTypes.ITEM, stack), (immediatesourceentity.getX()), (immediatesourceentity.getY()), (immediatesourceentity.getZ()), 3, 0, 0, 0, 0.05);
 		if (Math.random() < 0.125) {

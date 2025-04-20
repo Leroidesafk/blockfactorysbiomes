@@ -192,16 +192,16 @@ public class BfBiomesModBlocks {
 	public static final RegistryObject<Block> RED_AUTUMN_GRASS = REGISTRY.register("red_autumn_grass", () -> new RedAutumnGrassBlock());
 	public static final RegistryObject<Block> FALLEN_MAPLE_LEAVES = REGISTRY.register("fallen_maple_leaves", () -> new FallenMapleLeavesBlock());
 	public static final RegistryObject<Block> FALLEN_MAPLE_BRANCH = REGISTRY.register("fallen_maple_branch", () -> new FallenMapleBranchBlock());
+	public static final RegistryObject<Block> FIREFLY_JAR = REGISTRY.register("firefly_jar", () -> new FireflyJarBlock());
+	public static final RegistryObject<Block> GREEN_BUTTERFLY_JAR = REGISTRY.register("green_butterfly_jar", () -> new GreenButterflyJarBlock());
+	public static final RegistryObject<Block> PINK_BUTTERFLY_JAR = REGISTRY.register("pink_butterfly_jar", () -> new PinkButterflyJarBlock());
 	public static final RegistryObject<Block> FALLEN_COCONUT_LEAVES = REGISTRY.register("fallen_coconut_leaves", () -> new FallenCoconutLeavesBlock());
 	public static final RegistryObject<Block> FALLEN_BAOBAB_LEAVES = REGISTRY.register("fallen_baobab_leaves", () -> new FallenBaobabLeavesBlock());
 	public static final RegistryObject<Block> FALLEN_BAOBAB_BRANCH = REGISTRY.register("fallen_baobab_branch", () -> new FallenBaobabBranchBlock());
-	public static final RegistryObject<Block> JAR = REGISTRY.register("jar", () -> new JarBlock());
-	public static final RegistryObject<Block> ORANGE_BUTTERFLY_JAR = REGISTRY.register("orange_butterfly_jar", () -> new OrangeButterflyJarBlock());
 	public static final RegistryObject<Block> BLUE_BUTTERFLY_JAR = REGISTRY.register("blue_butterfly_jar", () -> new BlueButterflyJarBlock());
-	public static final RegistryObject<Block> GREEN_BUTTERFLY_JAR = REGISTRY.register("green_butterfly_jar", () -> new GreenButterflyJarBlock());
-	public static final RegistryObject<Block> PINK_BUTTERFLY_JAR = REGISTRY.register("pink_butterfly_jar", () -> new PinkButterflyJarBlock());
-	public static final RegistryObject<Block> FIREFLY_JAR = REGISTRY.register("firefly_jar", () -> new FireflyJarBlock());
 	public static final RegistryObject<Block> DAISY = REGISTRY.register("daisy", () -> new DaisyBlock());
+	public static final RegistryObject<Block> ORANGE_BUTTERFLY_JAR = REGISTRY.register("orange_butterfly_jar", () -> new OrangeButterflyJarBlock());
+	public static final RegistryObject<Block> JAR = REGISTRY.register("jar", () -> new JarBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

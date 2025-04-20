@@ -1,21 +1,7 @@
 
 package net.unusual.blockfactorysbiomes.item;
 
-import net.unusual.blockfactorysbiomes.procedures.DeerHornRangedItemShootsProjectileProcedure;
-import net.unusual.blockfactorysbiomes.entity.NullPrEntity;
-
-import net.minecraft.world.level.Level;
-import net.minecraft.world.item.UseAnim;
-import net.minecraft.world.item.Rarity;
-import net.minecraft.world.item.ProjectileWeaponItem;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.entity.projectile.AbstractArrow;
-import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.entity.LivingEntity;
-import net.minecraft.world.InteractionResultHolder;
-import net.minecraft.world.InteractionHand;
-import net.minecraft.server.level.ServerPlayer;
+import net.minecraft.world.entity.ai.attributes.Attributes;
 
 public class DeerHornItem extends Item {
 	public DeerHornItem() {
@@ -64,7 +50,7 @@ public class DeerHornItem extends Item {
 							player.getInventory().removeItem(stack);
 					}
 				}
-				DeerHornRangedItemShootsProjectileProcedure.execute(world, entity.getX(), entity.getY(), entity.getZ(), entity, itemstack);
+				DeerHornRangedItemShootsProjectileProcedure.execute();
 			}
 		}
 	}

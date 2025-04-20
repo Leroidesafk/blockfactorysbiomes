@@ -1,12 +1,12 @@
 {
   "replace": false,
   "values": [
-    "bf_biomes:firefly_jar",
+    "bf_biomes:jar",
+    "bf_biomes:orange_butterfly_jar",
+    "bf_biomes:blue_butterfly_jar",
     "bf_biomes:pink_butterfly_jar",
     "bf_biomes:green_butterfly_jar",
-    "bf_biomes:blue_butterfly_jar",
-    "bf_biomes:orange_butterfly_jar",
-    "bf_biomes:jar",
+    "bf_biomes:firefly_jar",
     "bf_biomes:starfish",
     "bf_biomes:pink_lion_paw_seashel",
     "bf_biomes:blue_lion_paw_seashell",
