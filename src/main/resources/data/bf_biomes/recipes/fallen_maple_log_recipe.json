@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "bf_biomes:maple_log"
+    }
+  ],
+  "result": {
+    "item": "bf_biomes:fallen_maple_log",
+    "count": 4
+  }
+}

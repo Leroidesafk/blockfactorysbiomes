@@ -1,0 +1,16 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "firefly_jar"
+      },
+      "name": "default"
+    },
+    "jar": {
+      "map": {
+        "0": "jar_model"
+      },
+      "name": "jar"
+    }
+  }
+}

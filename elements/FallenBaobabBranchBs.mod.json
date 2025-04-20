@@ -1,0 +1,48 @@
+{
+  "_fv": 60,
+  "_type": "blockstates",
+  "definition": {
+    "block": "FallenBaobabBranch",
+    "blockstateList": [
+      {
+        "texture": "fallen_baobab_branch",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "",
+        "renderType": 2,
+        "customModelName": "fallen_leaves_1:baobab_branch",
+        "luminance": 0,
+        "boundingBoxes": []
+      },
+      {
+        "texture": "fallen_baobab_branch",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "",
+        "renderType": 2,
+        "customModelName": "fallen_leaves_2:baobab_branch",
+        "luminance": 0,
+        "boundingBoxes": []
+      },
+      {
+        "texture": "fallen_baobab_branch",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "",
+        "renderType": 2,
+        "customModelName": "fallen_leaves_3:baobab_branch",
+        "luminance": 0,
+        "boundingBoxes": []
+      }
+    ]
+  }
+}

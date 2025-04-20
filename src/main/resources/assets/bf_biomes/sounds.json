@@ -242,5 +242,96 @@
         "stream": false
       }
     ]
+  },
+  "deer_call": {
+    "subtitle": "subtitles.deer_call",
+    "sounds": [
+      {
+        "name": "bf_biomes:deer_call",
+        "stream": false
+      }
+    ]
+  },
+  "ostrich_squeak": {
+    "subtitle": "subtitles.ostrich_squeak",
+    "sounds": [
+      {
+        "name": "bf_biomes:ostrich_squeak_1",
+        "stream": false
+      },
+      {
+        "name": "bf_biomes:ostrich_squeak_2",
+        "stream": false
+      },
+      {
+        "name": "bf_biomes:ostrich_squeak_3",
+        "stream": false
+      },
+      {
+        "name": "bf_biomes:ostrich_squeak_chicken1",
+        "stream": false
+      },
+      {
+        "name": "bf_biomes:ostrich_squeak_chicken2",
+        "stream": false
+      },
+      {
+        "name": "bf_biomes:ostrich_squeak_chicken3",
+        "stream": false
+      }
+    ]
+  },
+  "ostrich_walk": {
+    "subtitle": "subtitles.ostrich_walk",
+    "sounds": [
+      {
+        "name": "bf_biomes:ostrich_walk_step1",
+        "stream": false
+      },
+      {
+        "name": "bf_biomes:ostrich_walk_step2",
+        "stream": false
+      },
+      {
+        "name": "bf_biomes:ostrich_walk_step3",
+        "stream": false
+      },
+      {
+        "name": "bf_biomes:ostrich_walk_step4",
+        "stream": false
+      },
+      {
+        "name": "bf_biomes:ostrich_walk_step5",
+        "stream": false
+      },
+      {
+        "name": "bf_biomes:ostrich_walk_step6",
+        "stream": false
+      },
+      {
+        "name": "bf_biomes:ostrich_walk_step7",
+        "stream": false
+      },
+      {
+        "name": "bf_biomes:ostrich_walk_step8",
+        "stream": false
+      },
+      {
+        "name": "bf_biomes:ostrich_walk_step9",
+        "stream": false
+      },
+      {
+        "name": "bf_biomes:ostrich_walk_step10",
+        "stream": false
+      }
+    ]
+  },
+  "forest_loot": {
+    "sounds": [
+      {
+        "name": "bf_biomes:forest_loop",
+        "stream": false
+      }
+    ]
   }
 }

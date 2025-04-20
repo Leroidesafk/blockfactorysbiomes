@@ -1,0 +1,9 @@
+{
+  "parent": "bf_biomes:custom/fallen_leaves_1",
+  "textures": {
+    "all": "bf_biomes:block/fallen_baobab_branch",
+    "particle": "bf_biomes:block/fallen_baobab_branch",
+    "0": "bf_biomes:block/fallen_baobab_branch"
+  },
+  "render_type": "cutout_mipped"
+}

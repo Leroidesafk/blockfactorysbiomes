@@ -1,0 +1,48 @@
+{
+  "_fv": 60,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:FallenMapleLog"
+      },
+      {
+        "value": "CUSTOM:FallenMapleLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:FallenMapleLog"
+      },
+      {
+        "value": "CUSTOM:FallenMapleLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:MapleLogPile"
+    },
+    "name": "maple_log_pile_recipe",
+    "namespace": "mod"
+  }
+}

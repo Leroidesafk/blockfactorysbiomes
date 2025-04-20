@@ -1,0 +1,28 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "butterfly_jar_orange"
+      },
+      "name": "default"
+    },
+    "pink": {
+      "map": {
+        "0": "butterfly_jar_pink"
+      },
+      "name": "pink"
+    },
+    "green": {
+      "map": {
+        "0": "butterfly_jar_green"
+      },
+      "name": "green"
+    },
+    "blue": {
+      "map": {
+        "0": "butterfly_jar_blue"
+      },
+      "name": "blue"
+    }
+  }
+}

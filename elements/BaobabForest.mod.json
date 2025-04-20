@@ -24,6 +24,10 @@
       "value": -2897584,
       "falpha": 0.0
     },
+    "waterColor": {
+      "value": -12168869,
+      "falpha": 0.0
+    },
     "ambientSound": {
       "value": ""
     },
@@ -49,23 +53,23 @@
     "spawnBiomeNether": false,
     "genTemperature": {
       "min": 0.5,
-      "max": 1.2
+      "max": 1.5
     },
     "genHumidity": {
-      "min": -0.5,
-      "max": 0.5
+      "min": -0.1,
+      "max": 0.3
     },
     "genContinentalness": {
-      "min": 0.5,
-      "max": 2.0
+      "min": -0.11,
+      "max": 0.55
     },
     "genErosion": {
       "min": -0.5,
       "max": 1.5
     },
     "genWeirdness": {
-      "min": -0.75,
-      "max": 0.75
+      "min": -1.0,
+      "max": 1.0
     },
     "treesPerChunk": 0,
     "vanillaTreeType": "Default",
@@ -110,10 +114,19 @@
     "spawnEntries": [
       {
         "entity": {
-          "value": "EntityHorse"
+          "value": "EntityChicken"
+        },
+        "minGroup": 2,
+        "maxGroup": 4,
+        "weight": 15,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "CUSTOM:Ostrich"
         },
         "minGroup": 3,
-        "maxGroup": 4,
+        "maxGroup": 5,
         "weight": 20,
         "spawnType": "creature"
       }

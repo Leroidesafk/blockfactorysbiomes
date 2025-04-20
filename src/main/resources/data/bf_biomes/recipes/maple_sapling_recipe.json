@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "bf_biomes:fallen_maple_branch"
+    }
+  },
+  "result": {
+    "item": "bf_biomes:maple_sapling",
+    "count": 1
+  }
+}

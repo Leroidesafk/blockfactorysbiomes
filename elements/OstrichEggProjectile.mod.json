@@ -1,0 +1,25 @@
+{
+  "_fv": 60,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "CUSTOM:OstrichEgg"
+    },
+    "showParticles": false,
+    "actionSound": {
+      "value": "entity.snowball.throw"
+    },
+    "igniteFire": false,
+    "power": 0.6,
+    "damage": 1.0,
+    "knockback": 1,
+    "entityModel": "Default",
+    "customModelTexture": "",
+    "onHitsBlock": {
+      "name": "OstrichEggProjectileProjectileHit"
+    },
+    "onHitsEntity": {
+      "name": "OstrichEggProjectileProjectileHit"
+    }
+  }
+}

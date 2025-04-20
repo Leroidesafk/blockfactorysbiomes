@@ -1,0 +1,9 @@
+{
+  "parent": "bf_biomes:custom/butterfly_jar",
+  "textures": {
+    "all": "bf_biomes:block/jar",
+    "particle": "bf_biomes:block/jar",
+    "0": "bf_biomes:block/butterfly_jar_orange"
+  },
+  "render_type": "cutout_mipped"
+}

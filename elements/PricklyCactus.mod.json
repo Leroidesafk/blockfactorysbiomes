@@ -59,9 +59,9 @@
     "fallSound": {
       "value": ""
     },
-    "useLootTableForDrops": true,
+    "useLootTableForDrops": false,
     "customDrop": {
-      "value": "Blocks.AIR"
+      "value": ""
     },
     "dropAmount": 1,
     "forceTicking": false,

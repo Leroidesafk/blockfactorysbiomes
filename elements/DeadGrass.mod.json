@@ -90,7 +90,10 @@
     "generateFeature": true,
     "restrictionBiomes": [
       {
-        "value": "#minecraft:is_beach"
+        "value": "beaches"
+      },
+      {
+        "value": "CUSTOM:BaobabForest"
       }
     ],
     "generationType": "Grass",

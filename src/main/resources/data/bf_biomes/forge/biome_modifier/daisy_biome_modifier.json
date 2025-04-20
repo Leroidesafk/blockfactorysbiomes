@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "bf_biomes:baobab_forest",
+  "features": "bf_biomes:daisy",
+  "step": "vegetal_decoration"
+}

@@ -7,17 +7,23 @@
     "grass_color": -1976221,
     "sky_color": -7364431,
     "fog_color": -7364431,
-    "water_color": 4159204,
+    "water_color": -12168869,
     "water_fog_color": 329011
   },
   "spawners": {
     "monster": [],
     "creature": [
       {
-        "type": "horse",
+        "type": "chicken",
+        "weight": 15,
+        "minCount": 2,
+        "maxCount": 4
+      },
+      {
+        "type": "bf_biomes:ostrich",
         "weight": 20,
         "minCount": 3,
-        "maxCount": 4
+        "maxCount": 5
       }
     ],
     "ambient": [],

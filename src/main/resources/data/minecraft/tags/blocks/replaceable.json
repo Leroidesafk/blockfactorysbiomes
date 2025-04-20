@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "bf_biomes:daisy",
     "bf_biomes:tall_maple_grass",
     "bf_biomes:maple_grass",
     "bf_biomes:tall_dead_grass",

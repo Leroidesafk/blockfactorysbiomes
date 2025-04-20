@@ -125,10 +125,10 @@ public class BushyMapleLeavesBlock extends Block implements SimpleWaterloggedBlo
 		if (p_221377_.nextInt(10) == 0) {
 			BlockPos blockpos = p_221376_.below();
 			BlockState blockstate = p_221375_.getBlockState(blockpos);
-			if (!isFaceFull(blockstate.getCollisionShape(p_221375_, blockpos), Direction.UP)) {
+			if (!isFaceFull(blockstate.getCollisionShape(p_221375_, blockpos), Direction.UP) && Math.random() < 0.1) {
 				p_221375_.addParticle((SimpleParticleType) (BfBiomesModParticleTypes.MAPLE.get()),
 				p_221376_.getX() + 0.5, p_221376_.getY() - 0.5, p_221376_.getZ() + 0.5,
-				(-0.4), (-0.4), (-0.4));
+				(-0.1), (-0.1), (-0.1));
 				//ParticleUtils.spawnParticleBelow(p_272837_, p_273218_, p_273360_, BfBiomesModParticleTypes.MAPLE.get());
 			}
 		}

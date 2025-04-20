@@ -31,7 +31,7 @@
       "value": ""
     },
     "music": {
-      "value": ""
+      "value": "CUSTOM:forest_loot"
     },
     "moodSound": {
       "value": ""
@@ -107,34 +107,6 @@
     "spawnBastionRemnant": false,
     "spawnEndCity": false,
     "spawnRuinedPortal": "NONE",
-    "spawnEntries": [
-      {
-        "entity": {
-          "value": "CUSTOM:Squirrel"
-        },
-        "minGroup": 2,
-        "maxGroup": 3,
-        "weight": 20,
-        "spawnType": "creature"
-      },
-      {
-        "entity": {
-          "value": "CUSTOM:Deer"
-        },
-        "minGroup": 4,
-        "maxGroup": 6,
-        "weight": 30,
-        "spawnType": "creature"
-      },
-      {
-        "entity": {
-          "value": "CUSTOM:Butterfly"
-        },
-        "minGroup": 6,
-        "maxGroup": 7,
-        "weight": 25,
-        "spawnType": "creature"
-      }
-    ]
+    "spawnEntries": []
   }
 }

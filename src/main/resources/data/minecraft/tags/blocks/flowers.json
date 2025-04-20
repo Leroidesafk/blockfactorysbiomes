@@ -2,6 +2,9 @@
   "replace": false,
   "values": [
     "bf_biomes:fallen_maple_leaves",
-    "bf_biomes:fallen_maple_branch"
+    "bf_biomes:fallen_maple_branch",
+    "bf_biomes:fallen_coconut_leaves",
+    "bf_biomes:fallen_baobab_leaves",
+    "bf_biomes:fallen_baobab_branch"
   ]
 }

@@ -3,7 +3,7 @@
   "biomes": "bf_biomes:maple_forest",
   "spawners": {
     "type": "bf_biomes:butterfly",
-    "weight": 40,
+    "weight": 25,
     "minCount": 4,
     "maxCount": 5
   }

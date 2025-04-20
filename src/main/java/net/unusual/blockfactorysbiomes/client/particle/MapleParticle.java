@@ -43,8 +43,8 @@ public class MapleParticle extends TextureSheetParticle {
 		this.spriteSet = spriteSet;
 		this.setSize(0.2f, 0.2f);
 		this.quadSize *= 1.2f;
-		this.lifetime = 200;
-		this.gravity = 0.1f;
+		this.lifetime = 400;
+		this.gravity = 0.05f;
 		this.hasPhysics = true;
 		this.xd = vx * 0.2;
 		this.yd = vy * 0.2;

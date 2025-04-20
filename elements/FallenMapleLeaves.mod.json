@@ -125,6 +125,9 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onDestroyedByPlayer": {
+      "name": "FallenBlockDestroyedByPlayer"
+    },
     "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [

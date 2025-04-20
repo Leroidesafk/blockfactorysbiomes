@@ -1,0 +1,57 @@
+{
+  "type": "minecraft:random_patch",
+  "config": {
+    "tries": 96,
+    "xz_spread": 4,
+    "feature": {
+      "feature": {
+        "type": "minecraft:simple_block",
+        "config": {
+          "to_place": {
+            "type": "minecraft:randomized_int_state_provider",
+            "source": {
+              "type": "minecraft:weighted_state_provider",
+              "entries": [
+                {
+                  "data": {
+                    "Name": "bf_biomes:fallen_baobab_leaves",
+                    "Properties": {
+                      "facing": "north"
+                    }
+                  },
+                  "weight": 10
+                },
+                {
+                  "data": {
+                    "Name": "bf_biomes:fallen_baobab_branch",
+                    "Properties": {
+                      "facing": "north"
+                    }
+                  },
+                  "weight": 1
+                }
+              ]
+            },
+            "property": "blockstate",
+            "values": {
+              "type": "uniform",
+              "value": {
+                "min_inclusive": 0,
+                "max_inclusive": 3
+              }
+            }
+          }
+        }
+      },
+      "placement": [
+        {
+          "type": "minecraft:block_predicate_filter",
+          "predicate": {
+            "type": "minecraft:matching_blocks",
+            "blocks": "minecraft:air"
+          }
+        }
+      ]
+    }
+  }
+}

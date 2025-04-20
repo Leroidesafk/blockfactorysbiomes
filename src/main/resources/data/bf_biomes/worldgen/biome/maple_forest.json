@@ -3,6 +3,12 @@
   "temperature": 1.1,
   "downfall": 0.2,
   "effects": {
+    "music": {
+      "sound": "bf_biomes:forest_loot",
+      "min_delay": 12000,
+      "max_delay": 24000,
+      "replace_current_music": true
+    },
     "foliage_color": -2978201,
     "grass_color": -5613774,
     "sky_color": -6639129,
@@ -12,26 +18,7 @@
   },
   "spawners": {
     "monster": [],
-    "creature": [
-      {
-        "type": "bf_biomes:squirrel",
-        "weight": 20,
-        "minCount": 2,
-        "maxCount": 3
-      },
-      {
-        "type": "bf_biomes:deer",
-        "weight": 30,
-        "minCount": 4,
-        "maxCount": 6
-      },
-      {
-        "type": "bf_biomes:butterfly",
-        "weight": 25,
-        "minCount": 6,
-        "maxCount": 7
-      }
-    ],
+    "creature": [],
     "ambient": [],
     "axolotls": [],
     "underground_water_creature": [],

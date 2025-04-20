@@ -12,6 +12,8 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.core.particles.ParticleTypes;
+import net.minecraft.core.particles.ItemParticleOption;
 import net.minecraft.core.BlockPos;
 
 public class CoconutItemProjectileHitProcedure {
@@ -19,6 +21,8 @@ public class CoconutItemProjectileHitProcedure {
 		if (immediatesourceentity == null)
 			return;
 		ItemStack coconut = ItemStack.EMPTY;
+		ItemStack stack = ItemStack.EMPTY;
+		stack = new ItemStack(BfBiomesModItems.COCONUT_ITEM.get());
 		coconut = new ItemStack(BfBiomesModItems.OPENED_COCONUT.get());
 		coconut.setCount(2);
 		if (world instanceof ServerLevel _level) {
@@ -26,6 +30,8 @@ public class CoconutItemProjectileHitProcedure {
 			entityToSpawn.setPickUpDelay(10);
 			_level.addFreshEntity(entityToSpawn);
 		}
+		if (world instanceof ServerLevel _level)
+			_level.sendParticles(new ItemParticleOption(ParticleTypes.ITEM, stack), (immediatesourceentity.getX()), (immediatesourceentity.getY()), (immediatesourceentity.getZ()), 3, 0, 0, 0, 0.05);
 		if (!(world.isClientSide())) {
 			if (world instanceof Level _level) {
 				if (!_level.isClientSide()) {

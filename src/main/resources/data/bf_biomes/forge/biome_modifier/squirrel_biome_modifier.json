@@ -3,7 +3,7 @@
   "biomes": "bf_biomes:maple_forest",
   "spawners": {
     "type": "bf_biomes:squirrel",
-    "weight": 13,
+    "weight": 40,
     "minCount": 2,
     "maxCount": 4
   }

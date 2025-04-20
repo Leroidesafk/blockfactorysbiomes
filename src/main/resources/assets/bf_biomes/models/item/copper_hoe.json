@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "bf_biomes:item/copper_hoe"
+  }
+}

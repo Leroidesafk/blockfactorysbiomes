@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "bf_biomes:dry_soil",
     "bf_biomes:red_autumn_grass"
   ]
 }

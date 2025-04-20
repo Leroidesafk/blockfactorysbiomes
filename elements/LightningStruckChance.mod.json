@@ -1,0 +1,16 @@
+{
+  "_fv": 60,
+  "_type": "attribute",
+  "definition": {
+    "description": "Lightning Strike Odds",
+    "minValue": 0.0,
+    "maxValue": 10.0,
+    "defaultValue": 0.0,
+    "isPersistent": false,
+    "entities": [
+      {
+        "value": "EntityPlayer"
+      }
+    ]
+  }
+}

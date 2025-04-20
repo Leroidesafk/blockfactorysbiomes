@@ -2,5 +2,5 @@
   "type": "forge:add_features",
   "biomes": "bf_biomes:baobab_forest",
   "features": "bf_biomes:tall_grass_baobab_patern",
-  "step": "surface_structures"
+  "step": "vegetal_decoration"
 }

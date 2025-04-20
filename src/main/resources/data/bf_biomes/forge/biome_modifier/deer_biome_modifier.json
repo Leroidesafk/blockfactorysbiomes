@@ -3,7 +3,7 @@
   "biomes": "bf_biomes:maple_forest",
   "spawners": {
     "type": "bf_biomes:deer",
-    "weight": 13,
+    "weight": 45,
     "minCount": 4,
     "maxCount": 5
   }

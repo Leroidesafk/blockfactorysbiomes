@@ -5,6 +5,8 @@
 package net.unusual.blockfactorysbiomes.init;
 
 import net.unusual.blockfactorysbiomes.entity.SquirrelEntity;
+import net.unusual.blockfactorysbiomes.entity.OstrichEntity;
+import net.unusual.blockfactorysbiomes.entity.OstrichEggProjectileEntity;
 import net.unusual.blockfactorysbiomes.entity.NullPrEntity;
 import net.unusual.blockfactorysbiomes.entity.FireflyEntity;
 import net.unusual.blockfactorysbiomes.entity.DeerEntity;
@@ -45,13 +47,19 @@ public class BfBiomesModEntities {
 
 					.sized(0.5f, 0.65f));
 	public static final RegistryObject<EntityType<DeerEntity>> DEER = register("deer",
-			EntityType.Builder.<DeerEntity>of(DeerEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(DeerEntity::new)
+			EntityType.Builder.<DeerEntity>of(DeerEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(DeerEntity::new)
 
 					.sized(0.8f, 1.5f));
 	public static final RegistryObject<EntityType<ButterflyEntity>> BUTTERFLY = register("butterfly",
 			EntityType.Builder.<ButterflyEntity>of(ButterflyEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(ButterflyEntity::new)
 
 					.sized(0.4f, 0.4f));
+	public static final RegistryObject<EntityType<OstrichEggProjectileEntity>> OSTRICH_EGG_PROJECTILE = register("ostrich_egg_projectile", EntityType.Builder.<OstrichEggProjectileEntity>of(OstrichEggProjectileEntity::new, MobCategory.MISC)
+			.setCustomClientFactory(OstrichEggProjectileEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<OstrichEntity>> OSTRICH = register("ostrich",
+			EntityType.Builder.<OstrichEntity>of(OstrichEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(OstrichEntity::new)
+
+					.sized(0.9f, 1.9f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -65,6 +73,7 @@ public class BfBiomesModEntities {
 			SquirrelEntity.init();
 			DeerEntity.init();
 			ButterflyEntity.init();
+			OstrichEntity.init();
 		});
 	}
 
@@ -75,5 +84,6 @@ public class BfBiomesModEntities {
 		event.put(SQUIRREL.get(), SquirrelEntity.createAttributes().build());
 		event.put(DEER.get(), DeerEntity.createAttributes().build());
 		event.put(BUTTERFLY.get(), ButterflyEntity.createAttributes().build());
+		event.put(OSTRICH.get(), OstrichEntity.createAttributes().build());
 	}
 }

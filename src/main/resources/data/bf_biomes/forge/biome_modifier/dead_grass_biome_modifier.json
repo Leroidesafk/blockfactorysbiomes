@@ -1,6 +1,9 @@
 {
   "type": "forge:add_features",
-  "biomes": "#minecraft:is_beach",
+  "biomes": [
+    "beach",
+    "bf_biomes:baobab_forest"
+  ],
   "features": "bf_biomes:dead_grass",
   "step": "vegetal_decoration"
 }

@@ -37,10 +37,10 @@ public class MapleLeavesBlock extends LeavesBlock {
 		if (p_273360_.nextInt(10) == 0) {
 			BlockPos blockpos = p_273218_.below();
 			BlockState blockstate = p_272837_.getBlockState(blockpos);
-			if (!isFaceFull(blockstate.getCollisionShape(p_272837_, blockpos), Direction.UP)) {
+			if (!isFaceFull(blockstate.getCollisionShape(p_272837_, blockpos), Direction.UP) && Math.random() < 0.1) {
 				p_272837_.addParticle((SimpleParticleType) (BfBiomesModParticleTypes.MAPLE.get()), 
 				p_273218_.getX() + 0.5, p_273218_.getY() - 0.5, p_273218_.getZ() + 0.5, 
-				(-0.4), (-0.4), (-0.4));
+				(-0.1), (-0.1), (-0.1));
 				//ParticleUtils.spawnParticleBelow(p_272837_, p_273218_, p_273360_, BfBiomesModParticleTypes.MAPLE.get());
 			}
 		}

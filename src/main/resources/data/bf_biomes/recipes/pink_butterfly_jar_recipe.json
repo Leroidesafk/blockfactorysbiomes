@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "bf_biomes:jar"
+    },
+    {
+      "item": "bf_biomes:pink_butterfly"
+    }
+  ],
+  "result": {
+    "item": "bf_biomes:pink_butterfly_jar",
+    "count": 1
+  }
+}

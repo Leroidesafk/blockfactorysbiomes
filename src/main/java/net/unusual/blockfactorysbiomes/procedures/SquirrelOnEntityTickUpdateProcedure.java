@@ -3,7 +3,9 @@ package net.unusual.blockfactorysbiomes.procedures;
 import net.unusual.blockfactorysbiomes.entity.SquirrelEntity;
 
 import net.minecraft.world.phys.Vec3;
+import net.minecraft.world.phys.AABB;
 import net.minecraft.world.level.LevelAccessor;
+import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
@@ -304,8 +306,10 @@ public class SquirrelOnEntityTickUpdateProcedure {
 				if ((entity instanceof SquirrelEntity _datEntI ? _datEntI.getEntityData().get(SquirrelEntity.DATA_climb_cooldown) : 0) >= 60) {
 					if (entity instanceof SquirrelEntity _datEntSetI)
 						_datEntSetI.getEntityData().set(SquirrelEntity.DATA_climb_cooldown, 0);
-					if (entity instanceof SquirrelEntity _datEntSetL)
-						_datEntSetL.getEntityData().set(SquirrelEntity.DATA_can_start_climbing, true);
+					if (!world.getEntitiesOfClass(Player.class, AABB.ofSize(new Vec3((entity.getX()), (entity.getY()), (entity.getZ())), 20, 20, 20), e -> true).isEmpty()) {
+						if (entity instanceof SquirrelEntity _datEntSetL)
+							_datEntSetL.getEntityData().set(SquirrelEntity.DATA_can_start_climbing, true);
+					}
 				} else {
 					if (entity instanceof SquirrelEntity _datEntSetI)
 						_datEntSetI.getEntityData().set(SquirrelEntity.DATA_climb_cooldown, (int) ((entity instanceof SquirrelEntity _datEntI ? _datEntI.getEntityData().get(SquirrelEntity.DATA_climb_cooldown) : 0) + 1));

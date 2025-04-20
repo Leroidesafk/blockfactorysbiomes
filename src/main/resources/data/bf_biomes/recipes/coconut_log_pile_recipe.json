@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "bf_biomes:fallen_coconut_log"
+    }
+  },
+  "result": {
+    "item": "bf_biomes:coconut_log_pile",
+    "count": 1
+  }
+}

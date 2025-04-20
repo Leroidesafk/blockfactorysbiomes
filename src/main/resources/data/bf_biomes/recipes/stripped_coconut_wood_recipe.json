@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "bf_biomes:stripped_coconut_log"
+    }
+  },
+  "result": {
+    "item": "bf_biomes:stripped_coconut_wood",
+    "count": 3
+  }
+}

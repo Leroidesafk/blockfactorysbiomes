@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "bf_biomes:baobab_forest",
+  "features": "bf_biomes:fallen_baobab_leaves_patern",
+  "step": "surface_structures"
+}

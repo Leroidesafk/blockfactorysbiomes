@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "bf_biomes:fallen_baobab_branch"
+    }
+  },
+  "result": {
+    "item": "bf_biomes:baobab_sapling",
+    "count": 1
+  }
+}
